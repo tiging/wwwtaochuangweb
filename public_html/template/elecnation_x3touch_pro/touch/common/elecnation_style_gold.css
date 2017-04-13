@@ -88,8 +88,8 @@
 	#elecnation_header_guest_hello { margin:6px 0 0 0; text-align:center; color:#AAAAAA; }
 	
 	#elecnation_gds { font-size:14px; height:38px; line-height:38px; font-weight:bolder; text-align:center; color:#4C4C4C; background:#F7EFE6; }
-	#elecnation_gds_red { width:33.3%; float:left; background:#FFFFFF; border-right:1px solid #E6D1B7; }
-	#elecnation_gds_float { width:33.3%; float:left; border-bottom:1px solid #E6D1B7; border-right:1px solid #E6D1B7;}
+	#elecnation_gds_red { width:33%; float:left; background:#FFFFFF; border-right:1px solid #E6D1B7; }
+	#elecnation_gds_float { width:33%; float:left; border-bottom:1px solid #E6D1B7; border-right:1px solid #E6D1B7;}
 	
 	#elecnation_noinfo { height:60px; line-height:60px; padding-left:18px; background:#FFFFFF; }
 	.elecnation_time { color:#AAAAAA; margin-left:8px; }
