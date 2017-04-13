@@ -3,16 +3,6 @@ $data = array (
   'exp' => 0,
   'data' => 
   array (
-    'invite_aboc' => 
-    array (
-      'upgrade_group_id' => '16',
-      'ban_group_id' => 'a:1:{i:0;s:1:"1";}',
-    ),
-    'crx349_copyrighted' => 
-    array (
-      'crx349_on' => '1',
-      'crx349_re' => '1',
-    ),
     'it618_firstnfocus_deyi' => 
     array (
       'mainname' => '今日焦点',
@@ -48,54 +38,6 @@ $data = array (
 crystal2.addStaticSlot({id:\'discuz_13273141_001\',width:960,height:90});
 </script>',
       'code' => 'http://www.cnit618.com',
-    ),
-    'nimba_thot' => 
-    array (
-      'title' => '楼主热帖',
-      'forums' => '1',
-      'num' => '12',
-      'rank' => '4',
-      'color' => '#FF0000',
-      'ban' => 'a:1:{i:0;s:0:"";}',
-      'open' => 'a:7:{i:0;s:1:"2";i:1;s:2:"39";i:2;s:2:"37";i:3;s:2:"42";i:4;s:2:"38";i:5;s:2:"40";i:6;s:2:"43";}',
-    ),
-    'drk_ledadv' => 
-    array (
-      'isopen' => '1',
-      'selecttype' => '3',
-      'forums' => 'a:2:{i:0;s:2:"54";i:1;s:2:"53";}',
-      'threadnum' => '2',
-      'threadtype' => '1',
-      'myadv' => 'a|自定义广告1
-b|自定义广告2',
-      'isall' => '1',
-      'isforum' => '0',
-      'forumss' => 'a:2:{i:0;s:2:"54";i:1;s:2:"53";}',
-      'isfup' => '1',
-      'istopictop' => '1',
-      'isportal' => '0',
-      'islist' => '1',
-      'isview' => '1',
-      'clockwidth' => '170',
-      'showclock' => '1',
-      'clocks' => '1',
-      'ledimg' => './source/plugin/drk_ledadv/image/drk_led.png',
-      'ledheight' => '58',
-      'ledstyle' => 'none',
-      'ledcolor' => '#CCCCCC',
-      'ledwidth' => '0',
-      'fontsize' => '30',
-      'typeface' => '华文琥珀',
-      'position' => 'center',
-      'ismessage' => '1',
-      'spacing' => '8',
-      'messagelen' => '2',
-      'textcolor1' => '#FFFF00',
-      'textcolor2' => '#FF0000',
-      'direction' => '3',
-      'speed' => '5',
-      'isweater' => '0',
-      'weaterposition' => '2',
     ),
     'levnav' => 
     array (
