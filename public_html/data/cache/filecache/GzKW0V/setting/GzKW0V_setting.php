@@ -14,12 +14,13 @@ $data = array (
 自驾出行
 公益活动
 线上活动',
-    'adminemail' => 'taochuangweb@qq.com',
+    'adminemail' => 'hi@taochuangweb.com',
     'adminipaccess' => '',
     'adminnotifytypes' => 'verifythread,verifypost,verifyuser,verifyblog,verifydoing,verifypic,verifyshare,verifycommontes,verifyrecycle,verifyrecyclepost,verifyarticle,verifyacommont,verifymedal,verify_1,verify_2,verify_3,verify_4,verify_5,verify_6,verify_7',
     'anonymoustext' => '匿名',
     'advtype' => 
     array (
+      0 => 'custom',
     ),
     'allowattachurl' => '0',
     'allowdomain' => '0',
@@ -35,14 +36,14 @@ $data = array (
     'attachrefcheck' => '0',
     'attachsave' => '3',
     'attachurl' => 'data/attachment/',
-    'authkey' => '1119bbXAFJWpaoQk',
+    'authkey' => '4c2c35CX0NzHBZyc',
     'authoronleft' => '1',
     'uidlogin' => '0',
     'autoidselect' => '0',
     'avatarmethod' => '0',
     'bannedmessages' => '1',
     'bbclosed' => '0',
-    'bbname' => 'Discuz! Board',
+    'bbname' => '淘创网',
     'bbrules' => '0',
     'bbrulesforce' => '0',
     'bbrulestxt' => '',
@@ -53,7 +54,10 @@ $data = array (
     'cachethreaddir' => 'data/threadcache',
     'cachethreadlife' => '0',
     'censoremail' => '',
-    'censoruser' => '',
+    'censoruser' => '*管理*
+*admin*
+*淘创*
+*taochuang*',
     'closedallowactivation' => '0',
     'commentfirstpost' => '1',
     'commentitem' => 
@@ -65,7 +69,7 @@ $data = array (
       4 => '',
       5 => '',
     ),
-    'commentnumber' => 0,
+    'commentnumber' => '5',
     'creditnotice' => '1',
     'creditsformula' => '$member[\'posts\']+$member[\'digestposts\']*5+$member[\'extcredits1\']*2+$member[\'extcredits2\']+$member[\'extcredits3\']',
     'creditsformulaexp' => '<u>总积分</u>=<u>发帖数</u>+<u>精华帖数</u>*5+<u>威望</u>*2+<u>金钱</u>+<u>贡献</u>',
@@ -103,10 +107,26 @@ $data = array (
       ),
       'lowerlimit' => 
       array (
+        1 => 0.0,
+        2 => 0.0,
+        3 => 0.0,
+        4 => 0.0,
       ),
     ),
     'creditstax' => '0.2',
-    'creditstrans' => '2',
+    'creditstrans' => '4',
+    'rewriterule' => 
+    array (
+      'portal_topic' => 'topic-{name}.html',
+      'portal_article' => 'article-{id}-{page}.html',
+      'forum_forumdisplay' => 'forum-{fid}-{page}.html',
+      'forum_viewthread' => 'thread-{tid}-{page}-{prevpage}.html',
+      'group_group' => 'group-{fid}-{page}.html',
+      'home_space' => 'space-{user}-{value}.html',
+      'home_blog' => 'blog-{uid}-{blogid}.html',
+      'forum_archiver' => '{action}-{value}.html',
+      'plugin' => '{pluginid}-{module}.html',
+    ),
     'dateconvert' => '1',
     'dateformat' => 'Y-n-j',
     'debateforumid' => '0',
@@ -118,8 +138,8 @@ $data = array (
     'domainroot' => '',
     'doublee' => '1',
     'dupkarmarate' => '0',
-    'ec_account' => '',
-    'ec_contract' => '',
+    'ec_account' => 'taohudong@126.com',
+    'ec_contract' => '12a58Dgz2mYDyB1AvvfUEpTgC0Vi4yhakFmbMK1GxiHDPlIuN0KOyQjoHjaT7tywVEMzo7TYomCuGWI5GqOG4kpbm8nmzkRyshhzhHoIAOm60A',
     'ec_credit' => 
     array (
       'maxcreditspermonth' => 6,
@@ -142,15 +162,15 @@ $data = array (
         15 => 200001,
       ),
     ),
-    'ec_maxcredits' => '1000',
+    'ec_maxcredits' => '0',
     'ec_maxcreditspermonth' => '0',
-    'ec_mincredits' => '0',
-    'ec_ratio' => '0',
+    'ec_mincredits' => '50',
+    'ec_ratio' => '10',
     'ec_tenpay_bargainor' => '',
     'ec_tenpay_key' => '',
     'postappend' => '0',
     'editedby' => '1',
-    'editoroptions' => '6',
+    'editoroptions' => '7',
     'edittimelimit' => '',
     'exchangemincredits' => '100',
     'extcredits' => 
@@ -179,6 +199,16 @@ $data = array (
       array (
         'img' => '',
         'title' => '贡献',
+        'unit' => '',
+        'ratio' => 0,
+        'showinthread' => NULL,
+        'allowexchangein' => NULL,
+        'allowexchangeout' => NULL,
+      ),
+      4 => 
+      array (
+        'img' => '',
+        'title' => '淘创币',
         'unit' => '',
         'ratio' => 0,
         'showinthread' => NULL,
@@ -238,7 +268,9 @@ $data = array (
     'group_allowfeed' => '1',
     'group_admingroupids' => 'a:1:{i:1;s:1:"1";}',
     'group_imgsizelimit' => '512',
-    'group_userperm' => 'a:21:{s:16:"allowstickthread";s:1:"1";s:15:"allowbumpthread";s:1:"1";s:20:"allowhighlightthread";s:1:"1";s:16:"allowstampthread";s:1:"1";s:16:"allowclosethread";s:1:"1";s:16:"allowmergethread";s:1:"1";s:16:"allowsplitthread";s:1:"1";s:17:"allowrepairthread";s:1:"1";s:11:"allowrefund";s:1:"1";s:13:"alloweditpoll";s:1:"1";s:17:"allowremovereward";s:1:"1";s:17:"alloweditactivity";s:1:"1";s:14:"allowedittrade";s:1:"1";s:17:"allowdigestthread";s:1:"3";s:13:"alloweditpost";s:1:"1";s:13:"allowwarnpost";s:1:"1";s:12:"allowbanpost";s:1:"1";s:12:"allowdelpost";s:1:"1";s:13:"allowupbanner";s:1:"1";s:15:"disablepostctrl";s:1:"0";s:11:"allowviewip";s:1:"1";s:15:"allowlivethread";s:1:"1";}',
+    'group_userperm' => 'a:1:{s:15:"allowlivethread";s:1:"1";}',
+    'my_search_status' => '1',
+    'singcere_wechat' => 'a:18:{s:12:"wechat_token";s:32:"R717JJKD10J4O124zM21MoqM0OtoOq1J";s:13:"wechat_aeskey";s:43:"ec0JQCi7swj56Sl4STwLs1vGbCoiv7Zk4OUHC0D6nhY";s:12:"wechat_appId";s:18:"wxaed664a0458bbb57";s:16:"wechat_appsecret";s:82:"869a3eTLxnfP1e8GSyS84h6mLErm7w8qRPAZNyIN3qJ3S0gbp/FLDvjJ/r2IunCy+k1BUqQa0C77kQ1UpQ";s:12:"wechat_mchid";s:10:"1398706802";s:13:"wechat_mchkey";s:82:"1572J/ENMF1B1N8m48IfEPPGXHP5w9z1foU/nr1uVPm/0Alp1XxpsVZLDLyNa6v9sAf1OYAAIhUpyeALrQ";s:11:"wechat_name";s:12:"淘互动工作室";s:20:"wechat_subscribe_url";s:0:"";s:20:"discuz_allowregister";i:0;s:21:"discuz_disableregrule";s:1:"1";s:23:"discuz_allownewusername";s:1:"1";s:21:"discuz_newusergroupid";s:2:"10";s:13:"discuz_credit";s:1:"2";s:16:"discuz_regreward";s:1:"0";s:15:"discuz_loginbar";s:1:"0";s:15:"discuz_loadwxjs";s:1:"1";i:0;b:0;s:13:"tmpl_template";a:5:{s:5:"login";a:3:{s:4:"name";s:8:"登录成功";s:4:"code";s:15:"OPENTM201673425";s:5:"title";s:12:"登录成功提醒";}s:2:"pm";a:3:{s:4:"name";s:10:"短消息(PM)";s:4:"code";s:15:"OPENTM200605630";s:5:"title";s:12:"任务处理通知";}s:10:"forumreply";a:3:{s:4:"name";s:8:"回帖提醒";s:4:"code";s:15:"OPENTM200605630";s:5:"title";s:12:"任务处理通知";}s:4:"fact";a:3:{s:4:"name";s:8:"爆料通知";s:4:"code";s:15:"OPENTM200605630";s:5:"title";s:12:"任务处理通知";}s:8:"activity";a:3:{s:4:"name";s:8:"活动通知";s:4:"code";s:8:"TM005740";s:5:"title";s:12:"报名状态通知";}}}',
     'heatthread' => 
     array (
       'type' => '2',
@@ -251,18 +283,19 @@ $data = array (
         1 => '100',
         0 => '50',
       ),
+      'guidelimit' => 3,
     ),
     'guide' => 'a:2:{s:5:"hotdt";i:604800;s:8:"digestdt";i:604800;}',
-    'hideprivate' => '1',
-    'historyposts' => '0	7',
+    'hideprivate' => '0',
+    'historyposts' => '17	17',
     'hottopic' => '10',
-    'icp' => '',
+    'icp' => '辽ICP备16004775号-3',
     'imagelib' => '0',
     'imagemaxwidth' => 600,
     'watermarkminheight' => 'a:3:{s:6:"portal";s:1:"0";s:5:"forum";s:1:"0";s:5:"album";s:1:"0";}',
     'watermarkminwidth' => 'a:3:{s:6:"portal";s:1:"0";s:5:"forum";s:1:"0";s:5:"album";s:1:"0";}',
-    'watermarkquality' => 'a:3:{s:6:"portal";s:2:"90";s:5:"forum";i:90;s:5:"album";i:90;}',
-    'watermarkstatus' => 'a:3:{s:6:"portal";s:1:"0";s:5:"forum";s:1:"0";s:5:"album";s:1:"0";}',
+    'watermarkquality' => 'a:3:{s:6:"portal";s:2:"90";s:5:"forum";i:90;s:5:"album";s:2:"90";}',
+    'watermarkstatus' => 'a:3:{s:6:"portal";s:1:"0";s:5:"forum";s:1:"9";s:5:"album";s:1:"0";}',
     'watermarktext' => 
     array (
       'text' => 
@@ -338,7 +371,7 @@ $data = array (
         'album' => '',
       ),
     ),
-    'watermarktrans' => 'a:3:{s:6:"portal";s:2:"50";s:5:"forum";i:50;s:5:"album";i:50;}',
+    'watermarktrans' => 'a:3:{s:6:"portal";s:2:"50";s:5:"forum";i:50;s:5:"album";s:2:"50";}',
     'watermarktype' => 
     array (
       'portal' => 'png',
@@ -361,6 +394,14 @@ $data = array (
     'inviteconfig' => 
     array (
       'invitecodeprompt' => '',
+      'buyinvitecode' => '0',
+      'invitecodeprice' => '',
+      'inviterewardcredit' => '1',
+      'inviteaddcredit' => '',
+      'invitedaddcredit' => '',
+      'invitegroupid' => '0',
+      'inviteareawhite' => '',
+      'inviteipwhite' => '',
     ),
     'ipaccess' => '',
     'jscachelife' => '1800',
@@ -373,7 +414,7 @@ $data = array (
     'magicdiscount' => '85',
     'magicmarket' => '1',
     'magicstatus' => '1',
-    'mail' => 'a:10:{s:8:"mailsend";s:1:"1";s:6:"server";s:13:"smtp.21cn.com";s:4:"port";s:2:"25";s:4:"auth";s:1:"1";s:4:"from";s:26:"Discuz <username@21cn.com>";s:13:"auth_username";s:17:"username@21cn.com";s:13:"auth_password";s:8:"password";s:13:"maildelimiter";s:1:"0";s:12:"mailusername";s:1:"1";s:15:"sendmail_silent";s:1:"1";}',
+    'mail' => 'a:6:{s:8:"mailsend";s:1:"2";s:4:"smtp";a:1:{i:0;a:6:{s:6:"server";s:18:"smtp.mxhichina.com";s:4:"port";s:2:"25";s:4:"auth";s:1:"1";s:4:"from";s:26:"hi@taochuangweb.com&#8205;";s:13:"auth_username";s:26:"hi@taochuangweb.com&#8205;";s:13:"auth_password";s:11:"qq9812977QQ";}}s:5:"esmtp";a:3:{i:0;a:6:{s:6:"server";s:18:"smtp.mxhichina.com";s:4:"port";s:2:"25";s:4:"auth";s:1:"1";s:4:"from";s:26:"hi@taochuangweb.com&#8205;";s:13:"auth_username";s:26:"hi@taochuangweb.com&#8205;";s:13:"auth_password";s:11:"q********QQ";}s:6:"delete";a:1:{i:0;s:1:"1";}i:1;a:6:{s:6:"server";s:12:"smtp.163.com";s:4:"port";s:2:"25";s:4:"auth";s:1:"1";s:4:"from";s:20:"taochuangweb@163.com";s:13:"auth_username";s:20:"taochuangweb@163.com";s:13:"auth_password";s:11:"q********77";}}s:13:"maildelimiter";s:1:"0";s:12:"mailusername";s:1:"1";s:15:"sendmail_silent";s:1:"1";}',
     'maxavatarpixel' => '120',
     'maxavatarsize' => '20000',
     'maxbdays' => '0',
@@ -414,16 +455,20 @@ $data = array (
     'minpostsize_mobile' => '0',
     'mobile' => 
     array (
-      'allowmobile' => 0,
+      'allowmobile' => 1,
       'mobileforward' => 1,
       'mobileregister' => 0,
-      'mobilecharset' => 'utf-8',
+      'mobileseccode' => 0,
+      'mobilehotthread' => 0,
+      'mobiledisplayorder3' => 1,
       'mobilesimpletype' => 0,
       'mobiletopicperpage' => 10,
       'mobilepostperpage' => 5,
       'mobilecachetime' => 0,
       'mobileforumview' => 0,
-      'mobilepreview' => 1,
+      'mobilecomefrom' => '',
+      'mobilepreview' => 0,
+      'wml' => 0,
     ),
     'moddisplay' => 'flat',
     'modratelimit' => '0',
@@ -436,14 +481,14 @@ $data = array (
     'msgforward' => 'a:3:{s:11:"refreshtime";i:2;s:5:"quick";i:1;s:8:"messages";a:14:{i:0;s:19:"thread_poll_succeed";i:1;s:19:"thread_rate_succeed";i:2;s:23:"usergroups_join_succeed";i:3;s:23:"usergroups_exit_succeed";i:4;s:25:"usergroups_update_succeed";i:5;s:20:"buddy_update_succeed";i:6;s:17:"post_edit_succeed";i:7;s:18:"post_reply_succeed";i:8;s:24:"post_edit_delete_succeed";i:9;s:22:"post_newthread_succeed";i:10;s:13:"admin_succeed";i:11;s:17:"pm_delete_succeed";i:12;s:15:"search_redirect";i:13;s:10:"do_success";}}',
     'msn' => '',
     'networkpage' => '0',
-    'newbiespan' => '2',
+    'newbiespan' => '0',
     'newbietasks' => '',
     'newbietaskupdate' => '',
     'newspaceavatar' => '0',
     'nocacheheaders' => '0',
     'oltimespan' => '10',
     'onlinehold' => 900,
-    'onlinerecord' => '5	1492092421',
+    'onlinerecord' => '52	1492273453',
     'pollforumid' => '0',
     'postbanperiods' => '',
     'postmodperiods' => '',
@@ -508,9 +553,11 @@ $data = array (
       'allow' => 0,
     ),
     'regclosemessage' => '',
-    'regctrl' => '0',
-    'strongpw' => false,
-    'regfloodctrl' => '0',
+    'regctrl' => '5',
+    'strongpw' => 
+    array (
+    ),
+    'regfloodctrl' => '3',
     'regname' => 'register',
     'reglinkname' => '立即注册',
     'regstatus' => '1',
@@ -518,64 +565,42 @@ $data = array (
     'relatedtag' => false,
     'report_reward' => 'a:2:{s:3:"min";i:-3;s:3:"max";i:3;}',
     'rewardforumid' => '0',
-    'rewritecompatible' => '',
-    'rewritestatus' => false,
+    'rewritecompatible' => '0',
+    'rewritestatus' => 
+    array (
+      0 => 'portal_topic',
+      1 => 'portal_article',
+      2 => 'forum_forumdisplay',
+      3 => 'forum_viewthread',
+      4 => 'group_group',
+      5 => 'home_space',
+      6 => 'home_blog',
+      7 => 'forum_archiver',
+      8 => 'plugin',
+    ),
     'rssstatus' => '1',
     'rssttl' => '60',
     'runwizard' => '1',
     'search' => 
     array (
-      'portal' => 
-      array (
-        'status' => 1,
-        'searchctrl' => 10,
-        'maxspm' => 10,
-        'maxsearchresults' => 500,
-      ),
       'forum' => 
       array (
         'status' => 1,
-        'searchctrl' => 10,
-        'maxspm' => 10,
-        'maxsearchresults' => 500,
-      ),
-      'blog' => 
-      array (
-        'status' => 1,
-        'searchctrl' => 10,
-        'maxspm' => 10,
-        'maxsearchresults' => 500,
-      ),
-      'album' => 
-      array (
-        'status' => 1,
-        'searchctrl' => 10,
-        'maxspm' => 10,
-        'maxsearchresults' => 500,
-      ),
-      'group' => 
-      array (
-        'status' => 1,
-        'searchctrl' => 10,
-        'maxspm' => 10,
-        'maxsearchresults' => 500,
-      ),
-      'collection' => 
-      array (
-        'status' => 1,
-        'searchctrl' => 10,
-        'maxspm' => 10,
+        'searchctrl' => 60,
+        'maxspm' => 1,
         'maxsearchresults' => 500,
       ),
     ),
-    'sphinxon' => '',
+    'simplemode' => '1',
+    'forumstickthreads' => 'a:0:{}',
+    'sphinxon' => '0',
     'sphinxhost' => '',
     'sphinxport' => '',
     'sphinxsubindex' => 'threads,threads_minute',
     'sphinxmsgindex' => 'posts,posts_minute',
     'sphinxmaxquerytime' => '',
     'sphinxlimit' => '',
-    'sphinxrank' => '',
+    'sphinxrank' => 'SPH_RANK_PROXIMITY_BM25',
     'searchbanperiods' => '',
     'seccodedata' => 
     array (
@@ -630,24 +655,63 @@ $data = array (
       'shadow' => '0',
       'animator' => '0',
     ),
-    'seccodestatus' => '16',
+    'lazyload' => '0',
+    'seccodestatus' => '1',
     'seclevel' => '1',
     'secqaa' => 
     array (
+      'status' => 1,
       'minposts' => '1',
-      'status' => 0,
     ),
     'sendmailday' => '0',
-    'seodescription' => false,
+    'seodescription' => 
+    array (
+      'userapp' => '',
+      'portal' => '',
+      'articlelist' => '',
+      'article' => '',
+      'forum' => '',
+      'threadlist' => '',
+      'viewthread' => '',
+      'home' => '',
+      'blog' => '',
+      'album' => '',
+      'group' => '',
+      'grouppage' => '',
+      'viewthread_group' => '',
+    ),
     'seohead' => '',
-    'seokeywords' => false,
+    'seokeywords' => 
+    array (
+      'userapp' => '',
+      'portal' => '',
+      'articlelist' => '',
+      'article' => '',
+      'forum' => '',
+      'threadlist' => '',
+      'viewthread' => '',
+      'home' => '',
+      'blog' => '',
+      'album' => '',
+      'group' => '',
+      'grouppage' => '',
+      'viewthread_group' => '',
+    ),
     'seotitle' => 
     array (
-      'portal' => '门户',
-      'forum' => '论坛',
-      'group' => '群组',
-      'home' => '家园',
       'userapp' => '应用',
+      'portal' => '门户',
+      'articlelist' => '',
+      'article' => '',
+      'forum' => '淘创网_网赚精品资源_虚拟货源代理_淘宝资源论坛-打造互联网创业的精品社区!',
+      'threadlist' => '',
+      'viewthread' => '',
+      'home' => '家园',
+      'blog' => '',
+      'album' => '',
+      'group' => '群组',
+      'grouppage' => '',
+      'viewthread_group' => '',
     ),
     'showavatars' => '1',
     'showemail' => '',
@@ -672,9 +736,9 @@ $data = array (
       array (
       ),
     ),
-    'sitename' => 'Comsenz Inc.',
-    'siteuniqueid' => 'DXRENURPc8f6brxB',
-    'siteurl' => 'http://www.comsenz.com/',
+    'sitename' => '淘创网',
+    'siteuniqueid' => 'DXRDRTJvca3bCw3I',
+    'siteurl' => 'http://www.taochuangweb.com/',
     'smcols' => '8',
     'smrows' => '5',
     'smthumb' => '20',
@@ -695,9 +759,16 @@ $data = array (
     'spacestatus' => '1',
     'srchhotkeywords' => 
     array (
-      0 => '活动',
-      1 => '交友',
-      2 => 'discuz',
+      0 => '虚拟资源',
+      1 => '泡妞',
+      2 => '淘宝开店',
+      3 => '美女图片',
+      4 => '小吃配方',
+      5 => '赚钱股票',
+      6 => '淘宝热销',
+      7 => '瑜伽',
+      8 => '创业宝典',
+      9 => '两性秘籍',
     ),
     'starthreshold' => '2',
     'statcode' => '',
@@ -705,7 +776,7 @@ $data = array (
     'statstatus' => '',
     'styleid' => '1',
     'styleid1' => '1',
-    'styleid2' => '2',
+    'styleid2' => '3',
     'styleid3' => '1',
     'stylejump' => '1',
     'subforumsindex' => '0',
@@ -733,7 +804,16 @@ $data = array (
     'transfermincredits' => '1000',
     'uc' => 
     array (
-      'addfeed' => 1,
+      'appid' => '1',
+      'key' => 'Q58ct4W7o3AcZdC1sfEfC8oe9cB6C9H3daN3XdZdTa6420M1ufJ692M419u4Fez8',
+      'api' => 'http://www.taochuangweb.com/uc_server',
+      'ip' => '',
+      'connect' => 'mysql',
+      'dbhost' => 'localhost',
+      'dbuser' => 'root',
+      'dbpass' => '********',
+      'dbname' => 'taochuangweb',
+      'dbtablepre' => 'dz33_ucenter_',
     ),
     'ucactivation' => '1',
     'updatestat' => '1',
@@ -775,7 +855,7 @@ j/n/Y',
 {bbname}
 {time}',
     'whosonlinestatus' => '3',
-    'whosonline_contract' => '0',
+    'whosonline_contract' => '1',
     'zoomstatus' => '1',
     'my_app_status' => '0',
     'my_siteid' => '60928892',
@@ -1019,7 +1099,7 @@ j/n/Y',
     'regconnect' => '1',
     'connect' => 
     array (
-      'allow' => 1,
+      'allow' => '1',
       'feed' => 
       array (
         'allow' => '1',
@@ -1029,6 +1109,8 @@ j/n/Y',
       array (
         'allow' => '1',
         'group' => '0',
+        'reply' => '0',
+        'reply_showauthor' => '0',
       ),
       'like_allow' => '1',
       'like_qq' => '',
@@ -1046,12 +1128,14 @@ j/n/Y',
       'newbiespan' => '',
       'turl_code' => '',
       'mblog_app_key' => '',
-      'guest_groupid' => 20,
+      'guest_groupid' => '20',
       'oauth2' => 1,
+      'qshare_allow' => '0',
+      'qshare_appkey' => '',
     ),
-    'allowwidthauto' => '0',
-    'switchwidthauto' => '1',
-    'leftsidewidth' => '0',
+    'allowwidthauto' => '1',
+    'switchwidthauto' => '0',
+    'leftsidewidth' => '150',
     'card' => 
     array (
       'open' => '0',
@@ -1119,15 +1203,57 @@ j/n/Y',
       2 => 3,
     ),
     'security_safelogin' => '1',
-    'mobilewechat' => 'a:12:{s:12:"wechat_mtype";s:1:"0";s:13:"wechat_qrtype";s:1:"3";s:12:"wechat_token";s:16:"r1cLv1bTvTzP66Ry";s:20:"wechat_allowregister";s:1:"1";s:24:"wechat_allowfastregister";s:1:"1";s:21:"wechat_disableregrule";s:1:"1";s:19:"wechat_float_qrcode";s:1:"1";s:18:"wechat_confirmtype";s:1:"0";s:21:"wechat_newusergroupid";s:2:"10";s:14:"wsq_wapdefault";i:1;s:17:"wsq_global_banner";i:1;s:7:"RELEASE";s:8:"20150303";}',
+    'mobilewechat' => 'a:29:{s:12:"wechat_mtype";s:1:"0";s:20:"wechat_allowregister";s:1:"1";s:24:"wechat_allowfastregister";s:1:"1";s:21:"wechat_disableregrule";s:1:"1";s:18:"wechat_confirmtype";s:1:"0";s:21:"wechat_newusergroupid";s:2:"10";s:16:"wechat_followurl";s:0:"";s:12:"wechat_token";s:16:"HsXDxJSWHF7GZGOC";s:12:"wechat_appId";s:18:"wxaed664a0458bbb57";s:16:"wechat_appsecret";s:0:"";s:13:"wechat_qrtype";i:3;s:9:"wsq_allow";s:1:"0";s:12:"wsq_sitename";s:14:"淘创网官方论坛";s:15:"wsq_sitesummary";s:138:"淘创网将为您免费提供最新、最全面的虚拟货源、网赚项目、网赚资讯，让您在千万网赚项目中找到合适自己的项目，在互联网上创造属于自己的一笔财富！";s:11:"wsq_siteurl";s:28:"http://www.taochuangweb.com/";s:10:"wsq_siteip";s:14:"118.190.60.185";s:7:"wsq_fid";s:1:"2";s:25:"wechat_forumdisplay_reply";s:1:"1";s:19:"wechat_float_qrcode";s:1:"0";s:17:"wechat_float_text";s:0:"";s:14:"wsq_wapdefault";s:1:"0";s:13:"wsq_apicredit";s:1:"0";s:12:"wsq_sitelogo";s:77:"http://www.taochuangweb.com/data/attachment/common/36/common_848_n0r4HPA0.jpg";s:10:"wsq_status";s:1:"0";s:15:"wsq_lastrequest";s:10:"1492153276";s:10:"wsq_siteid";s:9:"269748867";s:13:"wsq_sitetoken";s:16:"BciI2F4h9SqHQQ7y";s:17:"wsq_global_banner";i:1;s:7:"RELEASE";s:8:"20150303";}',
     'mobileapihook' => 'a:2:{s:12:"forumdisplay";a:1:{s:9:"variables";a:1:{s:6:"wechat";a:4:{s:7:"include";s:16:"wsqapi.class.php";s:5:"class";s:6:"WSQAPI";s:6:"method";s:22:"forumdisplay_variables";s:5:"allow";i:1;}}}s:10:"viewthread";a:1:{s:9:"variables";a:1:{s:6:"wechat";a:4:{s:7:"include";s:16:"wsqapi.class.php";s:5:"class";s:6:"WSQAPI";s:6:"method";s:20:"viewthread_variables";s:5:"allow";i:1;}}}}',
     'cloud_status' => '1',
-    'cloud_apps' => 'a:3:{s:8:"security";a:2:{s:4:"name";s:8:"security";s:6:"status";s:6:"normal";}s:7:"smilies";a:2:{s:4:"name";s:7:"smilies";s:6:"status";s:6:"normal";}s:7:"connect";a:2:{s:4:"name";s:7:"connect";s:6:"status";s:6:"normal";}}',
     'connectappid' => '310825187',
     'connectappkey' => 'IHW6pI1vfLetwkU3',
+    'cloud_apps' => 'a:4:{s:7:"connect";a:2:{s:4:"name";s:7:"connect";s:6:"status";s:6:"normal";}s:8:"security";a:2:{s:4:"name";s:8:"security";s:6:"status";s:6:"normal";}s:7:"smilies";a:2:{s:4:"name";s:7:"smilies";s:6:"status";s:6:"normal";}s:5:"union";a:2:{s:4:"name";s:5:"union";s:6:"status";s:6:"normal";}}',
+    'wechatredirect' => 'a:0:{}',
+    'wechatviewpluginid' => '',
     'site_qq' => '149779331',
     'connect_login_times' => '0',
-    'connect_login_report_date' => '2017-04-13',
+    'connect_login_report_date' => '2017-04-16',
+    'wechatresponse' => 'a:4:{s:16:"receiveMsg::text";a:4:{s:6:"plugin";s:6:"wechat";s:7:"include";s:18:"response.class.php";s:5:"class";s:11:"WSQResponse";s:6:"method";s:4:"text";}s:19:"receiveEvent::click";a:4:{s:6:"plugin";s:6:"wechat";s:7:"include";s:18:"response.class.php";s:5:"class";s:11:"WSQResponse";s:6:"method";s:5:"click";}s:23:"receiveEvent::subscribe";a:4:{s:6:"plugin";s:6:"wechat";s:7:"include";s:18:"response.class.php";s:5:"class";s:11:"WSQResponse";s:6:"method";s:6:"custom";}s:18:"receiveEvent::scan";a:4:{s:6:"plugin";s:6:"wechat";s:7:"include";s:18:"response.class.php";s:5:"class";s:11:"WSQResponse";s:6:"method";s:4:"scan";}}',
+    'disfixednv_forumindex' => '0',
+    'forumpicstyle' => 'a:3:{s:10:"thumbwidth";i:0;s:11:"thumbheight";i:0;s:8:"thumbnum";i:0;}',
+    'disfixednv_forumdisplay' => '0',
+    'disfixedavatar' => '0',
+    'disfixednv_viewthread' => '0',
+    'threadguestlite' => '0',
+    'close_leftinfo' => '0',
+    'close_leftinfo_userctrl' => '0',
+    'guestviewthumb' => 
+    array (
+      'flag' => 0,
+      'width' => 100,
+      'height' => 100,
+    ),
+    'guesttipsinthread' => 
+    array (
+      'flag' => 0,
+      'text' => '',
+    ),
+    'allowreplybg' => '0',
+    'rewriteguest' => '0',
+    'baidusitemap_life' => '1',
+    'rpancn_buy_user_group_package' => 'a:4:{i:21;a:6:{s:3:"gid";s:2:"21";s:7:"sort_id";s:1:"1";s:9:"pricepday";s:6:"0.3220";s:9:"extcredit";s:1:"0";s:15:"extcredit_value";s:6:"0.0000";s:6:"minday";s:3:"180";}i:22;a:6:{s:3:"gid";s:2:"22";s:7:"sort_id";s:1:"2";s:9:"pricepday";s:6:"0.2680";s:9:"extcredit";s:1:"0";s:15:"extcredit_value";s:6:"0.0000";s:6:"minday";s:3:"365";}i:23;a:6:{s:3:"gid";s:2:"23";s:7:"sort_id";s:1:"3";s:9:"pricepday";s:8:"198.0000";s:9:"extcredit";s:1:"0";s:15:"extcredit_value";s:6:"0.0000";s:6:"minday";s:1:"0";}i:24;a:6:{s:3:"gid";s:2:"24";s:7:"sort_id";s:1:"4";s:9:"pricepday";s:8:"598.0000";s:9:"extcredit";s:1:"0";s:15:"extcredit_value";s:6:"0.0000";s:6:"minday";s:1:"0";}}',
+    'sendregisterurl' => '0',
+    'accountguard' => 
+    array (
+      'postqqonly' => '1',
+      'loginoutofdate' => '0',
+    ),
+    'upgrade' => false,
+    'allowpostcomment' => 
+    array (
+      0 => '1',
+    ),
+    'group_recommend' => '',
+    'singcere_wechat_selfmenu' => 'a:1:{s:6:"button";a:3:{i:0;a:4:{s:4:"name";s:8:"个性体验";s:10:"sub_button";a:3:{i:0;a:6:{s:4:"type";s:4:"view";s:4:"name";s:10:"资源免费领";s:3:"url";s:44:"http://www.taochuangweb.com/forum-176-1.html";s:10:"sub_button";a:0:{}s:12:"displayorder";i:0;s:6:"keyurl";s:44:"http://www.taochuangweb.com/forum-176-1.html";}i:1;a:6:{s:4:"type";s:4:"view";s:4:"name";s:7:"直购VIP";s:3:"url";s:159:"http://mp.weixin.qq.com/bizmall/malldetail?id=&pid=pY9Rpw-7U37R0XJck_q_HXeiX2w4&biz=MzI3ODQ5Mjc3MQ==&scene=&action=show_detail&showwxpaytitle=1#wechat_redirect";s:10:"sub_button";a:0:{}s:12:"displayorder";i:1;s:6:"keyurl";s:159:"http://mp.weixin.qq.com/bizmall/malldetail?id=&pid=pY9Rpw-7U37R0XJck_q_HXeiX2w4&biz=MzI3ODQ5Mjc3MQ==&scene=&action=show_detail&showwxpaytitle=1#wechat_redirect";}i:2;a:6:{s:4:"type";s:5:"click";s:4:"name";s:8:"技术客服";s:3:"key";s:4:"kefu";s:10:"sub_button";a:0:{}s:12:"displayorder";i:2;s:6:"keyurl";s:4:"kefu";}}s:12:"displayorder";i:0;s:6:"keyurl";N;}i:1;a:4:{s:4:"name";s:6:"学生帮";s:10:"sub_button";a:4:{i:0;a:6:{s:4:"type";s:4:"view";s:4:"name";s:10:"创业百分百";s:3:"url";s:56:"http://bbs.taohudong.cn/forum.php?mod=forumdisplay&fid=2";s:10:"sub_button";a:0:{}s:12:"displayorder";i:0;s:6:"keyurl";s:56:"http://bbs.taohudong.cn/forum.php?mod=forumdisplay&fid=2";}i:1;a:6:{s:4:"type";s:4:"view";s:4:"name";s:10:"资金百分百";s:3:"url";s:57:"http://bbs.taohudong.cn/forum.php?mod=forumdisplay&fid=36";s:10:"sub_button";a:0:{}s:12:"displayorder";i:1;s:6:"keyurl";s:57:"http://bbs.taohudong.cn/forum.php?mod=forumdisplay&fid=36";}i:2;a:6:{s:4:"type";s:4:"view";s:4:"name";s:10:"考试百分百";s:3:"url";s:57:"http://bbs.taohudong.cn/forum.php?mod=forumdisplay&fid=37";s:10:"sub_button";a:0:{}s:12:"displayorder";i:2;s:6:"keyurl";s:57:"http://bbs.taohudong.cn/forum.php?mod=forumdisplay&fid=37";}i:3;a:6:{s:4:"type";s:4:"view";s:4:"name";s:10:"资源寻租区";s:3:"url";s:57:"http://bbs.taohudong.cn/forum.php?mod=forumdisplay&fid=38";s:10:"sub_button";a:0:{}s:12:"displayorder";i:3;s:6:"keyurl";s:57:"http://bbs.taohudong.cn/forum.php?mod=forumdisplay&fid=38";}}s:12:"displayorder";i:1;s:6:"keyurl";N;}i:2;a:4:{s:4:"name";s:8:"合作共赢";s:10:"sub_button";a:4:{i:0;a:6:{s:4:"type";s:5:"click";s:4:"name";s:8:"旗下品牌";s:3:"key";s:11:"qixiapinpai";s:10:"sub_button";a:0:{}s:12:"displayorder";i:0;s:6:"keyurl";s:11:"qixiapinpai";}i:1;a:6:{s:4:"type";s:4:"view";s:4:"name";s:8:"公司实力";s:3:"url";s:21:"http://m.taohudong.cn";s:10:"sub_button";a:0:{}s:12:"displayorder";i:1;s:6:"keyurl";s:21:"http://m.taohudong.cn";}i:2;a:6:{s:4:"type";s:5:"click";s:4:"name";s:8:"商家合作";s:3:"key";s:13:"shangjiahezuo";s:10:"sub_button";a:0:{}s:12:"displayorder";i:2;s:6:"keyurl";s:13:"shangjiahezuo";}i:3;a:6:{s:4:"type";s:5:"click";s:4:"name";s:8:"个人合作";s:3:"key";s:10:"gerenhezuo";s:10:"sub_button";a:0:{}s:12:"displayorder";i:3;s:6:"keyurl";s:10:"gerenhezuo";}}s:12:"displayorder";i:2;s:6:"keyurl";N;}}}',
+    'fastactivation' => '0',
+    'singcere_xn_mainnav' => 'a:2:{i:0;a:7:{s:12:"displayorder";i:0;s:4:"name";s:4:"社区";s:3:"url";s:19:"forum.php?mod=index";s:6:"hcolor";s:0:"";s:6:"enable";i:1;s:4:"type";s:6:"system";s:10:"identifier";s:5:"forum";}i:1;a:7:{s:12:"displayorder";i:0;s:4:"name";s:4:"首页";s:3:"url";s:20:"portal.php?mod=index";s:6:"hcolor";s:0:"";s:6:"enable";i:1;s:4:"type";s:6:"system";s:10:"identifier";s:6:"portal";}}',
+    'singcere_xn_forumnav' => 'a:0:{}',
     'newusergroupid' => '10',
     'buyusergroupexists' => '0',
     'forumfids' => 
@@ -1138,21 +1264,24 @@ j/n/Y',
     'styles' => 
     array (
       1 => '默认风格',
-      2 => 'elecNation_X3Touch_P',
+      3 => 'elecNation_X3Touch_P',
+      5 => 'singcere_xn',
     ),
-    'creditnames' => '1|威望|,2|金钱|,3|贡献|',
+    'creditnames' => '1|威望|,2|金钱|,3|贡献|,4|淘创币|',
     'creditstransextra' => 
     array (
-      1 => '2',
-      2 => '2',
-      3 => '2',
-      4 => '2',
-      5 => '2',
-      6 => '2',
-      7 => '2',
-      8 => '2',
-      9 => '2',
-      10 => '2',
+      1 => '4',
+      2 => '4',
+      3 => '4',
+      4 => '4',
+      5 => '4',
+      6 => '4',
+      7 => '4',
+      8 => '4',
+      9 => '4',
+      10 => '4',
+      11 => '0',
+      12 => '0',
     ),
     'exchangestatus' => false,
     'transferstatus' => true,
@@ -1163,29 +1292,31 @@ j/n/Y',
     array (
       'available' => 
       array (
-        0 => 'singcere_wechat',
-        1 => 'it618_firstnfocus_deyi',
-        2 => 'levnav',
-        3 => 'kx_new100',
-        4 => 'rpancn_buy_usergroup',
-        5 => 'pcmgr_url_safeguard',
-        6 => 'mobile',
-        7 => 'security',
-        8 => 'soso_smilies',
-        9 => 'qqconnect',
+        0 => 'it618_firstnfocus_deyi',
+        1 => 'aljrq',
+        2 => 'nimba_thot',
+        3 => 'rpancn_buy_usergroup',
+        4 => 'kx_new100',
+        5 => 'levnav',
+        6 => 'pcmgr_url_safeguard',
+        7 => 'mobile',
+        8 => 'security',
+        9 => 'soso_smilies',
+        10 => 'qqconnect',
       ),
       'func' => 
       array (
         'hookscript' => 
         array (
+          'avatar' => true,
           'common' => true,
-          'deletemember' => true,
           'discuzcode' => true,
           'deletepost' => true,
           'deletethread' => true,
           'savebanlog' => true,
           'undeletethreads' => true,
           'recyclebinpostundelete' => true,
+          'deletemember' => true,
         ),
         'hookscriptmobile' => 
         array (
@@ -1201,11 +1332,12 @@ j/n/Y',
       ),
       'version' => 
       array (
-        'singcere_wechat' => '3.1.1',
         'it618_firstnfocus_deyi' => 'v1.7',
-        'levnav' => '1.0',
-        'kx_new100' => '1.1',
+        'aljrq' => '3.1.2',
+        'nimba_thot' => 'v3.5.0',
         'rpancn_buy_usergroup' => '2.12',
+        'kx_new100' => '1.1',
+        'levnav' => '1.0',
         'pcmgr_url_safeguard' => '1.1',
         'mobile' => '1.4.8',
         'security' => '1.11.1',
@@ -1222,14 +1354,6 @@ j/n/Y',
           'url' => '',
           'directory' => 'qqconnect/',
         ),
-        'singcere_wechat:spacecp' => 
-        array (
-          'displayorder' => 1100,
-          'adminid' => '0',
-          'name' => '微信绑定',
-          'url' => '',
-          'directory' => 'singcere_wechat/',
-        ),
       ),
     ),
     'pluginlinks' => 
@@ -1237,343 +1361,8 @@ j/n/Y',
     ),
     'hookscript' => 
     array (
-      'base' => 
+      'forum' => 
       array (
-        'common' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'common_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'common_base',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common_base',
-              ),
-            ),
-          ),
-        ),
-        'misc' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'misc_activity' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'misc_activity_message',
-              ),
-            ),
-          ),
-        ),
-        'init' => 
-        array (
-          'module' => 
-          array (
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'init' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'init',
-              ),
-            ),
-          ),
-        ),
-      ),
-      'global' => 
-      array (
-        'common' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'mobile' => 'mobile/mobile',
-            'security' => 'security/security',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'mobile' => '0',
-            'security' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'common' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'common',
-              ),
-              1 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'common',
-              ),
-              2 => 
-              array (
-                0 => 'security',
-                1 => 'common',
-              ),
-              3 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common',
-              ),
-            ),
-            'common_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'common_base',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common_base',
-              ),
-            ),
-          ),
-        ),
-        'deletemember' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletemember' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletemember',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'deletemember',
-              ),
-            ),
-          ),
-        ),
-        'global' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'it618_firstnfocus_deyi' => 'it618_firstnfocus_deyi/firstnfocus_deyi',
-            'levnav' => 'levnav/hook',
-            'rpancn_buy_usergroup' => 'rpancn_buy_usergroup/hook',
-            'mobile' => 'mobile/mobile',
-            'security' => 'security/security',
-            'soso_smilies' => 'soso_smilies/soso',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'it618_firstnfocus_deyi' => '0',
-            'levnav' => '0',
-            'rpancn_buy_usergroup' => '0',
-            'mobile' => '0',
-            'security' => '0',
-            'soso_smilies' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'global_login_extra' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'global_login_extra',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_login_extra',
-              ),
-            ),
-            'global_login_text' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_login_text',
-              ),
-            ),
-            'global_usernav_extra1' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'global_usernav_extra1',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_usernav_extra1',
-              ),
-            ),
-            'global_header' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_header',
-              ),
-              1 => 
-              array (
-                0 => 'it618_firstnfocus_deyi',
-                1 => 'global_header',
-              ),
-            ),
-            'global_footer' => 
-            array (
-              0 => 
-              array (
-                0 => 'soso_smilies',
-                1 => 'global_footer',
-              ),
-              1 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'global_footer',
-              ),
-              2 => 
-              array (
-                0 => 'security',
-                1 => 'global_footer',
-              ),
-              3 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_footer',
-              ),
-            ),
-            'global_nav_extra' => 
-            array (
-              0 => 
-              array (
-                0 => 'levnav',
-                1 => 'global_nav_extra',
-              ),
-            ),
-            'global_usernav_extra3' => 
-            array (
-              0 => 
-              array (
-                0 => 'rpancn_buy_usergroup',
-                1 => 'global_usernav_extra3',
-              ),
-            ),
-            'global_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'global_mobile',
-              ),
-            ),
-            'global_footerlink' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'global_footerlink',
-              ),
-            ),
-          ),
-        ),
-        'plugin' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'funcs' => 
-          array (
-            'plugin_singcere_wechat_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'plugin_singcere_wechat_base',
-              ),
-            ),
-          ),
-        ),
-        'misc' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'misc_activity' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'misc_activity_message',
-              ),
-            ),
-          ),
-        ),
         'it618' => 
         array (
           'module' => 
@@ -1601,10 +1390,14 @@ j/n/Y',
           'module' => 
           array (
             'it618_firstnfocus_deyi' => 'it618_firstnfocus_deyi/firstnfocus_deyi',
+            'aljrq' => 'aljrq/huitie',
+            'qqconnect' => 'qqconnect/connect',
           ),
           'adminid' => 
           array (
             'it618_firstnfocus_deyi' => '0',
+            'aljrq' => '0',
+            'qqconnect' => '0',
           ),
           'funcs' => 
           array (
@@ -1616,292 +1409,103 @@ j/n/Y',
                 1 => 'index_top',
               ),
             ),
+            'index_aljrq' => 
+            array (
+              0 => 
+              array (
+                0 => 'aljrq',
+                1 => 'index_aljrq',
+              ),
+            ),
+            'index_status_extra' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'index_status_extra',
+              ),
+            ),
+          ),
+          'outputfuncs' => 
+          array (
+            'index_aljrq' => 
+            array (
+              0 => 
+              array (
+                0 => 'aljrq',
+                1 => 'index_aljrq_output',
+              ),
+            ),
           ),
         ),
-        'discuzcode' => 
+        'forumdisplay' => 
         array (
           'module' => 
           array (
-            'mobile' => 'mobile/mobile',
+            'aljrq' => 'aljrq/huitie',
             'soso_smilies' => 'soso_smilies/soso',
             'qqconnect' => 'qqconnect/connect',
           ),
           'adminid' => 
           array (
-            'mobile' => '0',
-            'soso_smilies' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'discuzcode' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'discuzcode',
-              ),
-              1 => 
-              array (
-                0 => 'soso_smilies',
-                1 => 'discuzcode',
-              ),
-              2 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'discuzcode',
-              ),
-            ),
-            'discuzcode_callback_soso_smiles_1' => 
-            array (
-              0 => 
-              array (
-                0 => 'soso_smilies',
-                1 => 'discuzcode_callback_soso_smiles_1',
-              ),
-            ),
-          ),
-        ),
-        'deletepost' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletepost' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletepost',
-              ),
-            ),
-          ),
-        ),
-        'deletethread' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletethread' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletethread',
-              ),
-            ),
-          ),
-        ),
-        'savebanlog' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'savebanlog' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'savebanlog',
-              ),
-            ),
-          ),
-        ),
-        'undeletethreads' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'undeletethreads' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'undeletethreads',
-              ),
-            ),
-          ),
-        ),
-        'recyclebinpostundelete' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'recyclebinpostundelete' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'recyclebinpostundelete',
-              ),
-            ),
-          ),
-        ),
-        'secLog' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'secLog' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'secLog',
-              ),
-            ),
-          ),
-        ),
-        'getMergeAction' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'getMergeAction' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'getMergeAction',
-              ),
-            ),
-          ),
-        ),
-        'init' => 
-        array (
-          'module' => 
-          array (
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'init' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'init',
-              ),
-            ),
-          ),
-        ),
-      ),
-      'forum' => 
-      array (
-        'post' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'mobile' => 'mobile/mobile',
-            'security' => 'security/security',
-            'soso_smilies' => 'soso_smilies/soso',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'mobile' => '0',
-            'security' => '0',
+            'aljrq' => '0',
             'soso_smilies' => '0',
             'qqconnect' => '0',
           ),
           'outputfuncs' => 
           array (
-            'post_editorctrl_left' => 
+            'forumdisplay_top' => 
             array (
               0 => 
               array (
-                0 => 'singcere_wechat',
-                1 => 'post_editorctrl_left_output',
+                0 => 'aljrq',
+                1 => 'forumdisplay_top_output',
               ),
             ),
-            'post_bottom' => 
+            'forumdisplay_bottom' => 
             array (
               0 => 
               array (
                 0 => 'soso_smilies',
-                1 => 'post_bottom_output',
+                1 => 'forumdisplay_bottom_output',
               ),
             ),
-            'post_sync_method' => 
+            'forumdisplay_fastpost_sync_method' => 
             array (
               0 => 
               array (
                 0 => 'qqconnect',
-                1 => 'post_sync_method_output',
-              ),
-            ),
-            'post_infloat_btn_extra' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'post_infloat_btn_extra_output',
+                1 => 'forumdisplay_fastpost_sync_method_output',
               ),
             ),
           ),
+        ),
+        'post' => 
+        array (
+          'module' => 
+          array (
+            'aljrq' => 'aljrq/huitie',
+            'mobile' => 'mobile/mobile',
+            'security' => 'security/security',
+            'soso_smilies' => 'soso_smilies/soso',
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'aljrq' => '0',
+            'mobile' => '0',
+            'security' => '0',
+            'soso_smilies' => '0',
+            'qqconnect' => '0',
+          ),
           'messagefuncs' => 
           array (
-            'post_success' => 
+            'post_checkreply' => 
             array (
               0 => 
               array (
-                0 => 'singcere_wechat',
-                1 => 'post_success_message',
+                0 => 'aljrq',
+                1 => 'post_checkreply_message',
               ),
             ),
             'post_mobile' => 
@@ -1948,12 +1552,173 @@ j/n/Y',
               ),
             ),
           ),
+          'outputfuncs' => 
+          array (
+            'post_bottom' => 
+            array (
+              0 => 
+              array (
+                0 => 'soso_smilies',
+                1 => 'post_bottom_output',
+              ),
+            ),
+            'post_sync_method' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'post_sync_method_output',
+              ),
+            ),
+            'post_infloat_btn_extra' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'post_infloat_btn_extra_output',
+              ),
+            ),
+          ),
+        ),
+        'avatar' => 
+        array (
+          'module' => 
+          array (
+            'aljrq' => 'aljrq/huitie',
+          ),
+          'adminid' => 
+          array (
+            'aljrq' => '0',
+          ),
+          'funcs' => 
+          array (
+            'avatar' => 
+            array (
+              0 => 
+              array (
+                0 => 'aljrq',
+                1 => 'avatar',
+              ),
+            ),
+          ),
+        ),
+        'scanfile' => 
+        array (
+          'module' => 
+          array (
+            'aljrq' => 'aljrq/huitie',
+          ),
+          'adminid' => 
+          array (
+            'aljrq' => '0',
+          ),
+          'funcs' => 
+          array (
+            'scanfile' => 
+            array (
+              0 => 
+              array (
+                0 => 'aljrq',
+                1 => 'scanfile',
+              ),
+            ),
+          ),
+        ),
+        'global' => 
+        array (
+          'module' => 
+          array (
+            'aljrq' => 'aljrq/huitie',
+            'levnav' => 'levnav/hook',
+            'mobile' => 'mobile/mobile',
+            'security' => 'security/security',
+            'soso_smilies' => 'soso_smilies/soso',
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'aljrq' => '0',
+            'levnav' => '0',
+            'mobile' => '0',
+            'security' => '0',
+            'soso_smilies' => '0',
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'global_header' => 
+            array (
+              0 => 
+              array (
+                0 => 'aljrq',
+                1 => 'global_header',
+              ),
+            ),
+            'global_nav_extra' => 
+            array (
+              0 => 
+              array (
+                0 => 'levnav',
+                1 => 'global_nav_extra',
+              ),
+            ),
+            'global_mobile' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'global_mobile',
+              ),
+            ),
+            'global_footer' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'global_footer',
+              ),
+              1 => 
+              array (
+                0 => 'soso_smilies',
+                1 => 'global_footer',
+              ),
+              2 => 
+              array (
+                0 => 'security',
+                1 => 'global_footer',
+              ),
+            ),
+            'global_footerlink' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'global_footerlink',
+              ),
+            ),
+            'global_login_extra' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'global_login_extra',
+              ),
+            ),
+            'global_usernav_extra1' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'global_usernav_extra1',
+              ),
+            ),
+          ),
         ),
         'viewthread' => 
         array (
           'module' => 
           array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
+            'nimba_thot' => 'nimba_thot/hook',
             'pcmgr_url_safeguard' => 'pcmgr_url_safeguard/pcmgr_url_safeguard',
             'mobile' => 'mobile/mobile',
             'soso_smilies' => 'soso_smilies/soso',
@@ -1961,7 +1726,7 @@ j/n/Y',
           ),
           'adminid' => 
           array (
-            'singcere_wechat' => '0',
+            'nimba_thot' => '0',
             'pcmgr_url_safeguard' => '0',
             'mobile' => '0',
             'soso_smilies' => '0',
@@ -1983,7 +1748,7 @@ j/n/Y',
               ),
               2 => 
               array (
-                0 => 'singcere_wechat',
+                0 => 'nimba_thot',
                 1 => 'viewthread_postbottom_output',
               ),
             ),
@@ -2029,18 +1794,38 @@ j/n/Y',
             ),
           ),
         ),
+        'misc' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+          ),
+          'messagefuncs' => 
+          array (
+            'misc_mobile' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'misc_mobile_message',
+              ),
+            ),
+          ),
+        ),
         'common' => 
         array (
           'module' => 
           array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
             'mobile' => 'mobile/mobile',
             'security' => 'security/security',
             'qqconnect' => 'qqconnect/connect',
           ),
           'adminid' => 
           array (
-            'singcere_wechat' => '0',
             'mobile' => '0',
             'security' => '0',
             'qqconnect' => '0',
@@ -2064,11 +1849,6 @@ j/n/Y',
                 0 => 'security',
                 1 => 'common',
               ),
-              3 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common',
-              ),
             ),
             'common_base' => 
             array (
@@ -2076,271 +1856,6 @@ j/n/Y',
               array (
                 0 => 'qqconnect',
                 1 => 'common_base',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common_base',
-              ),
-            ),
-          ),
-        ),
-        'deletemember' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletemember' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletemember',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'deletemember',
-              ),
-            ),
-          ),
-        ),
-        'global' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'levnav' => 'levnav/hook',
-            'mobile' => 'mobile/mobile',
-            'security' => 'security/security',
-            'soso_smilies' => 'soso_smilies/soso',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'levnav' => '0',
-            'mobile' => '0',
-            'security' => '0',
-            'soso_smilies' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'global_login_extra' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'global_login_extra',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_login_extra',
-              ),
-            ),
-            'global_login_text' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_login_text',
-              ),
-            ),
-            'global_usernav_extra1' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'global_usernav_extra1',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_usernav_extra1',
-              ),
-            ),
-            'global_header' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_header',
-              ),
-            ),
-            'global_footer' => 
-            array (
-              0 => 
-              array (
-                0 => 'soso_smilies',
-                1 => 'global_footer',
-              ),
-              1 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'global_footer',
-              ),
-              2 => 
-              array (
-                0 => 'security',
-                1 => 'global_footer',
-              ),
-              3 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_footer',
-              ),
-            ),
-            'global_nav_extra' => 
-            array (
-              0 => 
-              array (
-                0 => 'levnav',
-                1 => 'global_nav_extra',
-              ),
-            ),
-            'global_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'global_mobile',
-              ),
-            ),
-            'global_footerlink' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'global_footerlink',
-              ),
-            ),
-          ),
-        ),
-        'plugin' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'plugin_singcere_wechat_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'plugin_singcere_wechat_base',
-              ),
-            ),
-            'plugin_qqconnect' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'plugin_qqconnect',
-              ),
-            ),
-          ),
-        ),
-        'misc' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'mobile' => 'mobile/mobile',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'mobile' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'misc_activity' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'misc_activity_message',
-              ),
-            ),
-            'misc_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'misc_mobile_message',
-              ),
-            ),
-          ),
-        ),
-        'it618' => 
-        array (
-          'module' => 
-          array (
-            'it618_firstnfocus_deyi' => 'it618_firstnfocus_deyi/firstnfocus_deyi',
-          ),
-          'adminid' => 
-          array (
-            'it618_firstnfocus_deyi' => '0',
-          ),
-          'funcs' => 
-          array (
-            'it618_hook' => 
-            array (
-              0 => 
-              array (
-                0 => 'it618_firstnfocus_deyi',
-                1 => 'it618_hook',
-              ),
-            ),
-          ),
-        ),
-        'index' => 
-        array (
-          'module' => 
-          array (
-            'it618_firstnfocus_deyi' => 'it618_firstnfocus_deyi/firstnfocus_deyi',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'it618_firstnfocus_deyi' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'index_top' => 
-            array (
-              0 => 
-              array (
-                0 => 'it618_firstnfocus_deyi',
-                1 => 'index_top',
-              ),
-            ),
-            'index_status_extra' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'index_status_extra',
               ),
             ),
           ),
@@ -2499,6 +2014,28 @@ j/n/Y',
             ),
           ),
         ),
+        'deletemember' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletemember' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletemember',
+              ),
+            ),
+          ),
+        ),
         'secLog' => 
         array (
           'module' => 
@@ -2543,34 +2080,508 @@ j/n/Y',
             ),
           ),
         ),
-        'forumdisplay' => 
+        'plugin' => 
         array (
           'module' => 
           array (
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'plugin_qqconnect' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'plugin_qqconnect',
+              ),
+            ),
+          ),
+        ),
+        'init' => 
+        array (
+          'module' => 
+          array (
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'init' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'init',
+              ),
+            ),
+          ),
+        ),
+      ),
+      'global' => 
+      array (
+        'global' => 
+        array (
+          'module' => 
+          array (
+            'it618_firstnfocus_deyi' => 'it618_firstnfocus_deyi/firstnfocus_deyi',
+            'aljrq' => 'aljrq/huitie',
+            'rpancn_buy_usergroup' => 'rpancn_buy_usergroup/hook',
+            'levnav' => 'levnav/hook',
+            'mobile' => 'mobile/mobile',
+            'security' => 'security/security',
             'soso_smilies' => 'soso_smilies/soso',
             'qqconnect' => 'qqconnect/connect',
           ),
           'adminid' => 
           array (
+            'it618_firstnfocus_deyi' => '0',
+            'aljrq' => '0',
+            'rpancn_buy_usergroup' => '0',
+            'levnav' => '0',
+            'mobile' => '0',
+            'security' => '0',
             'soso_smilies' => '0',
             'qqconnect' => '0',
           ),
-          'outputfuncs' => 
+          'funcs' => 
           array (
-            'forumdisplay_bottom' => 
+            'global_header' => 
             array (
               0 => 
               array (
-                0 => 'soso_smilies',
-                1 => 'forumdisplay_bottom_output',
+                0 => 'it618_firstnfocus_deyi',
+                1 => 'global_header',
+              ),
+              1 => 
+              array (
+                0 => 'aljrq',
+                1 => 'global_header',
               ),
             ),
-            'forumdisplay_fastpost_sync_method' => 
+            'global_usernav_extra3' => 
+            array (
+              0 => 
+              array (
+                0 => 'rpancn_buy_usergroup',
+                1 => 'global_usernav_extra3',
+              ),
+            ),
+            'global_nav_extra' => 
+            array (
+              0 => 
+              array (
+                0 => 'levnav',
+                1 => 'global_nav_extra',
+              ),
+            ),
+            'global_mobile' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'global_mobile',
+              ),
+            ),
+            'global_footer' => 
             array (
               0 => 
               array (
                 0 => 'qqconnect',
-                1 => 'forumdisplay_fastpost_sync_method_output',
+                1 => 'global_footer',
+              ),
+              1 => 
+              array (
+                0 => 'soso_smilies',
+                1 => 'global_footer',
+              ),
+              2 => 
+              array (
+                0 => 'security',
+                1 => 'global_footer',
+              ),
+            ),
+            'global_footerlink' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'global_footerlink',
+              ),
+            ),
+            'global_login_extra' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'global_login_extra',
+              ),
+            ),
+            'global_usernav_extra1' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'global_usernav_extra1',
+              ),
+            ),
+          ),
+        ),
+        'it618' => 
+        array (
+          'module' => 
+          array (
+            'it618_firstnfocus_deyi' => 'it618_firstnfocus_deyi/firstnfocus_deyi',
+          ),
+          'adminid' => 
+          array (
+            'it618_firstnfocus_deyi' => '0',
+          ),
+          'funcs' => 
+          array (
+            'it618_hook' => 
+            array (
+              0 => 
+              array (
+                0 => 'it618_firstnfocus_deyi',
+                1 => 'it618_hook',
+              ),
+            ),
+          ),
+        ),
+        'index' => 
+        array (
+          'module' => 
+          array (
+            'it618_firstnfocus_deyi' => 'it618_firstnfocus_deyi/firstnfocus_deyi',
+          ),
+          'adminid' => 
+          array (
+            'it618_firstnfocus_deyi' => '0',
+          ),
+          'funcs' => 
+          array (
+            'index_top' => 
+            array (
+              0 => 
+              array (
+                0 => 'it618_firstnfocus_deyi',
+                1 => 'index_top',
+              ),
+            ),
+          ),
+        ),
+        'avatar' => 
+        array (
+          'module' => 
+          array (
+            'aljrq' => 'aljrq/huitie',
+          ),
+          'adminid' => 
+          array (
+            'aljrq' => '0',
+          ),
+          'funcs' => 
+          array (
+            'avatar' => 
+            array (
+              0 => 
+              array (
+                0 => 'aljrq',
+                1 => 'avatar',
+              ),
+            ),
+          ),
+        ),
+        'scanfile' => 
+        array (
+          'module' => 
+          array (
+            'aljrq' => 'aljrq/huitie',
+          ),
+          'adminid' => 
+          array (
+            'aljrq' => '0',
+          ),
+          'funcs' => 
+          array (
+            'scanfile' => 
+            array (
+              0 => 
+              array (
+                0 => 'aljrq',
+                1 => 'scanfile',
+              ),
+            ),
+          ),
+        ),
+        'common' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+            'security' => 'security/security',
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+            'security' => '0',
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'common' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'common',
+              ),
+              1 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'common',
+              ),
+              2 => 
+              array (
+                0 => 'security',
+                1 => 'common',
+              ),
+            ),
+            'common_base' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'common_base',
+              ),
+            ),
+          ),
+        ),
+        'discuzcode' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+            'soso_smilies' => 'soso_smilies/soso',
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+            'soso_smilies' => '0',
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'discuzcode' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'discuzcode',
+              ),
+              1 => 
+              array (
+                0 => 'soso_smilies',
+                1 => 'discuzcode',
+              ),
+              2 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'discuzcode',
+              ),
+            ),
+            'discuzcode_callback_soso_smiles_1' => 
+            array (
+              0 => 
+              array (
+                0 => 'soso_smilies',
+                1 => 'discuzcode_callback_soso_smiles_1',
+              ),
+            ),
+          ),
+        ),
+        'deletepost' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletepost' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletepost',
+              ),
+            ),
+          ),
+        ),
+        'deletethread' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletethread' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletethread',
+              ),
+            ),
+          ),
+        ),
+        'savebanlog' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'savebanlog' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'savebanlog',
+              ),
+            ),
+          ),
+        ),
+        'undeletethreads' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'undeletethreads' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'undeletethreads',
+              ),
+            ),
+          ),
+        ),
+        'recyclebinpostundelete' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'recyclebinpostundelete' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'recyclebinpostundelete',
+              ),
+            ),
+          ),
+        ),
+        'deletemember' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletemember' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletemember',
+              ),
+            ),
+          ),
+        ),
+        'secLog' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'secLog' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'secLog',
+              ),
+            ),
+          ),
+        ),
+        'getMergeAction' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'getMergeAction' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'getMergeAction',
               ),
             ),
           ),
@@ -2600,309 +2611,6 @@ j/n/Y',
       ),
       'home' => 
       array (
-        'spacecp_pm' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'soso_smilies' => 'soso_smilies/soso',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'soso_smilies' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'spacecp_pm' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'spacecp_pm_message',
-              ),
-            ),
-          ),
-          'outputfuncs' => 
-          array (
-            'spacecp_pm' => 
-            array (
-              0 => 
-              array (
-                0 => 'soso_smilies',
-                1 => 'spacecp_pm_output',
-              ),
-            ),
-          ),
-          'funcs' => 
-          array (
-            'spacecp_pm_output_space_pm_output_follow_soso_output_callback_soso_smiles_1' => 
-            array (
-              0 => 
-              array (
-                0 => 'soso_smilies',
-                1 => 'spacecp_pm_output_space_pm_output_follow_soso_output_callback_soso_smiles_1',
-              ),
-            ),
-          ),
-        ),
-        'spacecp_friend' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'spacecp_friend' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'spacecp_friend_message',
-              ),
-            ),
-          ),
-        ),
-        'common' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'security' => 'security/security',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'security' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'common' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'common',
-              ),
-              1 => 
-              array (
-                0 => 'security',
-                1 => 'common',
-              ),
-              2 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common',
-              ),
-            ),
-            'common_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'common_base',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common_base',
-              ),
-            ),
-          ),
-        ),
-        'deletemember' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletemember' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletemember',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'deletemember',
-              ),
-            ),
-          ),
-        ),
-        'global' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'rpancn_buy_usergroup' => 'rpancn_buy_usergroup/hook',
-            'security' => 'security/security',
-            'soso_smilies' => 'soso_smilies/soso',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'rpancn_buy_usergroup' => '0',
-            'security' => '0',
-            'soso_smilies' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'global_login_extra' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'global_login_extra',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_login_extra',
-              ),
-            ),
-            'global_login_text' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_login_text',
-              ),
-            ),
-            'global_usernav_extra1' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'global_usernav_extra1',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_usernav_extra1',
-              ),
-            ),
-            'global_header' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_header',
-              ),
-            ),
-            'global_footer' => 
-            array (
-              0 => 
-              array (
-                0 => 'soso_smilies',
-                1 => 'global_footer',
-              ),
-              1 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'global_footer',
-              ),
-              2 => 
-              array (
-                0 => 'security',
-                1 => 'global_footer',
-              ),
-              3 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_footer',
-              ),
-            ),
-            'global_usernav_extra3' => 
-            array (
-              0 => 
-              array (
-                0 => 'rpancn_buy_usergroup',
-                1 => 'global_usernav_extra3',
-              ),
-            ),
-            'global_footerlink' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'global_footerlink',
-              ),
-            ),
-          ),
-        ),
-        'plugin' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'plugin_singcere_wechat_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'plugin_singcere_wechat_base',
-              ),
-            ),
-            'plugin_qqconnect' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'plugin_qqconnect',
-              ),
-            ),
-          ),
-        ),
-        'misc' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'misc_activity' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'misc_activity_message',
-              ),
-            ),
-          ),
-        ),
         'spacecp_usergroup' => 
         array (
           'module' => 
@@ -2921,6 +2629,76 @@ j/n/Y',
               array (
                 0 => 'rpancn_buy_usergroup',
                 1 => 'spacecp_usergroup_top_output',
+              ),
+            ),
+          ),
+        ),
+        'global' => 
+        array (
+          'module' => 
+          array (
+            'rpancn_buy_usergroup' => 'rpancn_buy_usergroup/hook',
+            'security' => 'security/security',
+            'soso_smilies' => 'soso_smilies/soso',
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'rpancn_buy_usergroup' => '0',
+            'security' => '0',
+            'soso_smilies' => '0',
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'global_usernav_extra3' => 
+            array (
+              0 => 
+              array (
+                0 => 'rpancn_buy_usergroup',
+                1 => 'global_usernav_extra3',
+              ),
+            ),
+            'global_footer' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'global_footer',
+              ),
+              1 => 
+              array (
+                0 => 'soso_smilies',
+                1 => 'global_footer',
+              ),
+              2 => 
+              array (
+                0 => 'security',
+                1 => 'global_footer',
+              ),
+            ),
+            'global_footerlink' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'global_footerlink',
+              ),
+            ),
+            'global_login_extra' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'global_login_extra',
+              ),
+            ),
+            'global_usernav_extra1' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'global_usernav_extra1',
               ),
             ),
           ),
@@ -2980,6 +2758,43 @@ j/n/Y',
             ),
           ),
         ),
+        'common' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'common' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'common',
+              ),
+              1 => 
+              array (
+                0 => 'security',
+                1 => 'common',
+              ),
+            ),
+            'common_base' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'common_base',
+              ),
+            ),
+          ),
+        ),
         'deletepost' => 
         array (
           'module' => 
@@ -3086,6 +2901,28 @@ j/n/Y',
               array (
                 0 => 'security',
                 1 => 'recyclebinpostundelete',
+              ),
+            ),
+          ),
+        ),
+        'deletemember' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletemember' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletemember',
               ),
             ),
           ),
@@ -3185,6 +3022,39 @@ j/n/Y',
             ),
           ),
         ),
+        'spacecp_pm' => 
+        array (
+          'module' => 
+          array (
+            'soso_smilies' => 'soso_smilies/soso',
+          ),
+          'adminid' => 
+          array (
+            'soso_smilies' => '0',
+          ),
+          'outputfuncs' => 
+          array (
+            'spacecp_pm' => 
+            array (
+              0 => 
+              array (
+                0 => 'soso_smilies',
+                1 => 'spacecp_pm_output',
+              ),
+            ),
+          ),
+          'funcs' => 
+          array (
+            'spacecp_pm_output_space_pm_output_follow_soso_output_callback_soso_smiles_1' => 
+            array (
+              0 => 
+              array (
+                0 => 'soso_smilies',
+                1 => 'spacecp_pm_output_space_pm_output_follow_soso_output_callback_soso_smiles_1',
+              ),
+            ),
+          ),
+        ),
         'space_pm' => 
         array (
           'module' => 
@@ -3266,575 +3136,24 @@ j/n/Y',
             ),
           ),
         ),
-        'init' => 
-        array (
-          'module' => 
-          array (
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'init' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'init',
-              ),
-            ),
-          ),
-        ),
-      ),
-      'member' => 
-      array (
-        'logging' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'security' => 'security/security',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'security' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'logging_method' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'logging_method',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'logging_method',
-              ),
-            ),
-            'logging_member' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'logging_member',
-              ),
-            ),
-          ),
-          'messagefuncs' => 
-          array (
-            'logging_report' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'logging_report_message',
-              ),
-            ),
-          ),
-        ),
-        'register' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'security' => 'security/security',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'security' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'register_logging_method' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'register_logging_method',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'register_logging_method',
-              ),
-            ),
-            'register_member' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'register_member',
-              ),
-            ),
-          ),
-          'messagefuncs' => 
-          array (
-            'register_report' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'register_report_message',
-              ),
-            ),
-          ),
-        ),
-        'common' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'security' => 'security/security',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'security' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'common' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'common',
-              ),
-              1 => 
-              array (
-                0 => 'security',
-                1 => 'common',
-              ),
-              2 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common',
-              ),
-            ),
-            'common_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'common_base',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common_base',
-              ),
-            ),
-          ),
-        ),
-        'deletemember' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletemember' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletemember',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'deletemember',
-              ),
-            ),
-          ),
-        ),
-        'global' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'security' => 'security/security',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'security' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'global_login_extra' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'global_login_extra',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_login_extra',
-              ),
-            ),
-            'global_login_text' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_login_text',
-              ),
-            ),
-            'global_usernav_extra1' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'global_usernav_extra1',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_usernav_extra1',
-              ),
-            ),
-            'global_header' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_header',
-              ),
-            ),
-            'global_footer' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'global_footer',
-              ),
-              1 => 
-              array (
-                0 => 'security',
-                1 => 'global_footer',
-              ),
-              2 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_footer',
-              ),
-            ),
-            'global_footerlink' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'global_footerlink',
-              ),
-            ),
-          ),
-        ),
         'plugin' => 
         array (
           'module' => 
           array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
             'qqconnect' => 'qqconnect/connect',
           ),
           'adminid' => 
           array (
-            'singcere_wechat' => '0',
             'qqconnect' => '0',
           ),
           'funcs' => 
           array (
-            'plugin_singcere_wechat_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'plugin_singcere_wechat_base',
-              ),
-            ),
             'plugin_qqconnect' => 
             array (
               0 => 
               array (
                 0 => 'qqconnect',
                 1 => 'plugin_qqconnect',
-              ),
-            ),
-          ),
-        ),
-        'misc' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'misc_activity' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'misc_activity_message',
-              ),
-            ),
-          ),
-        ),
-        'connect' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-            'qqconnect' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'connect_report' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'connect_report_message',
-              ),
-            ),
-          ),
-          'funcs' => 
-          array (
-            'connect_member' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'connect_member',
-              ),
-            ),
-          ),
-          'outputfuncs' => 
-          array (
-            'connect_input' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'connect_input_output',
-              ),
-            ),
-            'connect_bottom' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'connect_bottom_output',
-              ),
-            ),
-          ),
-        ),
-        'deletepost' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletepost' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletepost',
-              ),
-            ),
-          ),
-        ),
-        'deletethread' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletethread' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletethread',
-              ),
-            ),
-          ),
-        ),
-        'savebanlog' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'savebanlog' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'savebanlog',
-              ),
-            ),
-          ),
-        ),
-        'undeletethreads' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'undeletethreads' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'undeletethreads',
-              ),
-            ),
-          ),
-        ),
-        'recyclebinpostundelete' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'recyclebinpostundelete' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'recyclebinpostundelete',
-              ),
-            ),
-          ),
-        ),
-        'secLog' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'secLog' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'secLog',
-              ),
-            ),
-          ),
-        ),
-        'getMergeAction' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'getMergeAction' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'getMergeAction',
-              ),
-            ),
-          ),
-        ),
-        'discuzcode' => 
-        array (
-          'module' => 
-          array (
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'discuzcode' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'discuzcode',
               ),
             ),
           ),
@@ -4778,24 +4097,157 @@ j/n/Y',
           ),
         ),
       ),
-    ),
-    'hookscriptmobile' => 
-    array (
-      'global' => 
+      'member' => 
       array (
-        'common' => 
+        'logging' => 
         array (
           'module' => 
           array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'mobile' => 'mobile/mobile',
             'security' => 'security/security',
             'qqconnect' => 'qqconnect/connect',
           ),
           'adminid' => 
           array (
-            'singcere_wechat' => '0',
-            'mobile' => '0',
+            'security' => '0',
+            'qqconnect' => '0',
+          ),
+          'messagefuncs' => 
+          array (
+            'logging_report' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'logging_report_message',
+              ),
+            ),
+          ),
+          'funcs' => 
+          array (
+            'logging_member' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'logging_member',
+              ),
+            ),
+            'logging_method' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'logging_method',
+              ),
+            ),
+          ),
+        ),
+        'register' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+            'qqconnect' => '0',
+          ),
+          'messagefuncs' => 
+          array (
+            'register_report' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'register_report_message',
+              ),
+            ),
+          ),
+          'funcs' => 
+          array (
+            'register_member' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'register_member',
+              ),
+            ),
+            'register_logging_method' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'register_logging_method',
+              ),
+            ),
+          ),
+        ),
+        'connect' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+            'qqconnect' => '0',
+          ),
+          'messagefuncs' => 
+          array (
+            'connect_report' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'connect_report_message',
+              ),
+            ),
+          ),
+          'funcs' => 
+          array (
+            'connect_member' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'connect_member',
+              ),
+            ),
+          ),
+          'outputfuncs' => 
+          array (
+            'connect_input' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'connect_input_output',
+              ),
+            ),
+            'connect_bottom' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'connect_bottom_output',
+              ),
+            ),
+          ),
+        ),
+        'common' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
             'security' => '0',
             'qqconnect' => '0',
           ),
@@ -4805,22 +4257,12 @@ j/n/Y',
             array (
               0 => 
               array (
-                0 => 'mobile',
+                0 => 'qqconnect',
                 1 => 'common',
               ),
               1 => 
               array (
-                0 => 'qqconnect',
-                1 => 'common',
-              ),
-              2 => 
-              array (
                 0 => 'security',
-                1 => 'common',
-              ),
-              3 => 
-              array (
-                0 => 'singcere_wechat',
                 1 => 'common',
               ),
             ),
@@ -4831,11 +4273,6 @@ j/n/Y',
                 0 => 'qqconnect',
                 1 => 'common_base',
               ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common_base',
-              ),
             ),
           ),
         ),
@@ -4843,14 +4280,362 @@ j/n/Y',
         array (
           'module' => 
           array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
+            'security' => 'security/security',
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'global_footer' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'global_footer',
+              ),
+              1 => 
+              array (
+                0 => 'security',
+                1 => 'global_footer',
+              ),
+            ),
+            'global_footerlink' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'global_footerlink',
+              ),
+            ),
+            'global_login_extra' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'global_login_extra',
+              ),
+            ),
+            'global_usernav_extra1' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'global_usernav_extra1',
+              ),
+            ),
+          ),
+        ),
+        'deletepost' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletepost' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletepost',
+              ),
+            ),
+          ),
+        ),
+        'deletethread' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletethread' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletethread',
+              ),
+            ),
+          ),
+        ),
+        'savebanlog' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'savebanlog' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'savebanlog',
+              ),
+            ),
+          ),
+        ),
+        'undeletethreads' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'undeletethreads' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'undeletethreads',
+              ),
+            ),
+          ),
+        ),
+        'recyclebinpostundelete' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'recyclebinpostundelete' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'recyclebinpostundelete',
+              ),
+            ),
+          ),
+        ),
+        'deletemember' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletemember' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletemember',
+              ),
+            ),
+          ),
+        ),
+        'secLog' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'secLog' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'secLog',
+              ),
+            ),
+          ),
+        ),
+        'getMergeAction' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'getMergeAction' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'getMergeAction',
+              ),
+            ),
+          ),
+        ),
+        'plugin' => 
+        array (
+          'module' => 
+          array (
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'plugin_qqconnect' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'plugin_qqconnect',
+              ),
+            ),
+          ),
+        ),
+        'discuzcode' => 
+        array (
+          'module' => 
+          array (
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'discuzcode' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'discuzcode',
+              ),
+            ),
+          ),
+        ),
+        'init' => 
+        array (
+          'module' => 
+          array (
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'init' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'init',
+              ),
+            ),
+          ),
+        ),
+      ),
+      'base' => 
+      array (
+        'init' => 
+        array (
+          'module' => 
+          array (
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'init' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'init',
+              ),
+            ),
+          ),
+        ),
+        'common' => 
+        array (
+          'module' => 
+          array (
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'common_base' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'common_base',
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+    'hookscriptmobile' => 
+    array (
+      'global' => 
+      array (
+        'global' => 
+        array (
+          'module' => 
+          array (
+            'aljrq' => 'aljrq/sj',
             'mobile' => 'mobile/mobile',
             'security' => 'security/security',
             'qqconnect' => 'qqconnect/connect',
           ),
           'adminid' => 
           array (
-            'singcere_wechat' => '0',
+            'aljrq' => '0',
             'mobile' => '0',
             'security' => '0',
             'qqconnect' => '0',
@@ -4866,7 +4651,7 @@ j/n/Y',
               ),
               1 => 
               array (
-                0 => 'singcere_wechat',
+                0 => 'aljrq',
                 1 => 'global_header_mobile',
               ),
             ),
@@ -4879,7 +4664,7 @@ j/n/Y',
               ),
               1 => 
               array (
-                0 => 'singcere_wechat',
+                0 => 'aljrq',
                 1 => 'global_footer_mobile',
               ),
             ),
@@ -4909,46 +4694,46 @@ j/n/Y',
             ),
           ),
         ),
-        'plugin' => 
+        'common' => 
         array (
           'module' => 
           array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
+            'mobile' => 'mobile/mobile',
+            'security' => 'security/security',
+            'qqconnect' => 'qqconnect/connect',
           ),
           'adminid' => 
           array (
-            'singcere_wechat' => '0',
+            'mobile' => '0',
+            'security' => '0',
+            'qqconnect' => '0',
           ),
           'funcs' => 
           array (
-            'plugin_singcere_wechat_base' => 
+            'common' => 
             array (
               0 => 
               array (
-                0 => 'singcere_wechat',
-                1 => 'plugin_singcere_wechat_base',
+                0 => 'mobile',
+                1 => 'common',
+              ),
+              1 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'common',
+              ),
+              2 => 
+              array (
+                0 => 'security',
+                1 => 'common',
               ),
             ),
-          ),
-        ),
-        'misc' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'misc_activity' => 
+            'common_base' => 
             array (
               0 => 
               array (
-                0 => 'singcere_wechat',
-                1 => 'misc_activity_message',
+                0 => 'qqconnect',
+                1 => 'common_base',
               ),
             ),
           ),
@@ -5181,293 +4966,19 @@ j/n/Y',
           ),
         ),
       ),
-      'portal' => 
-      array (
-        'view' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'outputfuncs' => 
-          array (
-            'view_article_procimghtml' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'view_article_procimghtml_output',
-              ),
-            ),
-          ),
-        ),
-        'common' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'funcs' => 
-          array (
-            'common' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common',
-              ),
-            ),
-            'common_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common_base',
-              ),
-            ),
-          ),
-        ),
-        'global' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'funcs' => 
-          array (
-            'global_header_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_header_mobile',
-              ),
-            ),
-            'global_footer_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_footer_mobile',
-              ),
-            ),
-          ),
-        ),
-        'plugin' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'funcs' => 
-          array (
-            'plugin_singcere_wechat_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'plugin_singcere_wechat_base',
-              ),
-            ),
-          ),
-        ),
-        'misc' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'misc_activity' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'misc_activity_message',
-              ),
-            ),
-          ),
-        ),
-      ),
       'forum' => 
       array (
-        'viewthread' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'mobile' => 'mobile/mobile',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'mobile' => '0',
-          ),
-          'outputfuncs' => 
-          array (
-            'viewthread_procimghtml' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'viewthread_procimghtml_output',
-              ),
-            ),
-            'viewthread_postbottom_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'viewthread_postbottom_mobile_output',
-              ),
-            ),
-            'viewthread_postbottom' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'viewthread_postbottom_output',
-              ),
-            ),
-          ),
-        ),
-        'post' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'mobile' => 'mobile/mobile',
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'mobile' => '0',
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'post_bottom_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'post_bottom_mobile',
-              ),
-            ),
-            'post_security' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'post_security',
-              ),
-            ),
-          ),
-          'messagefuncs' => 
-          array (
-            'post_success' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'post_success_message',
-              ),
-            ),
-            'post_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'post_mobile_message',
-              ),
-            ),
-            'post_report' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'post_report_message',
-              ),
-            ),
-          ),
-        ),
-        'common' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'mobile' => 'mobile/mobile',
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'mobile' => '0',
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'common' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'common',
-              ),
-              1 => 
-              array (
-                0 => 'security',
-                1 => 'common',
-              ),
-              2 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common',
-              ),
-            ),
-            'common_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common_base',
-              ),
-            ),
-          ),
-        ),
         'global' => 
         array (
           'module' => 
           array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
+            'aljrq' => 'aljrq/sj',
             'mobile' => 'mobile/mobile',
             'security' => 'security/security',
           ),
           'adminid' => 
           array (
-            'singcere_wechat' => '0',
+            'aljrq' => '0',
             'mobile' => '0',
             'security' => '0',
           ),
@@ -5477,7 +4988,7 @@ j/n/Y',
             array (
               0 => 
               array (
-                0 => 'singcere_wechat',
+                0 => 'aljrq',
                 1 => 'global_header_mobile',
               ),
             ),
@@ -5485,7 +4996,7 @@ j/n/Y',
             array (
               0 => 
               array (
-                0 => 'singcere_wechat',
+                0 => 'aljrq',
                 1 => 'global_footer_mobile',
               ),
             ),
@@ -5515,24 +5026,45 @@ j/n/Y',
             ),
           ),
         ),
-        'plugin' => 
+        'post' => 
         array (
           'module' => 
           array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
+            'mobile' => 'mobile/mobile',
+            'security' => 'security/security',
           ),
           'adminid' => 
           array (
-            'singcere_wechat' => '0',
+            'mobile' => '0',
+            'security' => '0',
           ),
-          'funcs' => 
+          'messagefuncs' => 
           array (
-            'plugin_singcere_wechat_base' => 
+            'post_mobile' => 
             array (
               0 => 
               array (
-                0 => 'singcere_wechat',
-                1 => 'plugin_singcere_wechat_base',
+                0 => 'mobile',
+                1 => 'post_mobile_message',
+              ),
+            ),
+            'post_report' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'post_report_message',
+              ),
+            ),
+          ),
+          'funcs' => 
+          array (
+            'post_security' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'post_security',
               ),
             ),
           ),
@@ -5541,30 +5073,71 @@ j/n/Y',
         array (
           'module' => 
           array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
             'mobile' => 'mobile/mobile',
           ),
           'adminid' => 
           array (
-            'singcere_wechat' => '0',
             'mobile' => '0',
           ),
           'messagefuncs' => 
           array (
-            'misc_activity' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'misc_activity_message',
-              ),
-            ),
             'misc_mobile' => 
             array (
               0 => 
               array (
                 0 => 'mobile',
                 1 => 'misc_mobile_message',
+              ),
+            ),
+          ),
+        ),
+        'viewthread' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+          ),
+          'outputfuncs' => 
+          array (
+            'viewthread_postbottom' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'viewthread_postbottom_output',
+              ),
+            ),
+          ),
+        ),
+        'common' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'common' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'common',
+              ),
+              1 => 
+              array (
+                0 => 'security',
+                1 => 'common',
               ),
             ),
           ),
@@ -5763,522 +5336,6 @@ j/n/Y',
               array (
                 0 => 'security',
                 1 => 'getMergeAction',
-              ),
-            ),
-          ),
-        ),
-      ),
-      'member' => 
-      array (
-        'logging' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'logging_bottom_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'logging_bottom_mobile',
-              ),
-            ),
-          ),
-          'messagefuncs' => 
-          array (
-            'logging_report' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'logging_report_message',
-              ),
-            ),
-          ),
-        ),
-        'common' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'common' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'common',
-              ),
-              1 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common',
-              ),
-            ),
-            'common_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common_base',
-              ),
-            ),
-          ),
-        ),
-        'global' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'global_header_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_header_mobile',
-              ),
-            ),
-            'global_footer_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_footer_mobile',
-              ),
-            ),
-            'global_footer' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'global_footer',
-              ),
-            ),
-            'global_footerlink' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'global_footerlink',
-              ),
-            ),
-          ),
-        ),
-        'plugin' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'funcs' => 
-          array (
-            'plugin_singcere_wechat_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'plugin_singcere_wechat_base',
-              ),
-            ),
-          ),
-        ),
-        'misc' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'misc_activity' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'misc_activity_message',
-              ),
-            ),
-          ),
-        ),
-        'register' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'register_report' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'register_report_message',
-              ),
-            ),
-          ),
-        ),
-        'connect' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'connect_report' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'connect_report_message',
-              ),
-            ),
-          ),
-        ),
-        'deletepost' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletepost' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletepost',
-              ),
-            ),
-          ),
-        ),
-        'deletethread' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletethread' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletethread',
-              ),
-            ),
-          ),
-        ),
-        'savebanlog' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'savebanlog' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'savebanlog',
-              ),
-            ),
-          ),
-        ),
-        'undeletethreads' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'undeletethreads' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'undeletethreads',
-              ),
-            ),
-          ),
-        ),
-        'recyclebinpostundelete' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'recyclebinpostundelete' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'recyclebinpostundelete',
-              ),
-            ),
-          ),
-        ),
-        'deletemember' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletemember' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletemember',
-              ),
-            ),
-          ),
-        ),
-        'secLog' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'secLog' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'secLog',
-              ),
-            ),
-          ),
-        ),
-        'getMergeAction' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'getMergeAction' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'getMergeAction',
-              ),
-            ),
-          ),
-        ),
-      ),
-      'home' => 
-      array (
-        'spacecp_pm' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'spacecp_pm' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'spacecp_pm_message',
-              ),
-            ),
-          ),
-        ),
-        'common' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'funcs' => 
-          array (
-            'common' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common',
-              ),
-            ),
-            'common_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'common_base',
-              ),
-            ),
-          ),
-        ),
-        'global' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'funcs' => 
-          array (
-            'global_header_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_header_mobile',
-              ),
-            ),
-            'global_footer_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'global_footer_mobile',
-              ),
-            ),
-          ),
-        ),
-        'plugin' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'funcs' => 
-          array (
-            'plugin_singcere_wechat_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'plugin_singcere_wechat_base',
-              ),
-            ),
-          ),
-        ),
-        'misc' => 
-        array (
-          'module' => 
-          array (
-            'singcere_wechat' => 'singcere_wechat/singcere_wechat',
-          ),
-          'adminid' => 
-          array (
-            'singcere_wechat' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'misc_activity' => 
-            array (
-              0 => 
-              array (
-                0 => 'singcere_wechat',
-                1 => 'misc_activity_message',
               ),
             ),
           ),
@@ -6375,6 +5432,303 @@ j/n/Y',
           ),
         ),
       ),
+      'member' => 
+      array (
+        'logging' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'messagefuncs' => 
+          array (
+            'logging_report' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'logging_report_message',
+              ),
+            ),
+          ),
+        ),
+        'register' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'messagefuncs' => 
+          array (
+            'register_report' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'register_report_message',
+              ),
+            ),
+          ),
+        ),
+        'connect' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'messagefuncs' => 
+          array (
+            'connect_report' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'connect_report_message',
+              ),
+            ),
+          ),
+        ),
+        'common' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'common' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'common',
+              ),
+            ),
+          ),
+        ),
+        'global' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'global_footer' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'global_footer',
+              ),
+            ),
+            'global_footerlink' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'global_footerlink',
+              ),
+            ),
+          ),
+        ),
+        'deletepost' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletepost' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletepost',
+              ),
+            ),
+          ),
+        ),
+        'deletethread' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletethread' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletethread',
+              ),
+            ),
+          ),
+        ),
+        'savebanlog' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'savebanlog' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'savebanlog',
+              ),
+            ),
+          ),
+        ),
+        'undeletethreads' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'undeletethreads' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'undeletethreads',
+              ),
+            ),
+          ),
+        ),
+        'recyclebinpostundelete' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'recyclebinpostundelete' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'recyclebinpostundelete',
+              ),
+            ),
+          ),
+        ),
+        'deletemember' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletemember' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletemember',
+              ),
+            ),
+          ),
+        ),
+        'secLog' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'secLog' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'secLog',
+              ),
+            ),
+          ),
+        ),
+        'getMergeAction' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'getMergeAction' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'getMergeAction',
+              ),
+            ),
+          ),
+        ),
+      ),
     ),
     'threadplugins' => 
     array (
@@ -6386,12 +5740,66 @@ j/n/Y',
     array (
       2 => 
       array (
-        'navname' => '论坛',
+        'navname' => '淘创网',
         'filename' => 'forum.php',
         'available' => '1',
         'navid' => 'mn_forum',
         'level' => '0',
-        'nav' => 'id="mn_forum" ><a href="forum.php" hidefocus="true" title="BBS"  >论坛<span>BBS</span></a',
+        'nav' => 'id="mn_forum" ><a href="forum.php" hidefocus="true" title="BBS"  >淘创网<span>BBS</span></a',
+      ),
+      150 => 
+      array (
+        'navname' => '开通VIP说明',
+        'filename' => 'forum.php?mod=viewthread&tid=1&extra=page%3D1',
+        'available' => '1',
+        'navid' => 'mn_Nc675',
+        'level' => '0',
+        'nav' => 'id="mn_Nc675" ><a href="forum.php?mod=viewthread&tid=1&extra=page%3D1" hidefocus="true"  >开通VIP说明</a',
+      ),
+      151 => 
+      array (
+        'navname' => '购买VIP',
+        'filename' => 'home.php?mod=spacecp&ac=usergroup',
+        'available' => '1',
+        'navid' => 'mn_Ne2dc',
+        'level' => '0',
+        'nav' => 'id="mn_Ne2dc" ><a href="home.php?mod=spacecp&ac=usergroup" hidefocus="true"   style="color: yellow">购买VIP</a',
+      ),
+      152 => 
+      array (
+        'navname' => '数据包下载',
+        'filename' => 'forum.php?mod=forumdisplay&fid=151',
+        'available' => '1',
+        'navid' => 'mn_Nc30e',
+        'level' => '0',
+        'nav' => 'id="mn_Nc30e" ><a href="forum.php?mod=forumdisplay&fid=151" hidefocus="true"  >数据包下载</a',
+      ),
+      153 => 
+      array (
+        'navname' => '淘宝开店必看',
+        'filename' => 'forum.php?mod=viewthread&tid=7',
+        'available' => '1',
+        'navid' => 'mn_Na5dc',
+        'level' => '0',
+        'nav' => 'id="mn_Na5dc" ><a href="forum.php?mod=viewthread&tid=7" hidefocus="true"   style="color: yellow">淘宝开店必看</a',
+      ),
+      154 => 
+      array (
+        'navname' => '自动发货软件',
+        'filename' => 'forum.php?mod=viewthread&tid=8',
+        'available' => '1',
+        'navid' => 'mn_N3b76',
+        'level' => '0',
+        'nav' => 'id="mn_N3b76" ><a href="forum.php?mod=viewthread&tid=8" hidefocus="true"  >自动发货软件</a',
+      ),
+      155 => 
+      array (
+        'navname' => '最新更新',
+        'filename' => 'plugin.php?id=kx_new100',
+        'available' => '1',
+        'navid' => 'mn_Nb782',
+        'level' => '0',
+        'nav' => 'id="mn_Nb782" ><a href="plugin.php?id=kx_new100" hidefocus="true" target="_blank"   style="color: orange">最新更新</a',
       ),
       5 => 
       array (
@@ -6425,6 +5833,69 @@ j/n/Y',
     'menunavs' => '<div class="p_pop h_pop" id="mn_userapp_menu" style="display: none"></div>',
     'navmns' => 
     array (
+      'forum.php' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'mod' => 'viewthread',
+            'tid' => '1',
+            'extra' => 'page=1',
+          ),
+          1 => 'mn_Nc675',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'mod' => 'forumdisplay',
+            'fid' => '151',
+          ),
+          1 => 'mn_Nc30e',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'mod' => 'viewthread',
+            'tid' => '7',
+          ),
+          1 => 'mn_Na5dc',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'mod' => 'viewthread',
+            'tid' => '8',
+          ),
+          1 => 'mn_N3b76',
+        ),
+      ),
+      'home.php' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'mod' => 'spacecp',
+            'ac' => 'usergroup',
+          ),
+          1 => 'mn_Ne2dc',
+        ),
+      ),
+      'plugin.php' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'id' => 'kx_new100',
+          ),
+          1 => 'mn_Nb782',
+        ),
+      ),
       'misc.php' => 
       array (
         0 => 
@@ -6448,15 +5919,6 @@ j/n/Y',
     'navlogos' => NULL,
     'footernavs' => 
     array (
-      'stat' => 
-      array (
-        'available' => '1',
-        'navname' => '站点统计',
-        'code' => '<a href="misc.php?mod=stat" >站点统计</a>',
-        'type' => '0',
-        'level' => '0',
-        'id' => 'stat',
-      ),
       'report' => 
       array (
         'available' => '1',
@@ -6465,24 +5927,6 @@ j/n/Y',
         'type' => '0',
         'level' => '0',
         'id' => 'report',
-      ),
-      'archiver' => 
-      array (
-        'available' => '1',
-        'navname' => 'Archiver',
-        'code' => '<a href="archiver/" >Archiver</a>',
-        'type' => '0',
-        'level' => '0',
-        'id' => 'archiver',
-      ),
-      'mobile' => 
-      array (
-        'available' => '1',
-        'navname' => '手机版',
-        'code' => '<a href="forum.php?mobile=yes" >手机版</a>',
-        'type' => '0',
-        'level' => '0',
-        'id' => 'mobile',
       ),
       'darkroom' => 
       array (
@@ -6493,24 +5937,51 @@ j/n/Y',
         'level' => '0',
         'id' => 'darkroom',
       ),
+      'mobile' => 
+      array (
+        'available' => '1',
+        'navname' => '手机版',
+        'code' => '<a href="forum.php?mobile=yes" >手机版</a>',
+        'type' => '0',
+        'level' => '0',
+        'id' => 'mobile',
+      ),
+      'archiver' => 
+      array (
+        'available' => '1',
+        'navname' => 'Archiver',
+        'code' => '<a href="archiver/" >Archiver</a>',
+        'type' => '0',
+        'level' => '0',
+        'id' => 'archiver',
+      ),
+      'stat' => 
+      array (
+        'available' => '0',
+        'navname' => '站点统计',
+        'code' => '<a href="misc.php?mod=stat" >站点统计</a>',
+        'type' => '0',
+        'level' => '0',
+        'id' => 'stat',
+      ),
     ),
     'spacenavs' => 
     array (
-      126 => 
+      326 => 
       array (
         'available' => '1',
         'navname' => '{userpanelarea1}',
         'code' => 'userpanelarea1',
         'level' => '0',
       ),
-      127 => 
+      327 => 
       array (
         'available' => '1',
         'navname' => '{hr}',
         'code' => '</ul><hr class="da" /><ul>',
         'level' => '0',
       ),
-      128 => 
+      328 => 
       array (
         'available' => '1',
         'navname' => '{userpanelarea2}',
@@ -6567,15 +6038,6 @@ j/n/Y',
     array (
       0 => 
       array (
-        149 => 
-        array (
-          'available' => '1',
-          'navname' => '最新100主题',
-          'code' => '<a href="plugin.php?id=kx_new100" >最新100主题</a>',
-          'type' => '3',
-          'level' => '0',
-          'id' => 'kx_new100',
-        ),
         'sethomepage' => 
         array (
           'available' => '1',
@@ -6589,11 +6051,21 @@ j/n/Y',
         array (
           'available' => '1',
           'navname' => '收藏本站',
-          'code' => '<a href="http://www.taochuangweb.com/"  onclick="addFavorite(this.href, \'Discuz! Board\');return false;">收藏本站</a>',
+          'code' => '<a href="http://www.taochuangweb.com/"  onclick="addFavorite(this.href, \'淘创网\');return false;">收藏本站</a>',
           'type' => '0',
           'level' => '0',
           'id' => 'setfavorite',
         ),
+        149 => 
+        array (
+          'available' => '0',
+          'navname' => '最新100主题',
+          'code' => '<a href="plugin.php?id=kx_new100" >最新100主题</a>',
+          'type' => '3',
+          'level' => '0',
+          'id' => 'kx_new100',
+        ),
+        'code' => '',
       ),
     ),
     'profilenode' => 
@@ -6602,19 +6074,19 @@ j/n/Y',
       array (
         0 => 
         array (
-          'left' => '{Fff33e3g}
-{ynAfVbp1}
-{RaQsNVmc}
-{ByVv4FQF}
-{Y4BOR9Qm}
-{W4uif4Pf}
+          'left' => '{GH44HzD4}
+{WvpdPMdS}
+{De9uwO69}
+{pSygilYG}
+{GYmxPEgF}
+{wQUyy6Q7}
 <dl class="pil cl">
-	<dt>{viehqVxP}</dt><dd>{NFaL0cwO}</dd>
+	<dt>{V66SXe44}</dt><dd>{MITMS4Sp}</dd>
 </dl>
-{CTbBtbvC}
-<dl class="pil cl">{JuRoIV03}</dl>',
+{TEAd82tN}
+<dl class="pil cl">{K0zzYR44}</dl>',
           'top' => '<dl class="cl">
-<dt>{LQ1GdRn3}</dt><dd>{j2eE8tVP}</dd>
+<dt>{kmPYIZm2}</dt><dd>{YYgVJbHp}</dd>
 </dl>',
         ),
       ),
@@ -6624,70 +6096,70 @@ j/n/Y',
         array (
           'left' => 
           array (
-            '{Fff33e3g}' => 
+            '{GH44HzD4}' => 
             array (
               0 => 'numbercard',
               1 => '',
               2 => '',
               3 => '',
             ),
-            '{ynAfVbp1}' => 
+            '{WvpdPMdS}' => 
             array (
               0 => 'groupicon',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{RaQsNVmc}' => 
+            '{De9uwO69}' => 
             array (
               0 => 'authortitle',
               1 => '<p><em>',
               2 => '</em></p>',
               3 => '',
             ),
-            '{ByVv4FQF}' => 
+            '{pSygilYG}' => 
             array (
               0 => 'customstatus',
               1 => '<p class="xg1">',
               2 => '</p>',
               3 => '',
             ),
-            '{Y4BOR9Qm}' => 
+            '{GYmxPEgF}' => 
             array (
               0 => 'star',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{W4uif4Pf}' => 
+            '{wQUyy6Q7}' => 
             array (
               0 => 'upgradeprogress',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{viehqVxP}' => 
+            '{V66SXe44}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{NFaL0cwO}' => 
+            '{MITMS4Sp}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,0',
             ),
-            '{CTbBtbvC}' => 
+            '{TEAd82tN}' => 
             array (
               0 => 'medal',
               1 => '<p class="md_ctrl">',
               2 => '</p>',
               3 => '',
             ),
-            '{JuRoIV03}' => 
+            '{K0zzYR44}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -6697,14 +6169,14 @@ j/n/Y',
           ),
           'top' => 
           array (
-            '{LQ1GdRn3}' => 
+            '{kmPYIZm2}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{j2eE8tVP}' => 
+            '{YYgVJbHp}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -6729,10 +6201,10 @@ j/n/Y',
     'csspath' => 'data/cache/style_',
     'reginput' => 
     array (
-      'username' => 'M7oBG4',
-      'password' => 'hPy2IQ',
-      'password2' => 'm4b7h3',
-      'email' => 'u5prpT',
+      'username' => 'ir7KbG',
+      'password' => 'Y6H783',
+      'password2' => 'rQtlRq',
+      'email' => 'r2KS4Q',
     ),
     'output' => 
     array (
@@ -6741,6 +6213,30 @@ j/n/Y',
       ),
       'preg' => 
       array (
+        'search' => 
+        array (
+          'portal_topic' => '/<a href\\="()portal.php\\?mod\\=topic&(amp;)?topic\\=([^#]+?)?"([^\\>]*)\\>/',
+          'portal_article' => '/<a href\\="()portal.php\\?mod\\=view&(amp;)?aid\\=(\\d+)(&amp;page\\=(\\d+))?"([^\\>]*)\\>/',
+          'forum_forumdisplay' => '/<a href\\="()forum.php\\?mod\\=forumdisplay&(amp;)?fid\\=(\\w+)(&amp;page\\=(\\d+))?"([^\\>]*)\\>/',
+          'forum_viewthread' => '/<a href\\="()forum.php\\?mod\\=viewthread&(amp;)?tid\\=(\\d+)(&amp;extra\\=(page\\%3D(\\d+))?)?(&amp;page\\=(\\d+))?"([^\\>]*)\\>/',
+          'group_group' => '/<a href\\="()forum.php\\?mod\\=group&(amp;)?fid\\=(\\d+)(&amp;page\\=(\\d+))?"([^\\>]*)\\>/',
+          'home_space' => '/<a href\\="()home.php\\?mod=space&(amp;)?(uid\\=(\\d+)|username\\=([^&]+?))"([^\\>]*)\\>/',
+          'home_blog' => '/<a href\\="()home.php\\?mod=space&(amp;)?uid\\=(\\d+)&(amp;)?do=blog&(amp;)?id=(\\d+)"([^\\>]*)\\>/',
+          'forum_archiver' => '/<a href\\="\\?(fid|tid)\\-(\\d+)\\.html(&page\\=(\\d+))?"([^\\>]*)\\>/',
+          'plugin' => '/<a href\\="plugin\\.php\\?id=([a-z]+[a-z0-9_]*):([a-z0-9_\\-]+)(&amp;|&)?(.*?)?"([^\\>]*)\\>/',
+        ),
+        'replace' => 
+        array (
+          'portal_topic' => 'rewriteoutput(\'portal_topic\', 0, $matches[1], $matches[3], $matches[4])',
+          'portal_article' => 'rewriteoutput(\'portal_article\', 0, $matches[1], $matches[3], $matches[5], $matches[6])',
+          'forum_forumdisplay' => 'rewriteoutput(\'forum_forumdisplay\', 0, $matches[1], $matches[3], $matches[5], $matches[6])',
+          'forum_viewthread' => 'rewriteoutput(\'forum_viewthread\', 0, $matches[1], $matches[3], $matches[8], $matches[6], $matches[9])',
+          'group_group' => 'rewriteoutput(\'group_group\', 0, $matches[1], $matches[3], $matches[5], $matches[6])',
+          'home_space' => 'rewriteoutput(\'home_space\', 0, $matches[1], $matches[4], $matches[5], $matches[6])',
+          'home_blog' => 'rewriteoutput(\'home_blog\', 0, $matches[1], $matches[3], $matches[6], $matches[7])',
+          'forum_archiver' => 'rewriteoutput(\'forum_archiver\', 0, $matches[1], $matches[2], $matches[4], $matches[5])',
+          'plugin' => 'rewriteoutput(\'plugin\', 0, $matches[1], $matches[2], $matches[3], $matches[4], $matches[5])',
+        ),
       ),
     ),
   ),

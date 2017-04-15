@@ -17,7 +17,7 @@
 					<span class="y xw1"><a href="group.php?mod=my">{lang my_group} &rsaquo;</a></span>
 					<h2>{lang group_focus}</h2>
 				</div>
-				<!--[diy=diy5]--><div id="diy5" class="area"><div id="framef3EILh" class="frame move-span cl frame-1-1"><div id="framef3EILh_left" class="column frame-1-1-l"><div id="framef3EILh_left_temp" class="move-span temp"></div><!--{block/1}--></div><div id="framef3EILh_center" class="column frame-1-1-r"><div id="framef3EILh_center_temp" class="move-span temp"></div><!--{block/2}--></div></div></div><!--[/diy]-->
+				<!--[diy=diy5]--><div id="diy5" class="area"><div id="frameLnGR8C" class="frame move-span cl frame-1-1"><div id="frameLnGR8C_left" class="column frame-1-1-l"><div id="frameLnGR8C_left_temp" class="move-span temp"></div><!--{block/1}--></div><div id="frameLnGR8C_center" class="column frame-1-1-r"><div id="frameLnGR8C_center_temp" class="move-span temp"></div><!--{block/2}--></div></div></div><!--[/diy]-->
 			</div>
 			<!--[diy=diycommendtop]--><div id="diycommendtop" class="area"></div><!--[/diy]-->
 			<!--{hook/index_header}-->

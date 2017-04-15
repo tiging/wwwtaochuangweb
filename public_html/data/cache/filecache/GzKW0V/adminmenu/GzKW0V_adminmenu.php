@@ -21,33 +21,39 @@ $data = array (
     ),
     3 => 
     array (
-      'url' => 'plugins&operation=config&do=19',
-      'action' => 'plugins_config_19',
-      'name' => 'S！微信登录',
+      'url' => 'plugins&operation=config&do=31',
+      'action' => 'plugins_config_31',
+      'name' => 'it618首页焦点仿得意网',
     ),
     4 => 
     array (
-      'url' => 'plugins&operation=config&do=16',
-      'action' => 'plugins_config_16',
-      'name' => 'it618首页焦点仿得意网',
+      'url' => 'plugins&operation=config&do=30',
+      'action' => 'plugins_config_30',
+      'name' => '【亮剑】虚拟人气',
     ),
     5 => 
     array (
-      'url' => 'plugins&operation=config&do=12',
-      'action' => 'plugins_config_12',
-      'name' => '二级导航广告位',
+      'url' => 'plugins&operation=config&do=24',
+      'action' => 'plugins_config_24',
+      'name' => '楼主热帖_清爽风格',
     ),
     6 => 
     array (
-      'url' => 'plugins&operation=config&do=11',
-      'action' => 'plugins_config_11',
-      'name' => '最新100主题',
+      'url' => 'plugins&operation=config&do=17',
+      'action' => 'plugins_config_17',
+      'name' => '用户组购买加强版',
     ),
     7 => 
     array (
+      'url' => 'plugins&operation=config&do=15',
+      'action' => 'plugins_config_15',
+      'name' => '最新100主题',
+    ),
+    8 => 
+    array (
       'url' => 'plugins&operation=config&do=10',
       'action' => 'plugins_config_10',
-      'name' => '用户组购买加强版',
+      'name' => '二级导航广告位',
     ),
   ),
 );

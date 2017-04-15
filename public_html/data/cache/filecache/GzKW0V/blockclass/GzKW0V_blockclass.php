@@ -1058,6 +1058,12 @@ $data = array (
               'formtype' => 'text',
               'datatype' => 'int',
             ),
+            'extcredits4' => 
+            array (
+              'name' => '淘创币',
+              'formtype' => 'text',
+              'datatype' => 'int',
+            ),
             'realname' => 
             array (
               'name' => '真实姓名',

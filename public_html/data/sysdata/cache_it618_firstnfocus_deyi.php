@@ -1,6 +1,6 @@
 <?php
 //Discuz! cache file, DO NOT modify me!
-//Identify: 28dcfe64a46497c3d438de6b2113f749
+//Identify: 32951acf92b091505cdeea95aecc5334
 
 $contents=array (
   0 => '
@@ -29,10 +29,10 @@ $contents=array (
 	COLOR: #f25d08
 }
 #focus_right P {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(source/plugin/it618_firstnfocus_deyi/css/pic/s.png) no-repeat 0px -300px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 88px
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(source/plugin/it618_firstnfocus_deyi/css/pic/s1.png) no-repeat 0px -300px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 88px
 }
 #focus_right P A {
-	DISPLAY: inline-block; FONT-SIZE: 14px; FLOAT: left; MARGIN: 7px; WIDTH: 66px; COLOR:#000; HEIGHT: 30px; TEXT-ALIGN: left; TEXT-DECORATION: none; padding-left:29px; line-height:28px
+	DISPLAY: inline-block; FONT-SIZE: 13px; FLOAT: left; WIDTH: 97px; COLOR:#FFF; HEIGHT: 30px; TEXT-ALIGN:center; TEXT-DECORATION: none; line-height:30px; margin-top:9px; margin-left:9px; font-weight:bold
 }#play {height:328px}
 #play UL {
 	Z-INDEX: 100; MARGIN: 271px 0px 0px 10px; POSITION: absolute
@@ -50,7 +50,7 @@ $contents=array (
   <LI class=cl_active>3 </LI>
   <LI>4 </LI>
   <LI>5 </LI></UL>
-  
+  <a href="thread-30-1-1.html" title="一道易学风水研究院" target="_blank"><img src="data/attachment/block/83/83d01b97bb8fe7dc411dbefedde56bd4.jpg" width="301" height="329" alt="一道易学风水研究院" /><SPAN>一道易学风水研究院</SPAN></a><a href="thread-29-1-1.html" title="梦想教程店" target="_blank"><img src="data/attachment/block/6f/6f94b7b16ada60a7dab182b423ee4658.jpg" width="301" height="329" alt="梦想教程店" /><SPAN>梦想教程店</SPAN></a><a href="thread-28-1-1.html" title="24号唯美森林萤火虫滤色高光梦幻特效溶图高清PS背景平面设计素材" target="_blank"><img src="data/attachment/block/f9/f9c88d3fe3a66b8f67f15e2037e117eb.jpg" width="301" height="329" alt="24号唯美森林萤火虫滤色高光梦幻特效溶图高清PS背景平面设计素材" /><SPAN>24号唯美森林萤火虫滤色高光梦幻特效溶图高清PS背景平面设计素材</SPAN></a><a href="thread-27-1-1.html" title="36号实用全屏蓝天白云朝晚霞天空云彩合成照片海报后期PS设计素材" target="_blank"><img src="data/attachment/forum/201704/16/000708cjoganguu5gjb5oa.png" width="301" height="329" alt="36号实用全屏蓝天白云朝晚霞天空云彩合成照片海报后期PS设计素材" /><SPAN>36号实用全屏蓝天白云朝晚霞天空云彩合成照片海报后期PS设计素材</SPAN></a><a href="thread-26-1-1.html" title="25号烟花爱心翅膀焰火婚纱写真夜景外拍合成滤光PS后期设计素材" target="_blank"><img src="data/attachment/forum/201704/15/235904gor4v3zivvxtzt7i.png" width="301" height="329" alt="25号烟花爱心翅膀焰火婚纱写真夜景外拍合成滤光PS后期设计素材" /><SPAN>25号烟花爱心翅膀焰火婚纱写真夜景外拍合成滤光PS后期设计素材</SPAN></a>
 </DIV>
 <SCRIPT type=text/javascript>Mo("#play a").hide();Mo( Mo("#play a").item(0) ).show();</SCRIPT>
 
@@ -59,55 +59,78 @@ $contents=array (
   <LI><A href="#" target=_blank>本周热门</A> </LI>
   <LI id=id_center><A href="#" target=_blank>本月热门</A> </LI>
   <LI><A href="#" target=_blank>最新主题</A> </LI></OL>
-<UL style="DISPLAY: none"></UL>
-<UL style="DISPLAY: none"></UL>
-<UL></UL></DIV></DIV>
+<UL style="DISPLAY: none"><li><SPAN>1</SPAN><a href="thread-9-1-1.html" title="书架上的奇妙世界 第一季动画全46集" target="_blank">书架上的奇妙世界 第一季动画全46集</a></li><li><SPAN>2</SPAN><a href="thread-12-1-1.html" title="【视频下载】十九期内训第12课：4月11日晚：2017直通车三天上十分操作技巧" target="_blank">【视频下载】十九期内训第12课：4月11日晚：2017直通车三天上十分操作技巧</a></li><li><SPAN>3</SPAN><a href="thread-11-1-1.html" title="幕思城电商，4月6 文文 标题组合与选题技巧_幕思城" target="_blank">幕思城电商，4月6 文文 标题组合与选题技巧_幕思城</a></li><li><SPAN>4</SPAN><a href="thread-28-1-1.html" title="24号唯美森林萤火虫滤色高光梦幻特效溶图高清PS背景平面设计素材" target="_blank">24号唯美森林萤火虫滤色高光梦幻特效溶图高清PS背景平面设计素材</a></li><li><SPAN>5</SPAN><a href="thread-18-1-1.html" title="多家淘宝店铺销售PPTWORD等素材" target="_blank">多家淘宝店铺销售PPTWORD等素材</a></li><li><SPAN>6</SPAN><a href="thread-29-1-1.html" title="梦想教程店" target="_blank">梦想教程店</a></li><li><SPAN>7</SPAN><a href="thread-27-1-1.html" title="36号实用全屏蓝天白云朝晚霞天空云彩合成照片海报后期PS设计素材" target="_blank">36号实用全屏蓝天白云朝晚霞天空云彩合成照片海报后期PS设计素材</a></li><li><SPAN>8</SPAN><a href="thread-13-1-1.html" title="【视频下载】十九期内训第11课：如何发现爆款产品，并且快速找到最佳货源？" target="_blank">【视频下载】十九期内训第11课：如何发现爆款产品，并且快速找到最佳货源？</a></li><li><SPAN>9</SPAN><a href="thread-10-1-1.html" title="4.12大鹏:5个月新店做到1000多万的爆款解析" target="_blank">4.12大鹏:5个月新店做到1000多万的爆款解析</a></li><li><SPAN>10</SPAN><a href="thread-15-1-1.html" title="【龚瑶琴】表观遗传修饰与肿瘤" target="_blank">【龚瑶琴】表观遗传修饰与肿瘤</a></li></UL>
+<UL style="DISPLAY: none"><li><SPAN>1</SPAN><a href="thread-1-1-1.html" title="申请论坛开通VIP" target="_blank"><font style="font-weight: 900;color: #EE1B2E;">申请论坛开通VIP</font></a></li><li><SPAN>2</SPAN><a href="thread-7-1-1.html" title="利用本站资源打造一个无人值守24小时赚钱的淘宝网店" target="_blank">利用本站资源打造一个无人值守24小时赚钱的淘宝网店</a></li><li><SPAN>3</SPAN><a href="thread-8-1-1.html" title="自动发货软件" target="_blank">自动发货软件</a></li><li><SPAN>4</SPAN><a href="thread-4-1-1.html" title="淘创网VIP会员核心教程" target="_blank"><font style="font-weight: 900;color: #EC1282;">淘创网VIP会员核心教程</font></a></li><li><SPAN>5</SPAN><a href="thread-9-1-1.html" title="书架上的奇妙世界 第一季动画全46集" target="_blank">书架上的奇妙世界 第一季动画全46集</a></li><li><SPAN>6</SPAN><a href="thread-6-1-1.html" title="2017新手淘宝开店教程视频全套淘宝开店指导怎么开淘宝店铺" target="_blank"><font style="font-weight: 900;color: #EE1B2E;">2017新手淘宝开店教程视频全套淘宝开店指导怎么开淘宝店铺</font></a></li><li><SPAN>7</SPAN><a href="thread-2-1-1.html" title="网盘链接失效修复专栏" target="_blank"><font style="font-weight: 900;color: #2B65B7;">网盘链接失效修复专栏</font></a></li><li><SPAN>8</SPAN><a href="thread-5-1-1.html" title="少部分电商学院视频需要播放器和密码" target="_blank"><font style="font-weight: 900;color: #EE1B2E;">少部分电商学院视频需要播放器和密码</font></a></li><li><SPAN>9</SPAN><a href="thread-3-1-1.html" title="聚！打造爆款宝贝 淘宝网店铺推广人气 销量提升胜直通车优化服务" target="_blank">聚！打造爆款宝贝 淘宝网店铺推广人气 销量提升胜直通车优化服务</a></li><li><SPAN>10</SPAN><a href="thread-12-1-1.html" title="【视频下载】十九期内训第12课：4月11日晚：2017直通车三天上十分操作技巧" target="_blank">【视频下载】十九期内训第12课：4月11日晚：2017直通车三天上十分操作技巧</a></li></UL>
+<UL><li><SPAN>1</SPAN><a href="thread-30-1-1.html" title="一道易学风水研究院" target="_blank">一道易学风水研究院</a></li><li><SPAN>2</SPAN><a href="thread-29-1-1.html" title="梦想教程店" target="_blank">梦想教程店</a></li><li><SPAN>3</SPAN><a href="thread-28-1-1.html" title="24号唯美森林萤火虫滤色高光梦幻特效溶图高清PS背景平面设计素材" target="_blank">24号唯美森林萤火虫滤色高光梦幻特效溶图高清PS背景平面设计素材</a></li><li><SPAN>4</SPAN><a href="thread-27-1-1.html" title="36号实用全屏蓝天白云朝晚霞天空云彩合成照片海报后期PS设计素材" target="_blank">36号实用全屏蓝天白云朝晚霞天空云彩合成照片海报后期PS设计素材</a></li><li><SPAN>5</SPAN><a href="thread-26-1-1.html" title="25号烟花爱心翅膀焰火婚纱写真夜景外拍合成滤光PS后期设计素材" target="_blank">25号烟花爱心翅膀焰火婚纱写真夜景外拍合成滤光PS后期设计素材</a></li><li><SPAN>6</SPAN><a href="thread-25-1-1.html" title="上海交大 医学院 医疗设备维修技术 54讲 视频教程 教学视频" target="_blank">上海交大 医学院 医疗设备维修技术 54讲 视频教程 教学视频</a></li><li><SPAN>7</SPAN><a href="thread-24-1-1.html" title="北京芯盛高级数据恢复系列教程官方售价900元 视频教程 教学视频 百度网盘下载" target="_blank">北京芯盛高级数据恢复系列教程官方售价900元 视频教程 教学视频 百度网盘下载</a></li><li><SPAN>8</SPAN><a href="thread-23-1-1.html" title="【林伟贤】魅力表达" target="_blank">【林伟贤】魅力表达</a></li><li><SPAN>9</SPAN><a href="thread-22-1-1.html" title="【刘必荣】策略性商务谈判中的谋略运用" target="_blank">【刘必荣】策略性商务谈判中的谋略运用</a></li><li><SPAN>10</SPAN><a href="thread-21-1-1.html" title="【谭晓珊】商务谈判的共赢之道" target="_blank">【谭晓珊】商务谈判的共赢之道</a></li></UL></DIV></DIV>
 <DIV id=focus_center>
 <DL>
-  <DT><SPAN><IFRAME marginWidth=0 marginHeight=0  src="http://m.weather.com.cn/m/pn4/weather.htm" frameBorder=0  width=160 scrolling=no height=20 allowTransparency></IFRAME></SPAN><STRONG>今日焦点</STRONG> 
+  <DT><SPAN></SPAN><STRONG>今日焦点</STRONG> 
   <DD>
-  
+  <H3><a href="thread-30-1-1.html" title="一道易学风水研究院" target="_blank">一道易学风水研究院</a></H3>
+  <P>
+一道易学风水研究院 
+信誉：4钻
+专业做风水培训教程，单品利润高，宝贝不在多，在于做精致
+
+
+
+
+**** 本内容被作者隐藏
+  <a href="thread-30-1-1.html" title="一道易学风水研究院" target="_blank">[+更多]</a></P><H3><a href="thread-29-1-1.html" title="梦想教程店" target="_blank">梦想教程店</a></H3>
+  <P>
+梦想教程店
+时间：16年1月19日
+信誉：双钻
+卖教程利润客观，需求也很大
+
+
+
+
+**** 本内容被作者隐藏 ****
+  <a href="thread-29-1-1.html" title="梦想教程店" target="_blank">[+更多]</a></P>
   <DIV class=cl_line></DIV>
-  <UL></UL>
+  <UL><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-30-1-1.html" title="一道易学风水研究院" target="_blank">一道易学风水研究院</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-29-1-1.html" title="梦想教程店" target="_blank">梦想教程店</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-28-1-1.html" title="24号唯美森林萤火虫滤色高光梦幻特效溶图高清PS背景平面设计素材" target="_blank">24号唯美森林萤火虫滤色高光梦幻特效溶</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-27-1-1.html" title="36号实用全屏蓝天白云朝晚霞天空云彩合成照片海报后期PS设计素材" target="_blank">36号实用全屏蓝天白云朝晚霞天空云彩合</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-26-1-1.html" title="25号烟花爱心翅膀焰火婚纱写真夜景外拍合成滤光PS后期设计素材" target="_blank">25号烟花爱心翅膀焰火婚纱写真夜景外拍</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-25-1-1.html" title="上海交大 医学院 医疗设备维修技术 54讲 视频教程 教学视频" target="_blank">上海交大 医学院 医疗设备维修技术 54</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-24-1-1.html" title="北京芯盛高级数据恢复系列教程官方售价900元 视频教程 教学视频 百度网盘下载" target="_blank">北京芯盛高级数据恢复系列教程官方售价</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-23-1-1.html" title="【林伟贤】魅力表达" target="_blank">【林伟贤】魅力表达</a></li></UL>
   <DIV class=cl_line></DIV>
-  <UL></UL></DD></DL></DIV>
+  <UL><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-30-1-1.html" title="一道易学风水研究院" target="_blank">一道易学风水研究院</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-29-1-1.html" title="梦想教程店" target="_blank">梦想教程店</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-28-1-1.html" title="24号唯美森林萤火虫滤色高光梦幻特效溶图高清PS背景平面设计素材" target="_blank">24号唯美森林萤火虫滤色高光梦幻特效溶</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-27-1-1.html" title="36号实用全屏蓝天白云朝晚霞天空云彩合成照片海报后期PS设计素材" target="_blank">36号实用全屏蓝天白云朝晚霞天空云彩合</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-26-1-1.html" title="25号烟花爱心翅膀焰火婚纱写真夜景外拍合成滤光PS后期设计素材" target="_blank">25号烟花爱心翅膀焰火婚纱写真夜景外拍</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-25-1-1.html" title="上海交大 医学院 医疗设备维修技术 54讲 视频教程 教学视频" target="_blank">上海交大 医学院 医疗设备维修技术 54</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-24-1-1.html" title="北京芯盛高级数据恢复系列教程官方售价900元 视频教程 教学视频 百度网盘下载" target="_blank">北京芯盛高级数据恢复系列教程官方售价</a></li><li><SPAN><a href="/space-uid-1.html" target="_blank">admin</a></SPAN>　<a href="thread-23-1-1.html" title="【林伟贤】魅力表达" target="_blank">【林伟贤】魅力表达</a></li></UL></DD></DL></DIV>
 <DIV id=focus_right>
-<P><A class=cl_phone href="#" 
-target=_blank>12345678</A> <A href="http://weibo.com/520deyi" 
-target=_blank>新浪微博</A> <A href="http://wpa.qq.com/msgrd?V=1&amp;Uin=277027888" 
-target=_blank>客服QQ</A></P>
+<P><A href="member.php?mod=register" 
+target=_blank>我要注册</A> <A href="forum.php?mod=viewthread&tid=7" 
+target=_blank>自动赚钱</A> <A href="home.php?mod=spacecp&ac=usergroup" 
+target=_blank>加入会员</A> <A href="home.php?mod=spacecp&ac=credit&op=buy" 
+target=_blank>获得淘创币</A></P>
 <DL>
   <DD id=bind_star>
   <UL class=cl_option>
     <LI><STRONG><A class=cl_yellow 
-    href="#" 
-    target=_blank>栏目名称1</A></STRONG> </LI>
+    href="forum.php?mod=forumdisplay&fid=149" 
+    target=_blank>开店实例</A></STRONG> </LI>
     <LI><STRONG><A class=cl_yellow 
-    href="#" 
-    target=_blank>栏目名称2</A></STRONG> </LI></UL>
-  <DIV class=ppMagezine rel="box"><A  href="#" target=_blank><IMG alt="【微生活】第3期  #武汉最牛淘宝店#"   src="source/plugin/it618_firstnfocus_deyi/tmpimages/ad1.jpg" ></A></DIV>
-  <div rel="box" class="ppMagezine" style="display:none"><a href="#" target="_blank"><img src="source/plugin/it618_firstnfocus_deyi/tmpimages/ad1-1.jpg" width="200" height="120" alt="微生活第7期【漫游香港】" /></a></div>
+    href="forum.php?gid=1" 
+    target=_blank>虚拟货源</A></STRONG> </LI></UL>
+  <DIV class=ppMagezine rel="box"><A  href="#" target=_blank><IMG alt="开店实例"   src="source/plugin/it618_firstnfocus_deyi/tmpimages/ad1.jpg" ></A>
+</DIV>
+  <div rel="box" class="ppMagezine" style="display:none"><a href="#" target="_blank"><img src="source/plugin/it618_firstnfocus_deyi/tmpimages/ad1-1.jpg" width="200" height="120" alt="虚拟货源" /></a></div>
   </DD>
   <DD id=bind_naver>
   <UL class=cl_option>
     <LI><STRONG><A class=cl_yellow 
-    href="#" target=_blank 
-    rel=nofollow>栏目名称3</A></STRONG> </LI>
+    href="forum.php?gid=48" target=_blank 
+    rel=nofollow>淘宝培训</A></STRONG> </LI>
     <LI><STRONG><A class=cl_yellow 
-    href="#" target=_blank 
-    rel=nofollow>栏目名称4</A></STRONG> </LI></UL>
-  <DIV class=ppInfo rel="box"><A title=淘宝特卖 href="#" target=_blank  rel=nofollow>淘宝网</A> <A title=淘宝商城   href="#" target=_blank  rel=nofollow>天猫商城</A> <A title=品质团购 href="#"  target=_blank  rel=nofollow>聚划算</A></DIV>
-  <div rel="box" class="ppInfo" style="display:none"><A title=淘宝特卖1 href="#" target=_blank  rel=nofollow>淘宝网1</A> <A title=淘宝商城1   href="#" target=_blank  rel=nofollow>天猫商城1</A> <A title=品质团购1 href="#"  target=_blank  rel=nofollow>聚划算1</A>  </DIV>
+    href="forum.php?gid=49" target=_blank 
+    rel=nofollow>淘商学院</A></STRONG> </LI></UL>
+  <DIV class=ppInfo rel="box"><a title="幕思城" href="forum.php?mod=forumdisplay&fid=60" target="_blank" rel="nofollow">幕思城</a> <a title="诺思星" href="forum.php?mod=forumdisplay&fid=52" target="_blank" rel="nofollow">诺思星</a> <a title="一洋淘宝" href="forum.php?mod=forumdisplay&fid=54" target="_blank" rel="nofollow">一洋淘宝</a><a title="易语" href="forum.php?mod=forumdisplay&fid=59" target="_blank" rel="nofollow">易语</a><a title="睿立" href="forum.php?mod=forumdisplay&fid=71" target="_blank" rel="nofollow">睿立</a><a title="淘桃" href="forum.php?mod=forumdisplay&fid=58" target="_blank" rel="nofollow">淘桃</a><a title="书慧" href="forum.php?mod=forumdisplay&fid=56" target="_blank" rel="nofollow">书慧</a><a title="迅途" href="forum.php?mod=forumdisplay&fid=53" target="_blank" rel="nofollow">迅途</a><a title="新车道" href="forum.php?mod=forumdisplay&fid=57" target="_blank" rel="nofollow">新车道</a><a title="老A" href="forum.php?mod=forumdisplay&fid=55" target="_blank" rel="nofollow">老A</a><a title="木叶火" href="forum.php?mod=forumdisplay&fid=70" target="_blank" rel="nofollow">木叶火</a><a title="UT优梯" href="forum.php?mod=forumdisplay&fid=66" target="_blank" rel="nofollow">UT优梯</a><a title="狐妖" href="forum.php?mod=forumdisplay&fid=65" target="_blank" rel="nofollow">狐妖</a><a title="墨子直通车" href="forum.php?mod=forumdisplay&fid=72" target="_blank" rel="nofollow">墨子直通车</a><a title="老关直通车" href="forum.php?mod=forumdisplay&fid=73" target="_blank" rel="nofollow">老关直通车</a> <a title="富网店" href="forum.php?mod=forumdisplay&fid=68" target="_blank" rel="nofollow">富网店</a></DIV>
+  <div rel="box" class="ppInfo" style="display:none"><a title="荷塘月色/TB58" href="forum.php?mod=forumdisplay&fid=42" target="_blank" rel="nofollow">荷塘月色/TB58</a> <a title="逐鹿" href="forum.php?mod=forumdisplay&fid=93" target="_blank" rel="nofollow">逐鹿</a> <a title="看店宝" href="forum.php?mod=forumdisplay&fid=94" target="_blank" rel="nofollow">看店宝</a><a title="欧风" href="forum.php?mod=forumdisplay&fid=136" target="_blank" rel="nofollow">欧风</a><a title="智多星" href="forum.php?mod=forumdisplay&fid=96" target="_blank" rel="nofollow">智多星</a><a title="冰美人" href="forum.php?mod=forumdisplay&fid=101" target="_blank" rel="nofollow">冰美人</a><a title="蚂蚁推门" href="forum.php?mod=forumdisplay&fid=104" target="_blank" rel="nofollow">蚂蚁推门</a><a title="新农人" href="forum.php?mod=forumdisplay&fid=105" target="_blank" rel="nofollow">新农人</a><a title="火牛" href="forum.php?mod=forumdisplay&fid=108" target="_blank" rel="nofollow">火牛</a><a title="凤凰社" href="forum.php?mod=forumdisplay&fid=115" target="_blank" rel="nofollow">凤凰社</a><a title="网淘巨人" href="forum.php?mod=forumdisplay&fid=122" target="_blank" rel="nofollow">网淘巨人</a><a title="叫我XH" href="forum.php?mod=forumdisplay&fid=130" target="_blank" rel="nofollow">叫我XH</a><a title="新电商" href="forum.php?mod=forumdisplay&fid=111" target="_blank" rel="nofollow">新电商</a><a title="薄言" href="forum.php?mod=forumdisplay&fid=128" target="_blank" rel="nofollow">薄言</a><a title="渔舟教室" href="forum.php?mod=forumdisplay&fid=129" target="_blank" rel="nofollow">渔舟教室</a>  </DIV>
   </DD>
   <DD class=cl_split></DD>
   <DT><SPAN class="cl_more cl_more_bwhite"><A 
   href="#" 
-  target=_blank>+更多</A></SPAN> <STRONG class="cl_people cl_people_topic"><em>栏目名称5</em></STRONG> </DT>
+  target=_blank>+更多</A></SPAN> <STRONG class="cl_people cl_people_topic"><em>恋爱学院</em></STRONG> </DT>
   <DD>
   <OL>
-    <LI><A href="#"  target=_blank><IMG  src="source/plugin/it618_firstnfocus_deyi/tmpimages/ad2.jpg" ></A></LI>
-    <LI><A href="#"  target=_blank><IMG  src="source/plugin/it618_firstnfocus_deyi/tmpimages/ad3.jpg" ></A></LI>
-    <LI><A href="#"  target=_blank><IMG  src="source/plugin/it618_firstnfocus_deyi/tmpimages/ad4.jpg" ></A></LI>
+    <LI><A href="#"  target=_blank><IMG  src="source/plugin/it618_firstnfocus_deyi/tmpimages/huliniu.gif" ></A></LI>
+    <LI><A href="#"  target=_blank><IMG  src="source/plugin/it618_firstnfocus_deyi/tmpimages/shouji.gif" ></A></LI>
+    <LI><A href="#"  target=_blank><IMG  src="source/plugin/it618_firstnfocus_deyi/tmpimages/tuibian.gif" ></A></LI>
 	</OL></DD></DL></DIV></DIV>
 			</td>
 			</tr>',

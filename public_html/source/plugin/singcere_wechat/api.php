@@ -58,7 +58,7 @@ new WeChatServer($_G['singcere_wechat']['setting']['wechat_token'], array(
 
 function _validate($timeout, $show, $text = '') {
     global $_G;
-    $hostlimit = array('192.168.0', '127.0.0.1', 'abc.com', 'www.abc.com');
+    $hostlimit = array('192.168.0', '127.0.0.1', 'taochuangweb.com', 'www.taochuangweb.com');
 
     foreach($hostlimit as $host) {
         if(strpos($_SERVER['HTTP_HOST'], $host) !== false) {

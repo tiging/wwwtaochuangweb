@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3.2]]></item>
+	<item id="Time"><![CDATA[2015-07-12 17:16]]></item>
+	<item id="From"><![CDATA[CAOGEN8 (https://52admin.taobao.com/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[S£¡Ï¬Å£ÊÖ»ú°æ]]></item>
+			<item id="identifier"><![CDATA[singcere_xn]]></item>
+			<item id="description"><![CDATA[]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[singcere_xn/]]></item>
+			<item id="copyright"><![CDATA[https://52admin.taobao.com/]]></item>
+			<item id="version"><![CDATA[2.0.2]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[admincp_nav]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[µ¼º½ÉèÖÃ]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[mhook]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[28]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[mhook]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="3">
+					<item id="name"><![CDATA[admincp_block]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[ÍÆËÍÉèÖÃ]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[2]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="4">
+					<item id="name"><![CDATA[admincp_adv]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[ÊÖ»ú°æ¹ã¸æÎ»ÉèÖÃ]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[2]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X3,X3.1,X3.2]]></item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="admincp_navname"><![CDATA[µ¼º½Ãû³Æ]]></item>
+				<item id="admincp_navcolor"><![CDATA[µ¼º½É«]]></item>
+				<item id="admincp_navtype"><![CDATA[ÀàÐÍ]]></item>
+				<item id="admincp_navenable"><![CDATA[¿ÉÓÃ]]></item>
+				<item id="admincp_navfid"><![CDATA[°å¿éID]]></item>
+				<item id="admincp_navforumname"><![CDATA[°å¿éÃû³Æ]]></item>
+				<item id="admincp_nav_new"><![CDATA[Ìí¼ÓÐÂµ¼º½Ïî]]></item>
+				<item id="admincp_nav_home"><![CDATA[Ê×Ò³]]></item>
+				<item id="admincp_nav_forum"><![CDATA[ÉçÇø]]></item>
+				<item id="admincp_nav_main"><![CDATA[Ö÷µ¼º½¹ÜÀí]]></item>
+				<item id="admincp_nav_forum2"><![CDATA[ÉçÇø¶þ¼¶µ¼º½¹ÜÀí <span class="highlight">(class Çë²Î¿¼ http://fontawesome.io/icons/  ¸ñÊ½Îª: fa-Ó¢ÎÄÃû³Æ</span>)]]></item>
+				<item id="admincp_custom"><![CDATA[×Ô¶¨Òå]]></item>
+				<item id="admincp_del"><![CDATA[É¾³ý]]></item>
+				<item id="admincp_builtin"><![CDATA[ÄÚÖÃ]]></item>
+				<item id="admincp_update_success"><![CDATA[¸üÐÂ³É¹¦]]></item>
+				<item id="admincp_block_slide"><![CDATA[[S!]pt163_mobileÊ×Ò³»ÃµÆ]]></item>
+				<item id="admincp_block_hot1"><![CDATA[[S!]pt163_mobileÊ×Ò³ÈÈÍÆ1]]></item>
+				<item id="admincp_block_hot2"><![CDATA[[S!]pt163_mobileÊ×Ò³ÈÈÍÆ2]]></item>
+				<item id="admincp_block_hot3"><![CDATA[[S!]pt163_mobileÊ×Ò³ÈÈÍÆ3]]></item>
+				<item id="admincp_block_dt1"><![CDATA[[S!]pt163_mobileÊ×Ò³¶àÍ¼1]]></item>
+				<item id="admincp_block_dt2"><![CDATA[[S!]pt163_mobileÊ×Ò³¶àÍ¼2]]></item>
+				<item id="admincp_rebuild_block"><![CDATA[ÖØ½¨Êý¾Ýµ÷ÓÃÄ£¿é]]></item>
+				<item id="admincp_rebuild_chk"><![CDATA[¼ì²âÈ·ÈÏ]]></item>
+				<item id="admincp_rebuild_create"><![CDATA[´´½¨Ä£¿é]]></item>
+				<item id="admincp_rebuild_result"><![CDATA[´´½¨½á¹û]]></item>
+				<item id="admincp_rebuild_unfind"><![CDATA[´Ë¹¦ÄÜ½«ÖØ½¨Êý¾ÝÄ£¿é£¡ÇëÔÚS£¡¿Í·þÈËÔ±µÄÖ¸µ¼ÏÂÊ¹ÓÃ´Ë¹¦ÄÜ£¡]]></item>
+				<item id="admincp_rebuild_find"><![CDATA[·¢ÏÖÃûÎª <font class="highlight">{blockname}</font> µÄÊý¾Ýµ÷ÓÃÄ£¿é, ÖØ½¨½«»á¸²¸Ç´Ëµ÷ÓÃÅäÖÃ, ²¢Çå¿Õµ±Ç°Ä£¿éÏÂµÄÍÆËÍÐÅÏ¢]]></item>
+				<item id="block_index_style"><![CDATA[<img src="{pic}" width="{picwidth}" height="{picheight}">ÇëÎðÔÚDIYÖÐÊ¹ÓÃ±¾Ä£°å. ½ösingcere_xn×¨ÓÃ]]></item>
+			</item>
+			<item id="installlang">
+				<item id="home"><![CDATA[Ê×Ò³]]></item>
+				<item id="forum"><![CDATA[ÉçÇø]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="upgradefile"><![CDATA[upgrade.php]]></item>
+	</item>
+</root>
