@@ -1,26 +1,21 @@
 <?php
 $data = array (
-  'exp' => 1492274201,
-  'data' => '<H3><a href="forum.php?mod=viewthread&tid=30" title="一道易学风水研究院" target="_blank">一道易学风水研究院</a></H3>
+  'exp' => 1492440027,
+  'data' => '<H3><a href="forum.php?mod=viewthread&tid=33" title="腾讯云认证全流程" target="_blank">腾讯云认证全流程</a></H3>
   <P>
-一道易学风水研究院 
-信誉：4钻
-专业做风水培训教程，单品利润高，宝贝不在多，在于做精致
+腾讯云认证全流程一共分为两个部分：
+1）完成实名认证（手Q认证）————①.登录腾讯云平台。
 
 
 
 
-**** 本内容被作者隐藏
-  <a href="forum.php?mod=viewthread&tid=30" title="一道易学风水研究院" target="_blank">[+更多]</a></P><H3><a href="forum.php?mod=viewthread&tid=29" title="梦想教程店" target="_blank">梦想教程店</a></H3>
+
+
+————②.进入
+  <a href="forum.php?mod=viewthread&tid=33" title="腾讯云认证全流程" target="_blank">[+更多]</a></P><H3><a href="forum.php?mod=viewthread&tid=32" title="【杨永春】品牌事件营销与危机公关处理" target="_blank">【杨永春】品牌事件营销与危机公关处理</a></H3>
   <P>
-梦想教程店
-时间：16年1月19日
-信誉：双钻
-卖教程利润客观，需求也很大
+【杨永春】品牌事件营销与危机公关处理
 
-
-
-
-**** 本内容被作者隐藏 ****
-  <a href="forum.php?mod=viewthread&tid=29" title="梦想教程店" target="_blank">[+更多]</a></P>',
+运用事件营销来提升企业品牌形象，已经成为企业营销的常态。然而很多企业在执行过程
+  <a href="forum.php?mod=viewthread&tid=32" title="【杨永春】品牌事件营销与危机公关处理" target="_blank">[+更多]</a></P>',
 );

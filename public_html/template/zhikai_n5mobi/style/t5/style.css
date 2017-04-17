@@ -1,0 +1,58 @@
+/*
+[name]青色[/name]
+[iconbgcolor]#2bb7aa[/iconbgcolor]
+Author:NVBING5
+Website:www.nvbing5.net
+Qq:2474414433
+*/
+
+/* 背景颜色 */
+.n5_tbys {background: rgba(43, 183, 170, 0.5);}
+.n5_tbxj,.n5-ksft .n5-fq,#n5_bkxq .bkxqnr .bkxqdy .bkxqan,.n5-ztfl .a,#n5_nrdbcd a em,.n5-ztfls .a a,.n5_qzszym .pn,.pn,.n5_qzzfsz .pn,.n5_qzqzzr .pn,.n5_blcjym .pn,.n5_wdscxz .n5_wdscys li.a,
+.n5_wdscbk li a.y,.n5_kjhdtx .mn .hdtxxcd li.a a,.n5_wdxxlb .n5_wdxxcd .n5_xxcdys li.a,.button,.button2,.n5_fxxdyan .btn_pn_blue,.n5_wdxxlb .n5_wdxxsz .pn,.n5_wdjf .jfdh .pn, .n5_wdjf .jfzz .pn,
+.n5_biogxx .pns .pn,.grxcpl .pn,.n5_grkjly .pn,.btn_login .pn, .btn_register .pn, .btn_login .pn:hover, .btn_register .pn:hover,.n5_bbsdy .n5_dynr .n5_dytx i,.n5_ztphmk .n5_ztphnr li .ztphpg,
+.n5_sxysxtc .sxtcb li.a,.n5_bkdbtc .n5_dbtczb li .n5_dbbktp em,.n5_ztsxn li.a,.n5_fbztdtb .btn_pn_blue {background: #2bb7aa;}
+#n5_dbcd a span {background-color: #2bb7aa;}
+
+/* 文字颜色 */
+.n5_bbszt .n5_bbsfq li.active a,.n5_tbys .n5_tbqh li.a a,.n5_sqhtcd li.a a,.n5-ksft .pbls a, .pbls a:hover,#n5_fbhfcd a,.sub_forum li .num,.n5_bllbqh .n5_bllbhh li .tjyss,.n5_qzsydh li.a a,.n5_qzszcd .a,.n5_wdscxz .n5_wdscys li a,
+.n5_kjhdtx .appl li.a a,.n5_wdxxlb .n5_wdxxcd .n5_xxcdys li a,.n5_wdhylb .stan a,.n5_fgpsqh .n5_fgqhts i,.n5_ztsxn li a,.n5_ztflsx .n5_ztflss li a.a {color: #2bb7aa;}
+
+/* 线条 */
+.sub_forum li .num,.n5_wdscxz .n5_wdscys,.n5_wdxxlb .n5_wdxxcd .n5_xxcdys,.n5_ztsxn {border: 1px solid #2bb7aa;}
+.n5_bbszt .n5_bbsfq li.active,.n5_kjhdtx .appl li.a {border-left: 2px solid #2bb7aa;}
+.n5_wdxxlb .n5_wdxxcd .n5_xxcdys li.fxx,.n5_wdscxz .n5_wdscys li a.kjqhjg,.n5_ztsxn li a.n5_ztsxns {border-left: 1px solid #2bb7aa;}
+.n5_sqhtcd li.a,.n5_qzsydh li.a,.n5_qzszcd .a {border-bottom: 2px solid #2bb7aa;}
+.n5_ztflsx .n5_ztflss li a.a {border-bottom: 3px solid #2bb7aa;}
+.n5_blsskk .blssys .srk .srky {border-left: 1px solid #2bb7aa;border-top: 1px solid #2bb7aa;border-bottom: 1px solid #2bb7aa;}
+.n5_blsskk .blssys .san .sany {border-right: 1px solid #2bb7aa;border-top: 1px solid #2bb7aa;border-bottom: 1px solid #2bb7aa;height: 27px;}
+
+#n5_bkxq .bkxqnr .bkxqdy .bkxqan,.n5-ztfl .a,.n5-ztfls .a a,.n5_kjhdtx .mn .hdtxxcd li.a a,.n5_bbsdy .n5_dynr .n5_dytx i {border: 1px solid #259d90;}
+
+
+/* 聚焦 */
+.n5_jjxxzx h2,.n5_twtj h2,.n5_tstx h2 {background: url(h2bg.png) 0 0 no-repeat;background-position: -7px 6px;background-size: 18px auto;}
+.n5_mhtbzx .n5_tbzxbt,.n5_mhtpmk .n5_tbzxbt,.n5_tphdmk .n5_tbzxbt,.n5_hdlbmk .n5_tbzxbt,.n5_ztphmk .n5_tbzxbt {background: #FAFAFA url(h2bg.png) no-repeat;background-position: 0;background-size: 20px auto;}
+.n5_ejdh {background-color: #fff;}
+.n5_ejdhg li a {color: #333;}
+
+/* 社区 */
+#n5_fbhfcd a.n5_lbdbfb {background: #FFF url(bkdbfb.png) 0 0 no-repeat;background-position: 32px 6px;background-size: 20px auto;}
+#n5_fbhfcd a.n5_lbdbfh {background: #FFF url(bkdbfh.png) 0 0 no-repeat;background-position: 31px 6px;background-size: 20px auto;}
+#n5_nrdbcd a {color: #555;}
+#n5_nrdbcd .n5_nrdbhf {background: url(bkdbfb.png) 0 0 no-repeat;background-position: 15px 7px;background-size: 18px auto;}
+#n5_nrdbcd .n5_nrdbdz {background: url(nrydz.png) 0 0 no-repeat;background-position: center 5px;background-size: 22px auto;}
+#n5_nrdbcd .n5_nrdbsc {background: url(nrysc.png) 0 0 no-repeat;background-position: center 5px;background-size: 22px auto;}
+#n5_nrdbcd .n5_nrdbfh {background: url(nryfh2.png) 0 0 no-repeat;background-position: center 5px;background-size: 22px auto;}
+#n5_nrdbcd .n5_nrdbfhs {background: url(nryfh.png) 0 0 no-repeat;background-position: center 5px;background-size: 22px auto;}
+
+/* 群组 */
+.n5_blsskk {background: #fff;}
+.n5_qzyttb {background: rgba(0,0,0,0.5);}
+
+/* 页尾菜单 */
+#n5_dbcd .bottom_index_on {background: url(n5_dh1_h.png) no-repeat;color: #2bb7aa;}
+#n5_dbcd .bottom_history_on {background: url(n5_dh2_h.png) no-repeat;color: #2bb7aa;}
+#n5_dbcd .bottom_post_on {background: url(n5_dh3_h.png) no-repeat;color: #2bb7aa;}
+#n5_dbcd .bottom_member_on {background: url(n5_dh5_h.png) 0 0 no-repeat;color: #2bb7aa;}
+#n5_dbcd .bottom_index,#n5_dbcd .bottom_index_on,#n5_dbcd .bottom_history,#n5_dbcd .bottom_history_on,#n5_dbcd .bottom_post,#n5_dbcd .bottom_post_on,#n5_dbcd .bottom_member,#n5_dbcd .bottom_member_on {background-position:center 6px;background-size: 27px auto;}

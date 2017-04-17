@@ -248,7 +248,7 @@ function discuzcode($message, $smileyoff = false, $bbcodeoff = false, $htmlon = 
 			$message = preg_replace_callback("/\[swf\]\s*([^\[\<\r\n]+?)\s*\[\/swf\]/is", 'discuzcode_callback_bbcodeurl_1', $message);
 		}
 
-		if(defined('IN_MOBILE') && !defined('TPL_DEFAULT') && !defined('IN_MOBILE_API')) {
+		if($_G[setting][mobile][mobilesimpletype]) {
 			$allowimgcode = false;
 		}
 		$attrsrc = !IS_ROBOT && $lazyload ? 'file' : 'src';

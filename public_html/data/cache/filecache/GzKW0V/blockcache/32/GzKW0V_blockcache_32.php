@@ -1,6 +1,6 @@
 <?php
 $data = array (
-  'exp' => 1492274201,
+  'exp' => 1492440027,
   'data' => 
   array (
     'bid' => '32',
@@ -55,12 +55,51 @@ $data = array (
     'cachetimerange' => '',
     'punctualupdate' => '0',
     'hidedisplay' => '0',
-    'dateline' => 1492273901,
+    'dateline' => 1492439727,
     'notinherited' => '0',
     'isblank' => '0',
     'itemlist' => 
     array (
       0 => 
+      array (
+        'id' => '33',
+        'idtype' => 'tid',
+        'title' => '腾讯云认证全流程',
+        'url' => 'forum.php?mod=viewthread&tid=33',
+        'pic' => 'static/image/common/nophoto.gif',
+        'picflag' => '0',
+        'fields' => 'a:26:{s:9:"fulltitle";s:16:"腾讯云认证全流程";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492418046";s:8:"dateline";s:10:"1492418046";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=171";s:9:"forumname";s:12:"创业致富资源";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=171&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=171&filter=sortid&sortid=0";s:5:"views";s:2:"25";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:2:"25";s:10:"todayviews";s:2:"25";s:9:"weekviews";s:2:"25";s:10:"monthviews";s:2:"25";}',
+        'itemid' => '283',
+        'displayorder' => 1,
+        'makethumb' => 0,
+      ),
+      1 => 
+      array (
+        'id' => '32',
+        'idtype' => 'tid',
+        'title' => '【杨永春】品牌事件营销与危机公关处理',
+        'url' => 'forum.php?mod=viewthread&tid=32',
+        'pic' => 'static/image/common/nophoto.gif',
+        'picflag' => '0',
+        'fields' => 'a:26:{s:9:"fulltitle";s:36:"【杨永春】品牌事件营销与危机公关处理";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492310151";s:8:"dateline";s:10:"1492310151";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=157";s:9:"forumname";s:17:"虚拟货源-营销教程";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=157&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=157&filter=sortid&sortid=0";s:5:"views";s:2:"20";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:2:"20";s:10:"todayviews";s:2:"20";s:9:"weekviews";s:2:"20";s:10:"monthviews";s:2:"20";}',
+        'itemid' => '202',
+        'displayorder' => 2,
+        'makethumb' => 0,
+      ),
+      2 => 
+      array (
+        'id' => '31',
+        'idtype' => 'tid',
+        'title' => '2017Python运维WEB开发全站工程师系列',
+        'url' => 'forum.php?mod=viewthread&tid=31',
+        'pic' => 'static/image/common/nophoto.gif',
+        'picflag' => '0',
+        'fields' => 'a:26:{s:9:"fulltitle";s:48:"2017Python运维WEB开发全站工程师系列视频教程#14期";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492309805";s:8:"dateline";s:10:"1492309805";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=166";s:9:"forumname";s:11:"IT 教育培训";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=166&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=166&filter=sortid&sortid=0";s:5:"views";s:2:"10";s:5:"heats";s:1:"1";s:10:"recommends";s:1:"0";s:9:"hourviews";s:2:"10";s:10:"todayviews";s:2:"10";s:9:"weekviews";s:2:"10";s:10:"monthviews";s:2:"10";}',
+        'itemid' => '198',
+        'displayorder' => 3,
+        'makethumb' => 0,
+      ),
+      3 => 
       array (
         'id' => '30',
         'idtype' => 'tid',
@@ -68,12 +107,12 @@ $data = array (
         'url' => 'forum.php?mod=viewthread&tid=30',
         'pic' => 'static/image/common/nophoto.gif',
         'picflag' => '0',
-        'fields' => 'a:26:{s:9:"fulltitle";s:18:"一道易学风水研究院";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492272694";s:8:"dateline";s:10:"1492272694";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=149";s:9:"forumname";s:16:"淘宝开店实例分享";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=149&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=149&filter=sortid&sortid=0";s:5:"views";s:1:"1";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:1:"1";s:10:"todayviews";s:1:"1";s:9:"weekviews";s:1:"1";s:10:"monthviews";s:1:"1";}',
+        'fields' => 'a:26:{s:9:"fulltitle";s:18:"一道易学风水研究院";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492272694";s:8:"dateline";s:10:"1492272694";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=149";s:9:"forumname";s:16:"淘宝开店实例分享";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=149&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=149&filter=sortid&sortid=0";s:5:"views";s:2:"19";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:2:"19";s:10:"todayviews";s:2:"19";s:9:"weekviews";s:2:"19";s:10:"monthviews";s:2:"19";}',
         'itemid' => '191',
-        'displayorder' => 1,
+        'displayorder' => 4,
         'makethumb' => 0,
       ),
-      1 => 
+      4 => 
       array (
         'id' => '29',
         'idtype' => 'tid',
@@ -81,12 +120,12 @@ $data = array (
         'url' => 'forum.php?mod=viewthread&tid=29',
         'pic' => 'static/image/common/nophoto.gif',
         'picflag' => '0',
-        'fields' => 'a:26:{s:9:"fulltitle";s:10:"梦想教程店";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492272569";s:8:"dateline";s:10:"1492272569";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=149";s:9:"forumname";s:16:"淘宝开店实例分享";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=149&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=149&filter=sortid&sortid=0";s:5:"views";s:1:"2";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:1:"2";s:10:"todayviews";s:1:"2";s:9:"weekviews";s:1:"2";s:10:"monthviews";s:1:"2";}',
+        'fields' => 'a:26:{s:9:"fulltitle";s:10:"梦想教程店";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492272569";s:8:"dateline";s:10:"1492272569";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=149";s:9:"forumname";s:16:"淘宝开店实例分享";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=149&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=149&filter=sortid&sortid=0";s:5:"views";s:2:"13";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:2:"13";s:10:"todayviews";s:2:"13";s:9:"weekviews";s:2:"13";s:10:"monthviews";s:2:"13";}',
         'itemid' => '182',
-        'displayorder' => 2,
+        'displayorder' => 5,
         'makethumb' => 0,
       ),
-      2 => 
+      5 => 
       array (
         'id' => '28',
         'idtype' => 'tid',
@@ -94,12 +133,12 @@ $data = array (
         'url' => 'forum.php?mod=viewthread&tid=28',
         'pic' => 'static/image/common/nophoto.gif',
         'picflag' => '0',
-        'fields' => 'a:26:{s:9:"fulltitle";s:60:"24号唯美森林萤火虫滤色高光梦幻特效溶图高清PS背景平面设计素材";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492272386";s:8:"dateline";s:10:"1492272386";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=155";s:9:"forumname";s:17:"虚拟货源-装修设计";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=155&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=155&filter=sortid&sortid=0";s:5:"views";s:1:"3";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:1:"3";s:10:"todayviews";s:1:"3";s:9:"weekviews";s:1:"3";s:10:"monthviews";s:1:"3";}',
+        'fields' => 'a:26:{s:9:"fulltitle";s:60:"24号唯美森林萤火虫滤色高光梦幻特效溶图高清PS背景平面设计素材";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492272386";s:8:"dateline";s:10:"1492272386";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=155";s:9:"forumname";s:17:"虚拟货源-装修设计";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=155&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=155&filter=sortid&sortid=0";s:5:"views";s:2:"11";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:2:"11";s:10:"todayviews";s:2:"11";s:9:"weekviews";s:2:"11";s:10:"monthviews";s:2:"11";}',
         'itemid' => '183',
-        'displayorder' => 3,
+        'displayorder' => 6,
         'makethumb' => 0,
       ),
-      3 => 
+      6 => 
       array (
         'id' => '27',
         'idtype' => 'tid',
@@ -107,12 +146,12 @@ $data = array (
         'url' => 'forum.php?mod=viewthread&tid=27',
         'pic' => 'static/image/common/nophoto.gif',
         'picflag' => '0',
-        'fields' => 'a:26:{s:9:"fulltitle";s:60:"36号实用全屏蓝天白云朝晚霞天空云彩合成照片海报后期PS设计素材";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492272187";s:8:"dateline";s:10:"1492272187";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=155";s:9:"forumname";s:17:"虚拟货源-装修设计";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=155&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=155&filter=sortid&sortid=0";s:5:"views";s:1:"2";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:1:"2";s:10:"todayviews";s:1:"2";s:9:"weekviews";s:1:"2";s:10:"monthviews";s:1:"2";}',
+        'fields' => 'a:26:{s:9:"fulltitle";s:60:"36号实用全屏蓝天白云朝晚霞天空云彩合成照片海报后期PS设计素材";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492272187";s:8:"dateline";s:10:"1492272187";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=155";s:9:"forumname";s:17:"虚拟货源-装修设计";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=155&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=155&filter=sortid&sortid=0";s:5:"views";s:2:"10";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:2:"10";s:10:"todayviews";s:2:"10";s:9:"weekviews";s:2:"10";s:10:"monthviews";s:2:"10";}',
         'itemid' => '184',
-        'displayorder' => 4,
+        'displayorder' => 7,
         'makethumb' => 0,
       ),
-      4 => 
+      7 => 
       array (
         'id' => '26',
         'idtype' => 'tid',
@@ -120,47 +159,8 @@ $data = array (
         'url' => 'forum.php?mod=viewthread&tid=26',
         'pic' => 'static/image/common/nophoto.gif',
         'picflag' => '0',
-        'fields' => 'a:26:{s:9:"fulltitle";s:58:"25号烟花爱心翅膀焰火婚纱写真夜景外拍合成滤光PS后期设计素材";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492271978";s:8:"dateline";s:10:"1492271978";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=155";s:9:"forumname";s:17:"虚拟货源-装修设计";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=155&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=155&filter=sortid&sortid=0";s:5:"views";s:1:"1";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:1:"1";s:10:"todayviews";s:1:"1";s:9:"weekviews";s:1:"1";s:10:"monthviews";s:1:"1";}',
+        'fields' => 'a:26:{s:9:"fulltitle";s:58:"25号烟花爱心翅膀焰火婚纱写真夜景外拍合成滤光PS后期设计素材";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492271978";s:8:"dateline";s:10:"1492271978";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=155";s:9:"forumname";s:17:"虚拟货源-装修设计";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=155&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=155&filter=sortid&sortid=0";s:5:"views";s:1:"9";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:1:"9";s:10:"todayviews";s:1:"9";s:9:"weekviews";s:1:"9";s:10:"monthviews";s:1:"9";}',
         'itemid' => '185',
-        'displayorder' => 5,
-        'makethumb' => 0,
-      ),
-      5 => 
-      array (
-        'id' => '25',
-        'idtype' => 'tid',
-        'title' => '上海交大 医学院 医疗设备维修技术 54',
-        'url' => 'forum.php?mod=viewthread&tid=25',
-        'pic' => 'static/image/common/nophoto.gif',
-        'picflag' => '0',
-        'fields' => 'a:26:{s:9:"fulltitle";s:55:"上海交大 医学院 医疗设备维修技术 54讲 视频教程 教学视频";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492271773";s:8:"dateline";s:10:"1492271773";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=172";s:9:"forumname";s:12:"维修系列资源";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=172&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=172&filter=sortid&sortid=0";s:5:"views";s:1:"1";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:1:"1";s:10:"todayviews";s:1:"1";s:9:"weekviews";s:1:"1";s:10:"monthviews";s:1:"1";}',
-        'itemid' => '158',
-        'displayorder' => 6,
-        'makethumb' => 0,
-      ),
-      6 => 
-      array (
-        'id' => '24',
-        'idtype' => 'tid',
-        'title' => '北京芯盛高级数据恢复系列教程官方售价',
-        'url' => 'forum.php?mod=viewthread&tid=24',
-        'pic' => 'static/image/common/nophoto.gif',
-        'picflag' => '0',
-        'fields' => 'a:26:{s:9:"fulltitle";s:72:"北京芯盛高级数据恢复系列教程官方售价900元 视频教程 教学视频 百度网盘下载";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492271673";s:8:"dateline";s:10:"1492271673";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=172";s:9:"forumname";s:12:"维修系列资源";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=172&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=172&filter=sortid&sortid=0";s:5:"views";s:1:"1";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:1:"1";s:10:"todayviews";s:1:"1";s:9:"weekviews";s:1:"1";s:10:"monthviews";s:1:"1";}',
-        'itemid' => '159',
-        'displayorder' => 7,
-        'makethumb' => 0,
-      ),
-      7 => 
-      array (
-        'id' => '23',
-        'idtype' => 'tid',
-        'title' => '【林伟贤】魅力表达',
-        'url' => 'forum.php?mod=viewthread&tid=23',
-        'pic' => 'static/image/common/nophoto.gif',
-        'picflag' => '0',
-        'fields' => 'a:26:{s:9:"fulltitle";s:18:"【林伟贤】魅力表达";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492271456";s:8:"dateline";s:10:"1492271456";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=164";s:9:"forumname";s:12:"记忆口才资源";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=164&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=164&filter=sortid&sortid=0";s:5:"views";s:1:"1";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:1:"1";s:10:"todayviews";s:1:"1";s:9:"weekviews";s:1:"1";s:10:"monthviews";s:1:"1";}',
-        'itemid' => '160',
         'displayorder' => 8,
         'makethumb' => 0,
       ),

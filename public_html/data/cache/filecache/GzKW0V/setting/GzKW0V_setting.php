@@ -252,10 +252,10 @@ $data = array (
     'targetblank' => '0',
     'google' => '1',
     'groupstatus' => '0',
-    'portalstatus' => '0',
+    'portalstatus' => '1',
     'followstatus' => '0',
     'collectionstatus' => '0',
-    'guidestatus' => '0',
+    'guidestatus' => '1',
     'feedstatus' => '0',
     'blogstatus' => '0',
     'doingstatus' => '0',
@@ -287,7 +287,7 @@ $data = array (
     ),
     'guide' => 'a:2:{s:5:"hotdt";i:604800;s:8:"digestdt";i:604800;}',
     'hideprivate' => '0',
-    'historyposts' => '17	17',
+    'historyposts' => '6	17',
     'hottopic' => '10',
     'icp' => '辽ICP备16004775号-3',
     'imagelib' => '0',
@@ -457,9 +457,9 @@ $data = array (
     array (
       'allowmobile' => 1,
       'mobileforward' => 1,
-      'mobileregister' => 0,
+      'mobileregister' => 1,
       'mobileseccode' => 0,
-      'mobilehotthread' => 0,
+      'mobilehotthread' => 1,
       'mobiledisplayorder3' => 1,
       'mobilesimpletype' => 0,
       'mobiletopicperpage' => 10,
@@ -488,7 +488,7 @@ $data = array (
     'nocacheheaders' => '0',
     'oltimespan' => '10',
     'onlinehold' => 900,
-    'onlinerecord' => '52	1492273453',
+    'onlinerecord' => '188	1492309518',
     'pollforumid' => '0',
     'postbanperiods' => '',
     'postmodperiods' => '',
@@ -615,7 +615,7 @@ $data = array (
         ),
         'login' => 
         array (
-          'allow' => '1',
+          'allow' => '0',
           'nolocal' => '0',
           'pwsimple' => '0',
           'pwerror' => '0',
@@ -700,7 +700,7 @@ $data = array (
     'seotitle' => 
     array (
       'userapp' => '应用',
-      'portal' => '门户',
+      'portal' => '淘创网_网赚精品资源_虚拟货源代理_淘宝资源论坛-打造互联网创业的精品社区!',
       'articlelist' => '',
       'article' => '',
       'forum' => '淘创网_网赚精品资源_虚拟货源代理_淘宝资源论坛-打造互联网创业的精品社区!',
@@ -776,7 +776,7 @@ $data = array (
     'statstatus' => '',
     'styleid' => '1',
     'styleid1' => '1',
-    'styleid2' => '3',
+    'styleid2' => '6',
     'styleid3' => '1',
     'stylejump' => '1',
     'subforumsindex' => '0',
@@ -1213,7 +1213,7 @@ j/n/Y',
     'wechatviewpluginid' => '',
     'site_qq' => '149779331',
     'connect_login_times' => '0',
-    'connect_login_report_date' => '2017-04-16',
+    'connect_login_report_date' => '2017-04-17',
     'wechatresponse' => 'a:4:{s:16:"receiveMsg::text";a:4:{s:6:"plugin";s:6:"wechat";s:7:"include";s:18:"response.class.php";s:5:"class";s:11:"WSQResponse";s:6:"method";s:4:"text";}s:19:"receiveEvent::click";a:4:{s:6:"plugin";s:6:"wechat";s:7:"include";s:18:"response.class.php";s:5:"class";s:11:"WSQResponse";s:6:"method";s:5:"click";}s:23:"receiveEvent::subscribe";a:4:{s:6:"plugin";s:6:"wechat";s:7:"include";s:18:"response.class.php";s:5:"class";s:11:"WSQResponse";s:6:"method";s:6:"custom";}s:18:"receiveEvent::scan";a:4:{s:6:"plugin";s:6:"wechat";s:7:"include";s:18:"response.class.php";s:5:"class";s:11:"WSQResponse";s:6:"method";s:4:"scan";}}',
     'disfixednv_forumindex' => '0',
     'forumpicstyle' => 'a:3:{s:10:"thumbwidth";i:0;s:11:"thumbheight";i:0;s:8:"thumbnum";i:0;}',
@@ -1266,6 +1266,7 @@ j/n/Y',
       1 => '默认风格',
       3 => 'elecNation_X3Touch_P',
       5 => 'singcere_xn',
+      6 => 'zhikai_n5mobi',
     ),
     'creditnames' => '1|威望|,2|金钱|,3|贡献|,4|淘创币|',
     'creditstransextra' => 
@@ -5738,6 +5739,15 @@ j/n/Y',
     ),
     'navs' => 
     array (
+      1 => 
+      array (
+        'navname' => '门户',
+        'filename' => 'portal.php',
+        'available' => '0',
+        'navid' => 'mn_portal',
+        'level' => '0',
+        'nav' => 'id="mn_portal" ><a href="portal.php" hidefocus="true" title="Portal"  >门户<span>Portal</span></a',
+      ),
       2 => 
       array (
         'navname' => '淘创网',
@@ -5764,6 +5774,15 @@ j/n/Y',
         'navid' => 'mn_Ne2dc',
         'level' => '0',
         'nav' => 'id="mn_Ne2dc" ><a href="home.php?mod=spacecp&ac=usergroup" hidefocus="true"   style="color: yellow">购买VIP</a',
+      ),
+      10 => 
+      array (
+        'navname' => '导读',
+        'filename' => 'forum.php?mod=guide',
+        'available' => '0',
+        'navid' => 'mn_forum_10',
+        'level' => '0',
+        'nav' => 'id="mn_forum_10" ><a href="forum.php?mod=guide" hidefocus="true" title="Guide"  >导读<span>Guide</span></a',
       ),
       152 => 
       array (
@@ -5849,12 +5868,20 @@ j/n/Y',
         array (
           0 => 
           array (
+            'mod' => 'guide',
+          ),
+          1 => 'mn_forum_10',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
             'mod' => 'forumdisplay',
             'fid' => '151',
           ),
           1 => 'mn_Nc30e',
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -5863,7 +5890,7 @@ j/n/Y',
           ),
           1 => 'mn_Na5dc',
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -5910,6 +5937,7 @@ j/n/Y',
     ),
     'navmn' => 
     array (
+      'portal.php' => 'mn_portal',
       'forum.php' => 'mn_forum',
       'userapp.php' => 'mn_userapp',
     ),
@@ -6033,6 +6061,20 @@ j/n/Y',
         'code' => '<a href="home.php?mod=space&do=favorite&view=me" style="background-image:url(http://www.taochuangweb.com/static/image/feed/favorite_b.png) !important">收藏</a>',
         'level' => '0',
       ),
+      'portal' => 
+      array (
+        'available' => '0',
+        'navname' => '门户',
+        'code' => '<a href="portal.php" style="background-image:url(http://www.taochuangweb.com/static/image/feed/portal_b.png) !important">门户</a>',
+        'level' => '0',
+      ),
+      'guide' => 
+      array (
+        'available' => '0',
+        'navname' => '导读',
+        'code' => '<a href="forum.php?mod=guide" style="background-image:url(http://www.taochuangweb.com/static/image/feed/guide_b.png) !important">导读</a>',
+        'level' => '0',
+      ),
     ),
     'topnavs' => 
     array (
@@ -6074,19 +6116,19 @@ j/n/Y',
       array (
         0 => 
         array (
-          'left' => '{GH44HzD4}
-{WvpdPMdS}
-{De9uwO69}
-{pSygilYG}
-{GYmxPEgF}
-{wQUyy6Q7}
+          'left' => '{ZMnomHZZ}
+{CYtwHofN}
+{kNazrYZJ}
+{r8ab5ssv}
+{zRf4aI54}
+{sEK1Le19}
 <dl class="pil cl">
-	<dt>{V66SXe44}</dt><dd>{MITMS4Sp}</dd>
+	<dt>{gEEA1ZAu}</dt><dd>{BY141431}</dd>
 </dl>
-{TEAd82tN}
-<dl class="pil cl">{K0zzYR44}</dl>',
+{KhzW85HD}
+<dl class="pil cl">{jsQwPzsW}</dl>',
           'top' => '<dl class="cl">
-<dt>{kmPYIZm2}</dt><dd>{YYgVJbHp}</dd>
+<dt>{EF9SX49F}</dt><dd>{Wufaf9qu}</dd>
 </dl>',
         ),
       ),
@@ -6096,70 +6138,70 @@ j/n/Y',
         array (
           'left' => 
           array (
-            '{GH44HzD4}' => 
+            '{ZMnomHZZ}' => 
             array (
               0 => 'numbercard',
               1 => '',
               2 => '',
               3 => '',
             ),
-            '{WvpdPMdS}' => 
+            '{CYtwHofN}' => 
             array (
               0 => 'groupicon',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{De9uwO69}' => 
+            '{kNazrYZJ}' => 
             array (
               0 => 'authortitle',
               1 => '<p><em>',
               2 => '</em></p>',
               3 => '',
             ),
-            '{pSygilYG}' => 
+            '{r8ab5ssv}' => 
             array (
               0 => 'customstatus',
               1 => '<p class="xg1">',
               2 => '</p>',
               3 => '',
             ),
-            '{GYmxPEgF}' => 
+            '{zRf4aI54}' => 
             array (
               0 => 'star',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{wQUyy6Q7}' => 
+            '{sEK1Le19}' => 
             array (
               0 => 'upgradeprogress',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{V66SXe44}' => 
+            '{gEEA1ZAu}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{MITMS4Sp}' => 
+            '{BY141431}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,0',
             ),
-            '{TEAd82tN}' => 
+            '{KhzW85HD}' => 
             array (
               0 => 'medal',
               1 => '<p class="md_ctrl">',
               2 => '</p>',
               3 => '',
             ),
-            '{K0zzYR44}' => 
+            '{jsQwPzsW}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -6169,14 +6211,14 @@ j/n/Y',
           ),
           'top' => 
           array (
-            '{kmPYIZm2}' => 
+            '{EF9SX49F}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{YYgVJbHp}' => 
+            '{Wufaf9qu}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -6201,10 +6243,10 @@ j/n/Y',
     'csspath' => 'data/cache/style_',
     'reginput' => 
     array (
-      'username' => 'ir7KbG',
-      'password' => 'Y6H783',
-      'password2' => 'rQtlRq',
-      'email' => 'r2KS4Q',
+      'username' => 'tF1U3a',
+      'password' => 'tvsW49',
+      'password2' => 'kVHVmA',
+      'email' => 'J80nic',
     ),
     'output' => 
     array (

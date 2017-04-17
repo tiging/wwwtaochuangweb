@@ -1,6 +1,6 @@
 <?php
 $data = array (
-  'exp' => 1492274201,
+  'exp' => 1492440027,
   'data' => 
   array (
     'bid' => '34',
@@ -56,55 +56,50 @@ $data = array (
     'cachetimerange' => '',
     'punctualupdate' => '0',
     'hidedisplay' => '0',
-    'dateline' => 1492273901,
+    'dateline' => 1492439727,
     'notinherited' => '0',
     'isblank' => '0',
     'itemlist' => 
     array (
       0 => 
       array (
-        'id' => '30',
+        'id' => '33',
         'idtype' => 'tid',
-        'title' => '一道易学风水研究院',
-        'url' => 'forum.php?mod=viewthread&tid=30',
+        'title' => '腾讯云认证全流程',
+        'url' => 'forum.php?mod=viewthread&tid=33',
         'pic' => 'static/image/common/nophoto.gif',
         'picflag' => '0',
-        'fields' => 'a:26:{s:9:"fulltitle";s:18:"一道易学风水研究院";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492272694";s:8:"dateline";s:10:"1492272694";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=149";s:9:"forumname";s:16:"淘宝开店实例分享";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=149&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=149&filter=sortid&sortid=0";s:5:"views";s:1:"1";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:1:"1";s:10:"todayviews";s:1:"1";s:9:"weekviews";s:1:"1";s:10:"monthviews";s:1:"1";}',
+        'fields' => 'a:26:{s:9:"fulltitle";s:16:"腾讯云认证全流程";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492418046";s:8:"dateline";s:10:"1492418046";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=171";s:9:"forumname";s:12:"创业致富资源";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=171&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=171&filter=sortid&sortid=0";s:5:"views";s:2:"25";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:2:"25";s:10:"todayviews";s:2:"25";s:9:"weekviews";s:2:"25";s:10:"monthviews";s:2:"25";}',
         'summary' => '
-一道易学风水研究院 
-信誉：4钻
-专业做风水培训教程，单品利润高，宝贝不在多，在于做精致
+腾讯云认证全流程一共分为两个部分：
+1）完成实名认证（手Q认证）————①.登录腾讯云平台。
 
 
 
 
-**** 本内容被作者隐藏
+
+
+————②.进入
 ',
-        'itemid' => '189',
+        'itemid' => '281',
         'displayorder' => 1,
         'makethumb' => 0,
       ),
       1 => 
       array (
-        'id' => '29',
+        'id' => '32',
         'idtype' => 'tid',
-        'title' => '梦想教程店',
-        'url' => 'forum.php?mod=viewthread&tid=29',
+        'title' => '【杨永春】品牌事件营销与危机公关处理',
+        'url' => 'forum.php?mod=viewthread&tid=32',
         'pic' => 'static/image/common/nophoto.gif',
         'picflag' => '0',
-        'fields' => 'a:26:{s:9:"fulltitle";s:10:"梦想教程店";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492272569";s:8:"dateline";s:10:"1492272569";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=149";s:9:"forumname";s:16:"淘宝开店实例分享";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=149&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=149&filter=sortid&sortid=0";s:5:"views";s:1:"2";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:1:"2";s:10:"todayviews";s:1:"2";s:9:"weekviews";s:1:"2";s:10:"monthviews";s:1:"2";}',
+        'fields' => 'a:26:{s:9:"fulltitle";s:36:"【杨永春】品牌事件营销与危机公关处理";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492310151";s:8:"dateline";s:10:"1492310151";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=157";s:9:"forumname";s:17:"虚拟货源-营销教程";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=157&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=157&filter=sortid&sortid=0";s:5:"views";s:2:"20";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:2:"20";s:10:"todayviews";s:2:"20";s:9:"weekviews";s:2:"20";s:10:"monthviews";s:2:"20";}',
         'summary' => '
-梦想教程店
-时间：16年1月19日
-信誉：双钻
-卖教程利润客观，需求也很大
+【杨永春】品牌事件营销与危机公关处理
 
-
-
-
-**** 本内容被作者隐藏 ****
+运用事件营销来提升企业品牌形象，已经成为企业营销的常态。然而很多企业在执行过程
 ',
-        'itemid' => '176',
+        'itemid' => '200',
         'displayorder' => 2,
         'makethumb' => 0,
       ),

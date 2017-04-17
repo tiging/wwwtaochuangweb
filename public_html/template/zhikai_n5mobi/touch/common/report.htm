@@ -1,0 +1,33 @@
+<!--{template common/header}-->
+<div class="tip">
+<style type="text/css">
+.n5_xxjbys {margin-bottom: 20px;margin-top: -10px;}
+.n5_xxjbys li {padding: 2px 0;}
+
+</style>
+
+<form id="report" method="post" autocomplete="off" action="misc.php?mod=report&modsubmit=yes&mobile=2" >
+    <dt id="report_reasons" class="n5_xxjbys">
+	    <ul>
+			<li><input type="radio" name="message" value="广告垃圾" /> 广告垃圾</li>
+			<li><input type="radio" name="message" value="违规内容" /> 违规内容</li>
+			<li><input type="radio" name="message" value="恶意灌水" /> 恶意灌水</li>
+			<li><input type="radio" name="message" value="重复发帖" /> 重复发帖</li>
+		</ul>
+	</dt>
+	<dd><input type="submit" class="formdialog button2" name="report_submit" id="report_submit"  value="{lang confirms}"><a href="javascript:;" onclick="popup.close();">{lang cancel}</a></dd>
+	<input type="hidden" name="referer" value="{echo dreferer()}" />
+	<input type="hidden" name="reportsubmit" value="true" />
+	<input type="hidden" name="rtype" value="$_GET[rtype]" />
+	<input type="hidden" name="rid" value="$_GET[rid]" />
+	<!--{if $_GET['fid']}-->
+	<input type="hidden" name="fid" value="$_GET[fid]" />
+	<!--{/if}-->
+	<!--{if $_GET['uid']}-->
+	<input type="hidden" name="uid" value="$_GET[uid]" />
+	<!--{/if}-->
+	<input type="hidden" name="url" value="$_GET[url]" />
+	<input type="hidden" name="inajax" value="$_G[inajax]" />
+	<input type="hidden" name="formhash" value="{FORMHASH}" />
+</form>
+<!--{template common/footer}-->

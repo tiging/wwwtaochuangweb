@@ -1,0 +1,56 @@
+<div class="n5_blssys">
+	<div class="sttl n5_blssts">
+		<!--{if $keyword && empty($searchstring[2])}-->{lang search_group_result_keyword}  <!--{if empty($viewgroup) && !empty($grouplist)}--><a href="search.php?mod=group&searchid=$searchid&orderby=$orderby&ascdesc=$ascdesc&searchsubmit=yes&viewgroup=1">{lang search_group_viewgroup}</a><!--{/if}--><!--{elseif $viewgroup}-->{lang search_group_result}<!--{else}-->{lang search_result}<!--{/if}-->
+	</div>
+	<!--{ad/search/y mtw}-->
+<!--{if $viewgroup}-->
+	<!--{if empty($grouplist)}-->
+		<p class="emp xs2 xg2">{lang search_nomatch}</p>
+	<!--{else}-->
+		<div class="slst pbm bbda n5_blsslb cl">
+            <!--{loop $grouplist $group}-->
+			<div class="ssbldg cl">
+				<div class="ssbltb cl">
+				    <a href="forum.php?mod=group&fid=$group[fid]"><img src="$group[icon]" alt="" /></a>
+				</div>
+				<div class="ssbljs cl">
+				    <h2><a href="forum.php?mod=group&fid=$group[fid]">$group[name]</a><!--{if $group['gviewperm'] == 1}--><em>({lang public})</em><!--{/if}--></h2>
+					<p>{lang member}: $group[membernum], {lang threads}: $group[threads]</p>
+					<p>{lang credits}: $group[commoncredits], {lang creating_time}: $group[dateline]</p>
+				</div>
+			</div>
+		    <!--{/loop}-->
+		</div>
+		<!--{if !empty($multipage)}--><div class="pgs cl mbm">$multipage</div><!--{/if}-->
+	<!--{/if}-->
+<!--{else}-->
+	<!--{if !empty($grouplist) && $page < 2}-->
+		<div class="slst pbm bbda n5_blsslb cl">
+            <!--{loop $grouplist $group}-->
+			<div class="ssbldg cl">
+				<div class="ssbltb cl">
+				    <a href="forum.php?mod=group&fid=$group[fid]"><img src="$group[icon]" alt="" /></a>
+				</div>
+				<div class="ssbljs cl">
+				    <h2><a href="forum.php?mod=group&fid=$group[fid]">$group[name]</a><!--{if $group['gviewperm'] == 1}--><em>({lang public})</em><!--{/if}--></h2>
+					<p>{lang member}: $group[membernum], {lang threads}: $group[threads]</p>
+					<p>{lang credits}: $group[commoncredits], {lang creating_time}: $group[dateline]</p>
+				</div>
+			</div>
+		    <!--{/loop}-->
+		</div>
+	<!--{/if}-->
+	<!--{if !empty($threadlist)}-->
+		<div class="n5_blssbb">
+			<ul>
+				<!--{loop $threadlist $thread}-->
+				<li>
+					<i>[<a href="forum.php?mod=forumdisplay&fid=$thread[fid]">$thread[forumname]</a>]</i><a href="forum.php?mod=viewthread&tid=$thread[tid]&highlight=$index[keywords]" $thread[highlight]>$thread[subject]</a>
+				</li>
+				<!--{/loop}-->
+			</ul>
+		</div>
+	<!--{/if}-->
+	<!--{if !empty($multipage)}--><div class="pgs cl mbm">$multipage</div><!--{/if}-->
+<!--{/if}-->
+</div>
