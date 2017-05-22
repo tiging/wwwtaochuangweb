@@ -67,6 +67,6 @@ $data = array (
     'menubgcode' => 'background: #00547D',
     'boardlogo' => '<img src="template/elecnation_x3touch_pro/logo.png" alt="ÌÔ´´Íø" border="0" />',
     'bold' => 'bold',
-    'verhash' => 'BMV',
+    'verhash' => 'rX9',
   ),
 );

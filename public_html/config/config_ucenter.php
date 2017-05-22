@@ -4,11 +4,11 @@
 define('UC_CONNECT', 'mysql');
 
 define('UC_DBHOST', 'localhost');
-define('UC_DBUSER', 'root');
-define('UC_DBPW', 'netspace');
-define('UC_DBNAME', 'taochuangweb');
+define('UC_DBUSER', 'wwwtaochuang');
+define('UC_DBPW', 'wwwtaochuang...');
+define('UC_DBNAME', 'wwwtaochuangdb');
 define('UC_DBCHARSET', 'gbk');
-define('UC_DBTABLEPRE', '`taochuangweb`.dz33_ucenter_');
+define('UC_DBTABLEPRE', '`wwwtaochuangdb`.dz33_ucenter_');
 define('UC_DBCONNECT', 0);
 
 define('UC_CHARSET', 'gbk');
@@ -17,4 +17,3 @@ define('UC_API', 'http://www.taochuangweb.com/uc_server');
 define('UC_APPID', '1');
 define('UC_IP', '');
 define('UC_PPP', 20);
-?>

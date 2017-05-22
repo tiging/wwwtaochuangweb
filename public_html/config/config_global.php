@@ -5,11 +5,11 @@ $_config = array();
 
 // ----------------------------  CONFIG DB  ----------------------------- //
 $_config['db']['1']['dbhost'] = 'localhost';
-$_config['db']['1']['dbuser'] = 'root';
-$_config['db']['1']['dbpw'] = 'netspace';
+$_config['db']['1']['dbuser'] = 'wwwtaochuang';
+$_config['db']['1']['dbpw'] = 'wwwtaochuang...';
 $_config['db']['1']['dbcharset'] = 'gbk';
 $_config['db']['1']['pconnect'] = '0';
-$_config['db']['1']['dbname'] = 'taochuangweb';
+$_config['db']['1']['dbname'] = 'wwwtaochuangdb';
 $_config['db']['1']['tablepre'] = 'dz33_';
 $_config['db']['slave'] = '';
 $_config['db']['common']['slave_except_table'] = '';

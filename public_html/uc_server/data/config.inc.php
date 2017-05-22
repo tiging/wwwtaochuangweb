@@ -1,8 +1,8 @@
 <?php 
 define('UC_DBHOST', 'localhost');
-define('UC_DBUSER', 'root');
-define('UC_DBPW', 'netspace');
-define('UC_DBNAME', 'taochuangweb');
+define('UC_DBUSER', 'wwwtaochuang');
+define('UC_DBPW', 'wwwtaochuang...');
+define('UC_DBNAME', 'wwwtaochuangdb');
 define('UC_DBCHARSET', 'gbk');
 define('UC_DBTABLEPRE', 'dz33_ucenter_');
 define('UC_COOKIEPATH', '/');

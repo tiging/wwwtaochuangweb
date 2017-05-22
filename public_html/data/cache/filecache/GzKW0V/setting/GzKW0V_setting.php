@@ -107,10 +107,10 @@ $data = array (
       ),
       'lowerlimit' => 
       array (
-        1 => 0.0,
-        2 => 0.0,
-        3 => 0.0,
-        4 => 0.0,
+        1 => 0,
+        2 => 0,
+        3 => 0,
+        4 => 0,
       ),
     ),
     'creditstax' => '0.2',
@@ -287,7 +287,7 @@ $data = array (
     ),
     'guide' => 'a:2:{s:5:"hotdt";i:604800;s:8:"digestdt";i:604800;}',
     'hideprivate' => '0',
-    'historyposts' => '6	17',
+    'historyposts' => '0	17',
     'hottopic' => '10',
     'icp' => 'ÁÉICP±¸16004775ºÅ-3',
     'imagelib' => '0',
@@ -805,14 +805,14 @@ $data = array (
     'uc' => 
     array (
       'appid' => '1',
-      'key' => 'Q58ct4W7o3AcZdC1sfEfC8oe9cB6C9H3daN3XdZdTa6420M1ufJ692M419u4Fez8',
+      'key' => 'k8efQ5E5udidI43ex47dk8Nafcv4M2hbn0V820t5wb40IaL8YcHew5E976U4I8u4',
       'api' => 'http://www.taochuangweb.com/uc_server',
       'ip' => '',
       'connect' => 'mysql',
       'dbhost' => 'localhost',
-      'dbuser' => 'root',
+      'dbuser' => 'wwwtaochuang',
       'dbpass' => '********',
-      'dbname' => 'taochuangweb',
+      'dbname' => 'wwwtaochuangdb',
       'dbtablepre' => 'dz33_ucenter_',
     ),
     'ucactivation' => '1',
@@ -1213,7 +1213,7 @@ j/n/Y',
     'wechatviewpluginid' => '',
     'site_qq' => '149779331',
     'connect_login_times' => '0',
-    'connect_login_report_date' => '2017-04-17',
+    'connect_login_report_date' => '2017-05-22',
     'wechatresponse' => 'a:4:{s:16:"receiveMsg::text";a:4:{s:6:"plugin";s:6:"wechat";s:7:"include";s:18:"response.class.php";s:5:"class";s:11:"WSQResponse";s:6:"method";s:4:"text";}s:19:"receiveEvent::click";a:4:{s:6:"plugin";s:6:"wechat";s:7:"include";s:18:"response.class.php";s:5:"class";s:11:"WSQResponse";s:6:"method";s:5:"click";}s:23:"receiveEvent::subscribe";a:4:{s:6:"plugin";s:6:"wechat";s:7:"include";s:18:"response.class.php";s:5:"class";s:11:"WSQResponse";s:6:"method";s:6:"custom";}s:18:"receiveEvent::scan";a:4:{s:6:"plugin";s:6:"wechat";s:7:"include";s:18:"response.class.php";s:5:"class";s:11:"WSQResponse";s:6:"method";s:4:"scan";}}',
     'disfixednv_forumindex' => '0',
     'forumpicstyle' => 'a:3:{s:10:"thumbwidth";i:0;s:11:"thumbheight";i:0;s:8:"thumbnum";i:0;}',
@@ -1289,76 +1289,1121 @@ j/n/Y',
     'ucenterurl' => 'http://www.taochuangweb.com/uc_server',
     'tradeopen' => 1,
     'medalstatus' => 0,
-    'plugins' => 
+    'specialicon' => 
     array (
-      'available' => 
-      array (
-        0 => 'it618_firstnfocus_deyi',
-        1 => 'aljrq',
-        2 => 'nimba_thot',
-        3 => 'rpancn_buy_usergroup',
-        4 => 'kx_new100',
-        5 => 'levnav',
-        6 => 'pcmgr_url_safeguard',
-        7 => 'mobile',
-        8 => 'security',
-        9 => 'soso_smilies',
-        10 => 'qqconnect',
-      ),
-      'func' => 
-      array (
-        'hookscript' => 
-        array (
-          'avatar' => true,
-          'common' => true,
-          'discuzcode' => true,
-          'deletepost' => true,
-          'deletethread' => true,
-          'savebanlog' => true,
-          'undeletethreads' => true,
-          'recyclebinpostundelete' => true,
-          'deletemember' => true,
-        ),
-        'hookscriptmobile' => 
-        array (
-          'common' => true,
-          'discuzcode' => true,
-          'deletepost' => true,
-          'deletethread' => true,
-          'savebanlog' => true,
-          'undeletethreads' => true,
-          'recyclebinpostundelete' => true,
-          'deletemember' => true,
-        ),
-      ),
-      'version' => 
-      array (
-        'it618_firstnfocus_deyi' => 'v1.7',
-        'aljrq' => '3.1.2',
-        'nimba_thot' => 'v3.5.0',
-        'rpancn_buy_usergroup' => '2.12',
-        'kx_new100' => '1.1',
-        'levnav' => '1.0',
-        'pcmgr_url_safeguard' => '1.1',
-        'mobile' => '1.4.8',
-        'security' => '1.11.1',
-        'soso_smilies' => '1.4',
-        'qqconnect' => '1.18.2',
-      ),
-      'spacecp' => 
-      array (
-        'qqconnect:spacecp' => 
-        array (
-          'displayorder' => '1',
-          'adminid' => '0',
-          'name' => 'QQ°ó¶¨',
-          'url' => '',
-          'directory' => 'qqconnect/',
-        ),
-      ),
     ),
-    'pluginlinks' => 
+    'threadplugins' => 
     array (
+    ),
+    'hookscriptmobile' => 
+    array (
+      'global' => 
+      array (
+        'global' => 
+        array (
+          'module' => 
+          array (
+            'aljrq' => 'aljrq/sj',
+            'mobile' => 'mobile/mobile',
+            'security' => 'security/security',
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'aljrq' => '0',
+            'mobile' => '0',
+            'security' => '0',
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'global_header_mobile' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'global_header_mobile',
+              ),
+              1 => 
+              array (
+                0 => 'aljrq',
+                1 => 'global_header_mobile',
+              ),
+            ),
+            'global_footer_mobile' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'global_footer_mobile',
+              ),
+              1 => 
+              array (
+                0 => 'aljrq',
+                1 => 'global_footer_mobile',
+              ),
+            ),
+            'global_mobile' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'global_mobile',
+              ),
+            ),
+            'global_footer' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'global_footer',
+              ),
+            ),
+            'global_footerlink' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'global_footerlink',
+              ),
+            ),
+          ),
+        ),
+        'common' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+            'security' => 'security/security',
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+            'security' => '0',
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'common' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'common',
+              ),
+              1 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'common',
+              ),
+              2 => 
+              array (
+                0 => 'security',
+                1 => 'common',
+              ),
+            ),
+            'common_base' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'common_base',
+              ),
+            ),
+          ),
+        ),
+        'discuzcode' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+            'soso_smilies' => 'soso_smilies/soso',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+            'soso_smilies' => '0',
+          ),
+          'funcs' => 
+          array (
+            'discuzcode' => 
+            array (
+              0 => 
+              array (
+                0 => 'soso_smilies',
+                1 => 'discuzcode',
+              ),
+              1 => 
+              array (
+                0 => 'mobile',
+                1 => 'discuzcode',
+              ),
+            ),
+          ),
+        ),
+        'deletepost' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletepost' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletepost',
+              ),
+            ),
+          ),
+        ),
+        'deletethread' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletethread' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletethread',
+              ),
+            ),
+          ),
+        ),
+        'savebanlog' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'savebanlog' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'savebanlog',
+              ),
+            ),
+          ),
+        ),
+        'undeletethreads' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'undeletethreads' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'undeletethreads',
+              ),
+            ),
+          ),
+        ),
+        'recyclebinpostundelete' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'recyclebinpostundelete' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'recyclebinpostundelete',
+              ),
+            ),
+          ),
+        ),
+        'deletemember' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletemember' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletemember',
+              ),
+            ),
+          ),
+        ),
+        'secLog' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'secLog' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'secLog',
+              ),
+            ),
+          ),
+        ),
+        'getMergeAction' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'getMergeAction' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'getMergeAction',
+              ),
+            ),
+          ),
+        ),
+        'init' => 
+        array (
+          'module' => 
+          array (
+            'qqconnect' => 'qqconnect/connect',
+          ),
+          'adminid' => 
+          array (
+            'qqconnect' => '0',
+          ),
+          'funcs' => 
+          array (
+            'init' => 
+            array (
+              0 => 
+              array (
+                0 => 'qqconnect',
+                1 => 'init',
+              ),
+            ),
+          ),
+        ),
+      ),
+      'forum' => 
+      array (
+        'global' => 
+        array (
+          'module' => 
+          array (
+            'aljrq' => 'aljrq/sj',
+            'mobile' => 'mobile/mobile',
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'aljrq' => '0',
+            'mobile' => '0',
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'global_header_mobile' => 
+            array (
+              0 => 
+              array (
+                0 => 'aljrq',
+                1 => 'global_header_mobile',
+              ),
+            ),
+            'global_footer_mobile' => 
+            array (
+              0 => 
+              array (
+                0 => 'aljrq',
+                1 => 'global_footer_mobile',
+              ),
+            ),
+            'global_mobile' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'global_mobile',
+              ),
+            ),
+            'global_footer' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'global_footer',
+              ),
+            ),
+            'global_footerlink' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'global_footerlink',
+              ),
+            ),
+          ),
+        ),
+        'post' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+            'security' => '0',
+          ),
+          'messagefuncs' => 
+          array (
+            'post_mobile' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'post_mobile_message',
+              ),
+            ),
+            'post_report' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'post_report_message',
+              ),
+            ),
+          ),
+          'funcs' => 
+          array (
+            'post_security' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'post_security',
+              ),
+            ),
+          ),
+        ),
+        'misc' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+          ),
+          'messagefuncs' => 
+          array (
+            'misc_mobile' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'misc_mobile_message',
+              ),
+            ),
+          ),
+        ),
+        'viewthread' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+          ),
+          'outputfuncs' => 
+          array (
+            'viewthread_postbottom' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'viewthread_postbottom_output',
+              ),
+            ),
+          ),
+        ),
+        'common' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'common' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'common',
+              ),
+              1 => 
+              array (
+                0 => 'security',
+                1 => 'common',
+              ),
+            ),
+          ),
+        ),
+        'discuzcode' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+          ),
+          'funcs' => 
+          array (
+            'discuzcode' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'discuzcode',
+              ),
+            ),
+          ),
+        ),
+        'deletepost' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletepost' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletepost',
+              ),
+            ),
+          ),
+        ),
+        'deletethread' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletethread' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletethread',
+              ),
+            ),
+          ),
+        ),
+        'savebanlog' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'savebanlog' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'savebanlog',
+              ),
+            ),
+          ),
+        ),
+        'undeletethreads' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'undeletethreads' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'undeletethreads',
+              ),
+            ),
+          ),
+        ),
+        'recyclebinpostundelete' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'recyclebinpostundelete' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'recyclebinpostundelete',
+              ),
+            ),
+          ),
+        ),
+        'deletemember' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletemember' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletemember',
+              ),
+            ),
+          ),
+        ),
+        'secLog' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'secLog' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'secLog',
+              ),
+            ),
+          ),
+        ),
+        'getMergeAction' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'getMergeAction' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'getMergeAction',
+              ),
+            ),
+          ),
+        ),
+      ),
+      'misc' => 
+      array (
+        'mobile' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+          ),
+          'funcs' => 
+          array (
+            'mobile' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'mobile',
+              ),
+            ),
+          ),
+        ),
+        'common' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+          ),
+          'funcs' => 
+          array (
+            'common' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'common',
+              ),
+            ),
+          ),
+        ),
+        'discuzcode' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+          ),
+          'funcs' => 
+          array (
+            'discuzcode' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'discuzcode',
+              ),
+            ),
+          ),
+        ),
+        'global' => 
+        array (
+          'module' => 
+          array (
+            'mobile' => 'mobile/mobile',
+          ),
+          'adminid' => 
+          array (
+            'mobile' => '0',
+          ),
+          'funcs' => 
+          array (
+            'global_mobile' => 
+            array (
+              0 => 
+              array (
+                0 => 'mobile',
+                1 => 'global_mobile',
+              ),
+            ),
+          ),
+        ),
+      ),
+      'member' => 
+      array (
+        'logging' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'messagefuncs' => 
+          array (
+            'logging_report' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'logging_report_message',
+              ),
+            ),
+          ),
+        ),
+        'register' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'messagefuncs' => 
+          array (
+            'register_report' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'register_report_message',
+              ),
+            ),
+          ),
+        ),
+        'connect' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'messagefuncs' => 
+          array (
+            'connect_report' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'connect_report_message',
+              ),
+            ),
+          ),
+        ),
+        'common' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'common' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'common',
+              ),
+            ),
+          ),
+        ),
+        'global' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'global_footer' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'global_footer',
+              ),
+            ),
+            'global_footerlink' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'global_footerlink',
+              ),
+            ),
+          ),
+        ),
+        'deletepost' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletepost' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletepost',
+              ),
+            ),
+          ),
+        ),
+        'deletethread' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletethread' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletethread',
+              ),
+            ),
+          ),
+        ),
+        'savebanlog' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'savebanlog' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'savebanlog',
+              ),
+            ),
+          ),
+        ),
+        'undeletethreads' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'undeletethreads' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'undeletethreads',
+              ),
+            ),
+          ),
+        ),
+        'recyclebinpostundelete' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'recyclebinpostundelete' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'recyclebinpostundelete',
+              ),
+            ),
+          ),
+        ),
+        'deletemember' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'deletemember' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'deletemember',
+              ),
+            ),
+          ),
+        ),
+        'secLog' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'secLog' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'secLog',
+              ),
+            ),
+          ),
+        ),
+        'getMergeAction' => 
+        array (
+          'module' => 
+          array (
+            'security' => 'security/security',
+          ),
+          'adminid' => 
+          array (
+            'security' => '0',
+          ),
+          'funcs' => 
+          array (
+            'getMergeAction' => 
+            array (
+              0 => 
+              array (
+                0 => 'security',
+                1 => 'getMergeAction',
+              ),
+            ),
+          ),
+        ),
+      ),
     ),
     'hookscript' => 
     array (
@@ -1881,7 +2926,7 @@ j/n/Y',
             array (
               0 => 
               array (
-                0 => 'mobile',
+                0 => 'qqconnect',
                 1 => 'discuzcode',
               ),
               1 => 
@@ -1891,7 +2936,7 @@ j/n/Y',
               ),
               2 => 
               array (
-                0 => 'qqconnect',
+                0 => 'mobile',
                 1 => 'discuzcode',
               ),
             ),
@@ -2158,12 +3203,12 @@ j/n/Y',
             array (
               0 => 
               array (
-                0 => 'it618_firstnfocus_deyi',
+                0 => 'aljrq',
                 1 => 'global_header',
               ),
               1 => 
               array (
-                0 => 'aljrq',
+                0 => 'it618_firstnfocus_deyi',
                 1 => 'global_header',
               ),
             ),
@@ -2387,7 +3432,7 @@ j/n/Y',
             array (
               0 => 
               array (
-                0 => 'mobile',
+                0 => 'qqconnect',
                 1 => 'discuzcode',
               ),
               1 => 
@@ -2397,7 +3442,7 @@ j/n/Y',
               ),
               2 => 
               array (
-                0 => 'qqconnect',
+                0 => 'mobile',
                 1 => 'discuzcode',
               ),
             ),
@@ -3118,12 +4163,12 @@ j/n/Y',
             array (
               0 => 
               array (
-                0 => 'soso_smilies',
+                0 => 'qqconnect',
                 1 => 'discuzcode',
               ),
               1 => 
               array (
-                0 => 'qqconnect',
+                0 => 'soso_smilies',
                 1 => 'discuzcode',
               ),
             ),
@@ -4621,1121 +5666,176 @@ j/n/Y',
         ),
       ),
     ),
-    'hookscriptmobile' => 
+    'pluginlinks' => 
     array (
-      'global' => 
+    ),
+    'plugins' => 
+    array (
+      'available' => 
       array (
-        'global' => 
+        0 => 'it618_firstnfocus_deyi',
+        1 => 'aljrq',
+        2 => 'nimba_thot',
+        3 => 'rpancn_buy_usergroup',
+        4 => 'kx_new100',
+        5 => 'levnav',
+        6 => 'pcmgr_url_safeguard',
+        7 => 'mobile',
+        8 => 'security',
+        9 => 'soso_smilies',
+        10 => 'qqconnect',
+      ),
+      'func' => 
+      array (
+        'hookscript' => 
         array (
-          'module' => 
-          array (
-            'aljrq' => 'aljrq/sj',
-            'mobile' => 'mobile/mobile',
-            'security' => 'security/security',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'aljrq' => '0',
-            'mobile' => '0',
-            'security' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'global_header_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'global_header_mobile',
-              ),
-              1 => 
-              array (
-                0 => 'aljrq',
-                1 => 'global_header_mobile',
-              ),
-            ),
-            'global_footer_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'global_footer_mobile',
-              ),
-              1 => 
-              array (
-                0 => 'aljrq',
-                1 => 'global_footer_mobile',
-              ),
-            ),
-            'global_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'global_mobile',
-              ),
-            ),
-            'global_footer' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'global_footer',
-              ),
-            ),
-            'global_footerlink' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'global_footerlink',
-              ),
-            ),
-          ),
+          'avatar' => true,
+          'common' => true,
+          'discuzcode' => true,
+          'deletepost' => true,
+          'deletethread' => true,
+          'savebanlog' => true,
+          'undeletethreads' => true,
+          'recyclebinpostundelete' => true,
+          'deletemember' => true,
         ),
-        'common' => 
+        'hookscriptmobile' => 
         array (
-          'module' => 
-          array (
-            'mobile' => 'mobile/mobile',
-            'security' => 'security/security',
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'mobile' => '0',
-            'security' => '0',
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'common' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'common',
-              ),
-              1 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'common',
-              ),
-              2 => 
-              array (
-                0 => 'security',
-                1 => 'common',
-              ),
-            ),
-            'common_base' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'common_base',
-              ),
-            ),
-          ),
-        ),
-        'discuzcode' => 
-        array (
-          'module' => 
-          array (
-            'mobile' => 'mobile/mobile',
-            'soso_smilies' => 'soso_smilies/soso',
-          ),
-          'adminid' => 
-          array (
-            'mobile' => '0',
-            'soso_smilies' => '0',
-          ),
-          'funcs' => 
-          array (
-            'discuzcode' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'discuzcode',
-              ),
-              1 => 
-              array (
-                0 => 'soso_smilies',
-                1 => 'discuzcode',
-              ),
-            ),
-          ),
-        ),
-        'deletepost' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletepost' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletepost',
-              ),
-            ),
-          ),
-        ),
-        'deletethread' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletethread' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletethread',
-              ),
-            ),
-          ),
-        ),
-        'savebanlog' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'savebanlog' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'savebanlog',
-              ),
-            ),
-          ),
-        ),
-        'undeletethreads' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'undeletethreads' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'undeletethreads',
-              ),
-            ),
-          ),
-        ),
-        'recyclebinpostundelete' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'recyclebinpostundelete' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'recyclebinpostundelete',
-              ),
-            ),
-          ),
-        ),
-        'deletemember' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletemember' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletemember',
-              ),
-            ),
-          ),
-        ),
-        'secLog' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'secLog' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'secLog',
-              ),
-            ),
-          ),
-        ),
-        'getMergeAction' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'getMergeAction' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'getMergeAction',
-              ),
-            ),
-          ),
-        ),
-        'init' => 
-        array (
-          'module' => 
-          array (
-            'qqconnect' => 'qqconnect/connect',
-          ),
-          'adminid' => 
-          array (
-            'qqconnect' => '0',
-          ),
-          'funcs' => 
-          array (
-            'init' => 
-            array (
-              0 => 
-              array (
-                0 => 'qqconnect',
-                1 => 'init',
-              ),
-            ),
-          ),
+          'common' => true,
+          'discuzcode' => true,
+          'deletepost' => true,
+          'deletethread' => true,
+          'savebanlog' => true,
+          'undeletethreads' => true,
+          'recyclebinpostundelete' => true,
+          'deletemember' => true,
         ),
       ),
-      'forum' => 
+      'version' => 
       array (
-        'global' => 
-        array (
-          'module' => 
-          array (
-            'aljrq' => 'aljrq/sj',
-            'mobile' => 'mobile/mobile',
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'aljrq' => '0',
-            'mobile' => '0',
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'global_header_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'aljrq',
-                1 => 'global_header_mobile',
-              ),
-            ),
-            'global_footer_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'aljrq',
-                1 => 'global_footer_mobile',
-              ),
-            ),
-            'global_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'global_mobile',
-              ),
-            ),
-            'global_footer' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'global_footer',
-              ),
-            ),
-            'global_footerlink' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'global_footerlink',
-              ),
-            ),
-          ),
-        ),
-        'post' => 
-        array (
-          'module' => 
-          array (
-            'mobile' => 'mobile/mobile',
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'mobile' => '0',
-            'security' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'post_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'post_mobile_message',
-              ),
-            ),
-            'post_report' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'post_report_message',
-              ),
-            ),
-          ),
-          'funcs' => 
-          array (
-            'post_security' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'post_security',
-              ),
-            ),
-          ),
-        ),
-        'misc' => 
-        array (
-          'module' => 
-          array (
-            'mobile' => 'mobile/mobile',
-          ),
-          'adminid' => 
-          array (
-            'mobile' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'misc_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'misc_mobile_message',
-              ),
-            ),
-          ),
-        ),
-        'viewthread' => 
-        array (
-          'module' => 
-          array (
-            'mobile' => 'mobile/mobile',
-          ),
-          'adminid' => 
-          array (
-            'mobile' => '0',
-          ),
-          'outputfuncs' => 
-          array (
-            'viewthread_postbottom' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'viewthread_postbottom_output',
-              ),
-            ),
-          ),
-        ),
-        'common' => 
-        array (
-          'module' => 
-          array (
-            'mobile' => 'mobile/mobile',
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'mobile' => '0',
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'common' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'common',
-              ),
-              1 => 
-              array (
-                0 => 'security',
-                1 => 'common',
-              ),
-            ),
-          ),
-        ),
-        'discuzcode' => 
-        array (
-          'module' => 
-          array (
-            'mobile' => 'mobile/mobile',
-          ),
-          'adminid' => 
-          array (
-            'mobile' => '0',
-          ),
-          'funcs' => 
-          array (
-            'discuzcode' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'discuzcode',
-              ),
-            ),
-          ),
-        ),
-        'deletepost' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletepost' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletepost',
-              ),
-            ),
-          ),
-        ),
-        'deletethread' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletethread' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletethread',
-              ),
-            ),
-          ),
-        ),
-        'savebanlog' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'savebanlog' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'savebanlog',
-              ),
-            ),
-          ),
-        ),
-        'undeletethreads' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'undeletethreads' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'undeletethreads',
-              ),
-            ),
-          ),
-        ),
-        'recyclebinpostundelete' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'recyclebinpostundelete' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'recyclebinpostundelete',
-              ),
-            ),
-          ),
-        ),
-        'deletemember' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletemember' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletemember',
-              ),
-            ),
-          ),
-        ),
-        'secLog' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'secLog' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'secLog',
-              ),
-            ),
-          ),
-        ),
-        'getMergeAction' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'getMergeAction' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'getMergeAction',
-              ),
-            ),
-          ),
-        ),
+        'it618_firstnfocus_deyi' => 'v1.7',
+        'aljrq' => '3.1.2',
+        'nimba_thot' => 'v3.5.0',
+        'rpancn_buy_usergroup' => '2.12',
+        'kx_new100' => '1.1',
+        'levnav' => '1.0',
+        'pcmgr_url_safeguard' => '1.1',
+        'mobile' => '1.4.8',
+        'security' => '1.11.1',
+        'soso_smilies' => '1.4',
+        'qqconnect' => '1.18.2',
       ),
-      'misc' => 
+      'spacecp' => 
       array (
-        'mobile' => 
+        'qqconnect:spacecp' => 
         array (
-          'module' => 
-          array (
-            'mobile' => 'mobile/mobile',
-          ),
-          'adminid' => 
-          array (
-            'mobile' => '0',
-          ),
-          'funcs' => 
-          array (
-            'mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'mobile',
-              ),
-            ),
-          ),
-        ),
-        'common' => 
-        array (
-          'module' => 
-          array (
-            'mobile' => 'mobile/mobile',
-          ),
-          'adminid' => 
-          array (
-            'mobile' => '0',
-          ),
-          'funcs' => 
-          array (
-            'common' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'common',
-              ),
-            ),
-          ),
-        ),
-        'discuzcode' => 
-        array (
-          'module' => 
-          array (
-            'mobile' => 'mobile/mobile',
-          ),
-          'adminid' => 
-          array (
-            'mobile' => '0',
-          ),
-          'funcs' => 
-          array (
-            'discuzcode' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'discuzcode',
-              ),
-            ),
-          ),
-        ),
-        'global' => 
-        array (
-          'module' => 
-          array (
-            'mobile' => 'mobile/mobile',
-          ),
-          'adminid' => 
-          array (
-            'mobile' => '0',
-          ),
-          'funcs' => 
-          array (
-            'global_mobile' => 
-            array (
-              0 => 
-              array (
-                0 => 'mobile',
-                1 => 'global_mobile',
-              ),
-            ),
-          ),
-        ),
-      ),
-      'member' => 
-      array (
-        'logging' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'logging_report' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'logging_report_message',
-              ),
-            ),
-          ),
-        ),
-        'register' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'register_report' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'register_report_message',
-              ),
-            ),
-          ),
-        ),
-        'connect' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'messagefuncs' => 
-          array (
-            'connect_report' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'connect_report_message',
-              ),
-            ),
-          ),
-        ),
-        'common' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'common' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'common',
-              ),
-            ),
-          ),
-        ),
-        'global' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'global_footer' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'global_footer',
-              ),
-            ),
-            'global_footerlink' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'global_footerlink',
-              ),
-            ),
-          ),
-        ),
-        'deletepost' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletepost' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletepost',
-              ),
-            ),
-          ),
-        ),
-        'deletethread' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletethread' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletethread',
-              ),
-            ),
-          ),
-        ),
-        'savebanlog' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'savebanlog' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'savebanlog',
-              ),
-            ),
-          ),
-        ),
-        'undeletethreads' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'undeletethreads' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'undeletethreads',
-              ),
-            ),
-          ),
-        ),
-        'recyclebinpostundelete' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'recyclebinpostundelete' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'recyclebinpostundelete',
-              ),
-            ),
-          ),
-        ),
-        'deletemember' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'deletemember' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'deletemember',
-              ),
-            ),
-          ),
-        ),
-        'secLog' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'secLog' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'secLog',
-              ),
-            ),
-          ),
-        ),
-        'getMergeAction' => 
-        array (
-          'module' => 
-          array (
-            'security' => 'security/security',
-          ),
-          'adminid' => 
-          array (
-            'security' => '0',
-          ),
-          'funcs' => 
-          array (
-            'getMergeAction' => 
-            array (
-              0 => 
-              array (
-                0 => 'security',
-                1 => 'getMergeAction',
-              ),
-            ),
-          ),
+          'displayorder' => '1',
+          'adminid' => '0',
+          'name' => 'QQ°ó¶¨',
+          'url' => '',
+          'directory' => 'qqconnect/',
         ),
       ),
     ),
-    'threadplugins' => 
+    'navlogos' => NULL,
+    'navdms' => 
     array (
     ),
-    'specialicon' => 
+    'navmn' => 
     array (
+      'portal.php' => 'mn_portal',
+      'forum.php' => 'mn_forum',
+      'userapp.php' => 'mn_userapp',
+    ),
+    'navmns' => 
+    array (
+      'forum.php' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'mod' => 'viewthread',
+            'tid' => '1',
+            'extra' => 'page=1',
+          ),
+          1 => 'mn_Nc675',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'mod' => 'guide',
+          ),
+          1 => 'mn_forum_10',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'mod' => 'forumdisplay',
+            'fid' => '151',
+          ),
+          1 => 'mn_Nc30e',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'mod' => 'viewthread',
+            'tid' => '7',
+          ),
+          1 => 'mn_Na5dc',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'mod' => 'viewthread',
+            'tid' => '8',
+          ),
+          1 => 'mn_N3b76',
+        ),
+      ),
+      'home.php' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'mod' => 'spacecp',
+            'ac' => 'usergroup',
+          ),
+          1 => 'mn_Ne2dc',
+        ),
+      ),
+      'plugin.php' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'id' => 'kx_new100',
+          ),
+          1 => 'mn_Nb782',
+        ),
+      ),
+      'misc.php' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'mod' => 'faq',
+          ),
+          1 => 'mn_N0a2c',
+        ),
+      ),
+    ),
+    'menunavs' => '<div class="p_pop h_pop" id="mn_userapp_menu" style="display: none"></div>',
+    'subnavs' => 
+    array (
+      'mn_userapp' => '',
     ),
     'navs' => 
     array (
@@ -5845,106 +5945,6 @@ j/n/Y',
         'nav' => 'id="mn_N0a2c" ><a href="misc.php?mod=faq" hidefocus="true" title="Help"  >°ïÖú<span>Help</span></a',
       ),
     ),
-    'subnavs' => 
-    array (
-      'mn_userapp' => '',
-    ),
-    'menunavs' => '<div class="p_pop h_pop" id="mn_userapp_menu" style="display: none"></div>',
-    'navmns' => 
-    array (
-      'forum.php' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'mod' => 'viewthread',
-            'tid' => '1',
-            'extra' => 'page=1',
-          ),
-          1 => 'mn_Nc675',
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'mod' => 'guide',
-          ),
-          1 => 'mn_forum_10',
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'mod' => 'forumdisplay',
-            'fid' => '151',
-          ),
-          1 => 'mn_Nc30e',
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'mod' => 'viewthread',
-            'tid' => '7',
-          ),
-          1 => 'mn_Na5dc',
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'mod' => 'viewthread',
-            'tid' => '8',
-          ),
-          1 => 'mn_N3b76',
-        ),
-      ),
-      'home.php' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'mod' => 'spacecp',
-            'ac' => 'usergroup',
-          ),
-          1 => 'mn_Ne2dc',
-        ),
-      ),
-      'plugin.php' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'id' => 'kx_new100',
-          ),
-          1 => 'mn_Nb782',
-        ),
-      ),
-      'misc.php' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'mod' => 'faq',
-          ),
-          1 => 'mn_N0a2c',
-        ),
-      ),
-    ),
-    'navmn' => 
-    array (
-      'portal.php' => 'mn_portal',
-      'forum.php' => 'mn_forum',
-      'userapp.php' => 'mn_userapp',
-    ),
-    'navdms' => 
-    array (
-    ),
-    'navlogos' => NULL,
     'footernavs' => 
     array (
       'report' => 
@@ -6116,19 +6116,19 @@ j/n/Y',
       array (
         0 => 
         array (
-          'left' => '{ZMnomHZZ}
-{CYtwHofN}
-{kNazrYZJ}
-{r8ab5ssv}
-{zRf4aI54}
-{sEK1Le19}
+          'left' => '{wmsR22r0}
+{qyZ63TKW}
+{OPqU06Vr}
+{CZ33r20n}
+{gbbuu890}
+{jO7NYGbo}
 <dl class="pil cl">
-	<dt>{gEEA1ZAu}</dt><dd>{BY141431}</dd>
+	<dt>{Jm9TUL1B}</dt><dd>{DLcNlB8t}</dd>
 </dl>
-{KhzW85HD}
-<dl class="pil cl">{jsQwPzsW}</dl>',
+{Xnunffh9}
+<dl class="pil cl">{Z2VH5VsP}</dl>',
           'top' => '<dl class="cl">
-<dt>{EF9SX49F}</dt><dd>{Wufaf9qu}</dd>
+<dt>{AM2jWAWP}</dt><dd>{l9ll2e8a}</dd>
 </dl>',
         ),
       ),
@@ -6138,70 +6138,70 @@ j/n/Y',
         array (
           'left' => 
           array (
-            '{ZMnomHZZ}' => 
+            '{wmsR22r0}' => 
             array (
               0 => 'numbercard',
               1 => '',
               2 => '',
               3 => '',
             ),
-            '{CYtwHofN}' => 
+            '{qyZ63TKW}' => 
             array (
               0 => 'groupicon',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{kNazrYZJ}' => 
+            '{OPqU06Vr}' => 
             array (
               0 => 'authortitle',
               1 => '<p><em>',
               2 => '</em></p>',
               3 => '',
             ),
-            '{r8ab5ssv}' => 
+            '{CZ33r20n}' => 
             array (
               0 => 'customstatus',
               1 => '<p class="xg1">',
               2 => '</p>',
               3 => '',
             ),
-            '{zRf4aI54}' => 
+            '{gbbuu890}' => 
             array (
               0 => 'star',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{sEK1Le19}' => 
+            '{jO7NYGbo}' => 
             array (
               0 => 'upgradeprogress',
               1 => '<p>',
               2 => '</p>',
               3 => '',
             ),
-            '{gEEA1ZAu}' => 
+            '{Jm9TUL1B}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{BY141431}' => 
+            '{DLcNlB8t}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,0',
             ),
-            '{KhzW85HD}' => 
+            '{Xnunffh9}' => 
             array (
               0 => 'medal',
               1 => '<p class="md_ctrl">',
               2 => '</p>',
               3 => '',
             ),
-            '{jsQwPzsW}' => 
+            '{Z2VH5VsP}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -6211,14 +6211,14 @@ j/n/Y',
           ),
           'top' => 
           array (
-            '{EF9SX49F}' => 
+            '{AM2jWAWP}' => 
             array (
               0 => 'baseinfo',
               1 => '',
               2 => '',
               3 => 'credits,1',
             ),
-            '{Wufaf9qu}' => 
+            '{l9ll2e8a}' => 
             array (
               0 => 'baseinfo',
               1 => '',
@@ -6243,10 +6243,10 @@ j/n/Y',
     'csspath' => 'data/cache/style_',
     'reginput' => 
     array (
-      'username' => 'tF1U3a',
-      'password' => 'tvsW49',
-      'password2' => 'kVHVmA',
-      'email' => 'J80nic',
+      'username' => 'km9KCv',
+      'password' => 'Y65z8x',
+      'password2' => 'ovgWTg',
+      'email' => 'CoKsWs',
     ),
     'output' => 
     array (

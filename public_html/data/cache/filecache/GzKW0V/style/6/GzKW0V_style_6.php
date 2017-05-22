@@ -81,6 +81,6 @@ $data = array (
     'menubgcode' => 'background: #2B7ACD url("static/image/common/nv.png") no-repeat 0 0',
     'boardlogo' => '<img src="static/image/common/logo.png" alt="ÌÔ´´Íø" border="0" />',
     'bold' => 'bold',
-    'verhash' => 'Tff',
+    'verhash' => 'T9E',
   ),
 );

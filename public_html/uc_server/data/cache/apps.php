@@ -4,9 +4,9 @@ $_CACHE['apps'] = array (
   array (
     'appid' => '1',
     'type' => 'DISCUZX',
-    'name' => 'Discuz! Board',
+    'name' => 'ÌÔ´´Íø',
     'url' => 'http://www.taochuangweb.com',
-    'authkey' => 'k8efQ5E5udidI43ex47dk8Nafcv4M2hbn0V820t5wb40IaL8YcHew5E976U4I8u4',
+    'authkey' => 'a1b2qwZbwDdFU+ID+8+GhHMMqy8CSHD/oONtrbkEyKTGDIRJVVNPTluScOXdNBfbqkQXC8M1os2BkD9XYszq4YZXaDMoWtty0LSbPwLDjw022RREpNTXq+PlKGZv',
     'ip' => '',
     'viewprourl' => '',
     'apifilename' => 'uc.php',
@@ -14,8 +14,17 @@ $_CACHE['apps'] = array (
     'dbcharset' => '',
     'synlogin' => '1',
     'recvnote' => '1',
-    'extra' => '',
-    'tagtemplates' => '',
+    'extra' => 
+    array (
+      'apppath' => '',
+      'extraurl' => 
+      array (
+      ),
+    ),
+    'tagtemplates' => '<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="template"><![CDATA[]]></item>
+</root>',
     'allowips' => '',
   ),
 );

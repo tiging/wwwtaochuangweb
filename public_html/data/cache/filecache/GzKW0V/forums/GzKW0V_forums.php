@@ -3,6 +3,118 @@ $data = array (
   'exp' => 0,
   'data' => 
   array (
+    183 => 
+    array (
+      'fid' => '183',
+      'type' => 'group',
+      'name' => '反黑客专区',
+      'fup' => '0',
+      'viewperm' => '',
+      'postperm' => '',
+      'orderby' => 'lastpost',
+      'ascdesc' => 'DESC',
+      'status' => '1',
+      'extra' => 
+      array (
+        'namecolor' => '',
+      ),
+      'plugin' => NULL,
+      'archive' => '0',
+      'domain' => '',
+      'havepassword' => 0,
+    ),
+    184 => 
+    array (
+      'fid' => '184',
+      'type' => 'forum',
+      'name' => '10元VIP资源（不断更新）',
+      'fup' => '183',
+      'viewperm' => '',
+      'postperm' => '',
+      'orderby' => 'lastpost',
+      'ascdesc' => 'DESC',
+      'users' => NULL,
+      'status' => '1',
+      'extra' => 
+      array (
+        'namecolor' => '',
+        'iconwidth' => '',
+      ),
+      'plugin' => NULL,
+      'allowpostspecial' => '000001',
+      'commentitem' => '',
+      'archive' => '0',
+      'domain' => '',
+      'havepassword' => 0,
+    ),
+    186 => 
+    array (
+      'fid' => '186',
+      'type' => 'sub',
+      'name' => '10元VIP更新',
+      'fup' => '184',
+      'viewperm' => '',
+      'postperm' => '',
+      'orderby' => 'lastpost',
+      'ascdesc' => 'DESC',
+      'users' => NULL,
+      'status' => '1',
+      'extra' => 
+      array (
+      ),
+      'plugin' => NULL,
+      'allowpostspecial' => '000001',
+      'commentitem' => '',
+      'archive' => '0',
+      'domain' => '',
+      'havepassword' => 0,
+    ),
+    185 => 
+    array (
+      'fid' => '185',
+      'type' => 'forum',
+      'name' => '40元VIP资源（不断更新）',
+      'fup' => '183',
+      'viewperm' => '',
+      'postperm' => '',
+      'orderby' => 'lastpost',
+      'ascdesc' => 'DESC',
+      'users' => NULL,
+      'status' => '1',
+      'extra' => 
+      array (
+        'namecolor' => '',
+        'iconwidth' => '',
+      ),
+      'plugin' => NULL,
+      'allowpostspecial' => '000001',
+      'commentitem' => '',
+      'archive' => '0',
+      'domain' => '',
+      'havepassword' => 0,
+    ),
+    187 => 
+    array (
+      'fid' => '187',
+      'type' => 'sub',
+      'name' => '40元VIP更新',
+      'fup' => '185',
+      'viewperm' => '',
+      'postperm' => '',
+      'orderby' => 'lastpost',
+      'ascdesc' => 'DESC',
+      'users' => NULL,
+      'status' => '1',
+      'extra' => 
+      array (
+      ),
+      'plugin' => NULL,
+      'allowpostspecial' => '000001',
+      'commentitem' => '',
+      'archive' => '0',
+      'domain' => '',
+      'havepassword' => 0,
+    ),
     1 => 
     array (
       'fid' => '1',

@@ -1,6 +1,6 @@
 <?php
 $data = array (
-  'exp' => 1492602982,
+  'exp' => 1495405835,
   'data' => 
   array (
     'tid' => '19',
@@ -16,7 +16,7 @@ $data = array (
     'dateline' => '1492270507',
     'lastpost' => '1492270507',
     'lastposter' => 'admin',
-    'views' => 4,
+    'views' => 8,
     'replies' => '0',
     'displayorder' => '0',
     'highlight' => '0',
@@ -40,7 +40,7 @@ $data = array (
     'pushedaid' => '0',
     'cover' => '0',
     'replycredit' => '0',
-    'relatebytag' => '1492430182	',
+    'relatebytag' => '1495233035	',
     'maxposition' => '1',
     'bgcolor' => '',
     'comments' => '0',

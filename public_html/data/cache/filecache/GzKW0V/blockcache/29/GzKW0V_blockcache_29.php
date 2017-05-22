@@ -1,6 +1,6 @@
 <?php
 $data = array (
-  'exp' => 1492440027,
+  'exp' => 1495417126,
   'data' => 
   array (
     'bid' => '29',
@@ -55,24 +55,11 @@ $data = array (
     'cachetimerange' => '',
     'punctualupdate' => '0',
     'hidedisplay' => '0',
-    'dateline' => 1492439727,
+    'dateline' => 1495416826,
     'notinherited' => '0',
     'isblank' => '0',
     'itemlist' => 
     array (
-      0 => 
-      array (
-        'id' => '33',
-        'idtype' => 'tid',
-        'title' => '腾讯云认证全流程',
-        'url' => 'forum.php?mod=viewthread&tid=33',
-        'pic' => 'static/image/common/nophoto.gif',
-        'picflag' => '0',
-        'fields' => 'a:26:{s:9:"fulltitle";s:16:"腾讯云认证全流程";s:7:"threads";N;s:6:"author";s:5:"admin";s:8:"authorid";s:1:"1";s:6:"avatar";s:65:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=small";s:13:"avatar_middle";s:66:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=middle";s:10:"avatar_big";s:63:"http://www.taochuangweb.com/uc_server/avatar.php?uid=1&size=big";s:5:"posts";N;s:10:"todayposts";N;s:8:"lastpost";s:10:"1492418046";s:8:"dateline";s:10:"1492418046";s:7:"replies";s:1:"0";s:8:"forumurl";s:34:"forum.php?mod=forumdisplay&fid=171";s:9:"forumname";s:12:"创业致富资源";s:8:"typename";N;s:8:"typeicon";N;s:7:"typeurl";s:57:"forum.php?mod=forumdisplay&fid=171&filter=typeid&typeid=0";s:8:"sortname";N;s:7:"sorturl";s:57:"forum.php?mod=forumdisplay&fid=171&filter=sortid&sortid=0";s:5:"views";s:2:"25";s:5:"heats";s:1:"0";s:10:"recommends";s:1:"0";s:9:"hourviews";s:2:"25";s:10:"todayviews";s:2:"25";s:9:"weekviews";s:2:"25";s:10:"monthviews";s:2:"25";}',
-        'itemid' => '280',
-        'displayorder' => 1,
-        'makethumb' => 0,
-      ),
     ),
   ),
 );

@@ -1,6 +1,6 @@
 <?php
 $data = array (
-  'exp' => 1492610197,
+  'exp' => 1495453793,
   'data' => 
   array (
     'tid' => '31',
@@ -16,7 +16,7 @@ $data = array (
     'dateline' => '1492309805',
     'lastpost' => '1492309805',
     'lastposter' => 'admin',
-    'views' => 10,
+    'views' => 17,
     'replies' => '0',
     'displayorder' => '0',
     'highlight' => '0',
@@ -30,17 +30,17 @@ $data = array (
     'recommends' => '0',
     'recommend_add' => '0',
     'recommend_sub' => '0',
-    'heats' => 1,
+    'heats' => '1',
     'status' => '32',
     'isgroup' => '0',
-    'favtimes' => 1,
+    'favtimes' => '1',
     'sharetimes' => '0',
     'stamp' => '-1',
     'icon' => '-1',
     'pushedaid' => '0',
     'cover' => '0',
     'replycredit' => '0',
-    'relatebytag' => '1492437397	25,24',
+    'relatebytag' => '1495280993	36,25,24',
     'maxposition' => '1',
     'bgcolor' => '',
     'comments' => '0',

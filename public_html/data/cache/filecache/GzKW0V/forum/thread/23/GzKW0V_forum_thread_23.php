@@ -1,6 +1,6 @@
 <?php
 $data = array (
-  'exp' => 1492568450,
+  'exp' => 1495543489,
   'data' => 
   array (
     'tid' => '23',
@@ -16,7 +16,7 @@ $data = array (
     'dateline' => '1492271456',
     'lastpost' => '1492271456',
     'lastposter' => 'admin',
-    'views' => 4,
+    'views' => 5,
     'replies' => '0',
     'displayorder' => '0',
     'highlight' => '0',

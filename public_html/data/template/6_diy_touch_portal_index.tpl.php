@@ -20,7 +20,7 @@
 <!--<script src="http://www.taochuangweb.com/api.php?mod=js&bid=76" type="text/javascript"></script>-->
 <script src="http://www.taochuangweb.com/api.php?mod=js&bid=72" type="text/javascript"></script>
 <script src="http://www.taochuangweb.com/api.php?mod=js&bid=75" type="text/javascript"></script>
-<script src="http://www.taochuangweb.com/api.php?mod=js&bid=74" type="text/javascript"></script>
+<!--<script src="http://www.taochuangweb.com/api.php?mod=js&bid=74" type="text/javascript"></script>-->
 <script src="http://www.taochuangweb.com/api.php?mod=js&bid=81" type="text/javascript"></script>
 <script src="http://www.taochuangweb.com/api.php?mod=js&bid=80" type="text/javascript"></script>
 <script src="http://www.taochuangweb.com/api.php?mod=js&bid=79" type="text/javascript"></script>
